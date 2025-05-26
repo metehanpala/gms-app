@@ -1,0 +1,70 @@
+{
+  "TERMS_OF_USE": "Terms of use",
+  "CERTIFICATE_ERROR": {
+    "TITLE": "Connection not private",
+    "MESSAGE": "This server could not prove that it is {{url}}; its security certificate is not trusted by your computer's operating system.",
+    "MESSAGE_REASON": "This may be caused by a misconfiguration or an attacker intercepting your connection (attackers might be trying to steal your information).",
+    "VIEW_CERTIFICATE_CAPTION": "View certificate",
+    "IMPORT_CERTIFICATE_CAPTION": "Import certificate",
+    "ACCEPT_CERTIFICATE_CAPTION": "Accept and proceed",
+    "CLOSE_CERTIFICATE_CAPTION": "Close application",
+    "CLOSE_WINDOW_CAPTION": "Close window",
+    "REMEMBER_CAPTION": "Remember selection and don't ask again."
+  },
+  "CERTIFICATE_LIST": {
+    "TITLE": "Login",
+    "MESSAGE": "Select a certificate to authenticate yourself to {{url}}.",
+    "USE_CERTIFICATE": "Use certificate",
+    "NO_CERTIFICATE": "No certificate",
+    "COLUMN_SUBJECT": "Subject name",
+    "COLUMN_ISSUER": "Issuer name",
+    "COLUMN_SERIAL": "Serial",
+    "INFO": "Certificate information",
+    "OK": "Continue",
+    "CANCEL": "Cancel",
+    "REMEMBER_CAPTION": "Remember selection and don't ask again."
+  },
+  "CONNECTION_ERROR": {
+    "TITLE": "Connection error",
+    "MESSAGE_DEFAULT": "Connection with {{url}} not possible.",
+    "MESSAGE_102": "{{url}} refused to connect.",
+    "MESSAGE_118": "{{url}} took too long to respond.",
+    "RESOLUTION_TITLE": "Try:",
+    "RESOLUTION_1": "Checking that the BMS server is running properly.",
+    "RESOLUTION_2": "Checking the endpoint address.",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configure endpoint",
+    "CLOSE_WINDOW_CAPTION": "Close window",
+    "RELOAD_CAPTION": "Retry"
+  },
+  "ENDPOINT": {
+    "TITLE": "Endpoint address",
+    "MESSAGE": "Enter the address of a Flex Client application hosted on a {{brandName}} server.",
+    "SAVE_CAPTION": "Save",
+    "CANCEL_CAPTION": "Cancel",
+    "ADDRESS": "Address",
+    "PLACE_HOLDER": "https://machine-name/application-name",
+    "ERROR_MESSAGE": "Invalid address",
+    "ERROR_MESSAGE_NO_ADDRESS": "No address entered. Please provide a valid address"
+  },
+  "UPDATE_INFO": {
+    "TITLE": "A new update is ready to install.",
+    "MESSAGE": "{{appName}} version {{version}} has been downloaded and is ready for installation.",
+    "MESSAGE_2": "Current application version: {{version}}",
+    "MESSAGE_3": "New application version: {{version}}",
+    "INSTALL_OPTION": "Quit application and install the update now.",
+    "SNOOZE_OPTION": "Snooze and remind me again in:",
+    "CONT_CAPTION": "Continue",
+    "OPTION_10MIN": "10 minutes",
+    "OPTION_1HOUR": "1 hour",
+    "OPTION_24HOUR": "24 hours"
+  },
+  "TITLE_BAR": {
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out",
+    "RESET_ZOOM": "Reset zoom",
+    "REFRESH": "Refresh",
+    "ADVANCED": "Advanced",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings"
+  }
+}

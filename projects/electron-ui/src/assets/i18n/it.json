@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Accetta e procedi",
+    "CLOSE_CERTIFICATE_CAPTION": "Chiudi applicazione",
+    "CLOSE_WINDOW_CAPTION": "Chiuso",
+    "IMPORT_CERTIFICATE_CAPTION": "Importa certificato",
+    "MESSAGE": "URL {{url}} non parte dei tuoi certificati di sicurezza trusted",
+    "MESSAGE_REASON": "La ragione è la configurazione errata o un attacco alla tua connessione",
+    "REMEMBER_CAPTION": "Ricorda selezione",
+    "TITLE": "Connessione non privata",
+    "VIEW_CERTIFICATE_CAPTION": "Mostra certificato"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Annulla",
+    "COLUMN_ISSUER": "Emettitore",
+    "COLUMN_SERIAL": "Numero di serie",
+    "COLUMN_SUBJECT": "Soggetto",
+    "INFO": "Informazione certificato",
+    "MESSAGE": "Seleziona autenticazione per {{url}}",
+    "NO_CERTIFICATE": "Nessun certificato",
+    "OK": "Continua",
+    "REMEMBER_CAPTION": "Ricorda selezione",
+    "TITLE": "Log in",
+    "USE_CERTIFICATE": "Usa certificato"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Chiudi",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configura endpoint",
+    "MESSAGE_102": "{{url}} rifiutata connessione",
+    "MESSAGE_118": "Timeout connessione a {{url}}",
+    "MESSAGE_DEFAULT": "Errore connessione a {{url}}",
+    "RELOAD_CAPTION": "Riprova",
+    "RESOLUTION_1": "Verifica se il server è operativo",
+    "RESOLUTION_2": "Verifica indirizzo endpoint",
+    "RESOLUTION_TITLE": "Troubleshoot",
+    "TITLE": "Errore di connessione"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Indirizzo",
+    "CANCEL_CAPTION": "Annulla",
+    "ERROR_MESSAGE": "indirizzo non valido",
+    "ERROR_MESSAGE_NO_ADDRESS": "Richiesto",
+    "MESSAGE": "Inserisci indirizzo applicazione Flex Client su {{brandName}} server",
+    "SAVE_CAPTION": "Salva",
+    "TITLE": "Indirizzo endpoint"
+  },
+  "TERMS_OF_USE": "Termini di Utilizzo",
+  "TITLE_BAR": {
+    "ADVANCED": "Avanzato",
+    "DELETE_SECURITY_SETTINGS": "Elimina impostazioni di sicurezza",
+    "EDIT_ENDPOINT_ADDRESS": "Edita indirizzo endpoint",
+    "REFRESH": "Aggiorna",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Continua",
+    "INSTALL_OPTION": "Esci dall'applicazione e installa l'aggiornamento adesso",
+    "MESSAGE": "{{appName}} versione {{version}} scaricata e pronta per installazione",
+    "MESSAGE_2": "Versione installata {{version}}",
+    "MESSAGE_3": "Nuova versione {{version}}",
+    "OPTION_10MIN": "10 minuti",
+    "OPTION_1HOUR": "1 ora",
+    "OPTION_24HOUR": "24 ore",
+    "SNOOZE_OPTION": "Ricordamelo ancora in:",
+    "TITLE": "Aggiornamento pronto per l'installazione"
+  }
+}

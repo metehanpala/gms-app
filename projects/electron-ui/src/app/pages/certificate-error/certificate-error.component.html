@@ -1,0 +1,22 @@
+<div>
+  <div class="mt-6">{{'CERTIFICATE_ERROR.MESSAGE' | translate:hostUrlParam }}
+  </div>
+  <div class="mt-6">{{'CERTIFICATE_ERROR.MESSAGE_REASON' | translate }}
+  </div>
+  <div class="mt-6">
+    <a class="certificate-error-cursor me-6" (click)="viewCertificate()">{{'CERTIFICATE_ERROR.VIEW_CERTIFICATE_CAPTION' | translate }}</a>
+    <a class="certificate-error-cursor" (click)="importCertificate()">{{'CERTIFICATE_ERROR.IMPORT_CERTIFICATE_CAPTION' | translate }}</a>
+  </div>
+  <div class="form-check mt-8">
+    <label>
+      <input type="checkbox" class="form-check-input" [checked]="acceptanceChecked" (change)="acceptanceChecked = !acceptanceChecked">
+      <span class="form-check-label">{{'CERTIFICATE_ERROR.REMEMBER_CAPTION' | translate }}</span>
+    </label>
+  </div>
+  <div class="certificate-error-footer mt-9">
+    <button type="button" class="btn btn-secondary me-6 text-truncate d-inline"  (click)="acceptCertificateAndReload()">{{'CERTIFICATE_ERROR.ACCEPT_CERTIFICATE_CAPTION' | translate }}</button>
+    <button type="button" class="btn btn-primary text-truncate d-inline"  (click)="denyCertificateAndClose()">
+      {{ (isChildWindow)? ('CERTIFICATE_ERROR.CLOSE_WINDOW_CAPTION' | translate) : ('CERTIFICATE_ERROR.CLOSE_CERTIFICATE_CAPTION' | translate) }}</button>
+  </div>
+</div>
+

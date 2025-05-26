@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Zaakceptuj i kontynuuj",
+    "CLOSE_CERTIFICATE_CAPTION": "Zamknij aplikację",
+    "CLOSE_WINDOW_CAPTION": "Zamknij",
+    "IMPORT_CERTIFICATE_CAPTION": "Importuj certyfikat",
+    "MESSAGE": "Adres URL {{url}} nie należy do Twoich zaufanych certyfikatów bezpieczeństwa",
+    "MESSAGE_REASON": "Przyczyną jest błędna konfiguracja lub atak na Twoje połączenie",
+    "REMEMBER_CAPTION": "Zapamiętaj selekcję",
+    "TITLE": "Połączenie nie jest prywatne",
+    "VIEW_CERTIFICATE_CAPTION": "Pokaż certyfikat"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Anuluj",
+    "COLUMN_ISSUER": "Emitent",
+    "COLUMN_SERIAL": "Numer seryjny",
+    "COLUMN_SUBJECT": "Temat",
+    "INFO": "Informacja o certyfikacie",
+    "MESSAGE": "Wybierz certyfikat uwierzytelniający dla {{url}}",
+    "NO_CERTIFICATE": "Brak certyfikatu",
+    "OK": "Kontynuj",
+    "REMEMBER_CAPTION": "Zapamiętaj selekcję",
+    "TITLE": "Zaloguj się",
+    "USE_CERTIFICATE": "Użyj certyfikatu"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Zamknij",
+    "CONFIGURE_ENDPOINT_CAPTION": "Skonfiguruj punkt końcowy",
+    "MESSAGE_102": "{{url}} odmówił połączenia",
+    "MESSAGE_118": "Przekroczono limit czasu podczas łączenia z {{url}}",
+    "MESSAGE_DEFAULT": "Nie udało się połączyć z {{url}}",
+    "RELOAD_CAPTION": "Spróbuj ponownie",
+    "RESOLUTION_1": "Sprawdź, czy serwer działa",
+    "RESOLUTION_2": "Sprawdź adres punktu końcowego",
+    "RESOLUTION_TITLE": "Rozwiązywanie problemów",
+    "TITLE": "Błąd połączenia"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Adres",
+    "CANCEL_CAPTION": "Anuluj",
+    "ERROR_MESSAGE": "Niepoprawny adres",
+    "ERROR_MESSAGE_NO_ADDRESS": "Wymagane",
+    "MESSAGE": "Wpisz adres aplikacji Flex Client na serwerze {{brandName}}",
+    "SAVE_CAPTION": "Zapisz",
+    "TITLE": "Adres punktu końcowego"
+  },
+  "TERMS_OF_USE": "Warunki korzystania",
+  "TITLE_BAR": {
+    "ADVANCED": "Zaawansowane",
+    "DELETE_SECURITY_SETTINGS": "Usuń ustawienia zabezpieczeń",
+    "EDIT_ENDPOINT_ADDRESS": "Edytuj adres punktu końcowego",
+    "REFRESH": "Odśwież",
+    "RESET_ZOOM": "Resetuj powiększenie",
+    "ZOOM_IN": "Powiększ",
+    "ZOOM_OUT": "Pomniejsz"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Kontynuj",
+    "INSTALL_OPTION": "Zamknij aplikację i zainstaluj teraz aktualizację",
+    "MESSAGE": "{{appName}} wersja {{version}} została pobrana i gotowa do instalacji",
+    "MESSAGE_2": "Zainstalowana wersja {{version}}",
+    "MESSAGE_3": "Nowa wersja {{version}}",
+    "OPTION_10MIN": "10 minut",
+    "OPTION_1HOUR": "1 godzina",
+    "OPTION_24HOUR": "24 godziny",
+    "SNOOZE_OPTION": "Przypomnij mi ponownie za:",
+    "TITLE": "Aktualizacja gotowa do zainstalowania"
+  }
+}

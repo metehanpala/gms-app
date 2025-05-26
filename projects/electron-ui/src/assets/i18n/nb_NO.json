@@ -1,0 +1,68 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Godta og fortsett",
+    "CLOSE_CERTIFICATE_CAPTION": "Lukk applikasjon",
+    "CLOSE_WINDOW_CAPTION": "Lukk",
+    "IMPORT_CERTIFICATE_CAPTION": "Importer sertifikat",
+    "MESSAGE": "URL {{url}} er ikke en del av de pålitelige sikkerhetssertifikatene dine",
+    "MESSAGE_REASON": "Årsaken er feilkonfigurasjon eller angrep på tilkoblingen din",
+    "REMEMBER_CAPTION": "Husk valg",
+    "TITLE": "Tilkobling er ikke privat",
+    "VIEW_CERTIFICATE_CAPTION": "Vis sertifikat"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Avbryt",
+    "COLUMN_ISSUER": "Utsteder",
+    "COLUMN_SERIAL": "Serienummer",
+    "COLUMN_SUBJECT": "Emne",
+    "INFO": "Informasjon om sertifikatet",
+    "MESSAGE": "Velg autentiseringssertifikat for {{url}}",
+    "NO_CERTIFICATE": "Ingen sertifikat",
+    "OK": "Fortsett",
+    "REMEMBER_CAPTION": "Husk valg",
+    "TITLE": "Logg inn",
+    "USE_CERTIFICATE": "Bruk sertifikat"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Lukk",
+    "CONFIGURE_ENDPOINT_CAPTION": "Konfigurere endepunkt",
+    "MESSAGE_102": "{{url}} nektet å koble til",
+    "MESSAGE_118": "Timeout for tilkobling til {{url}}",
+    "MESSAGE_DEFAULT": "Kunne ikke koble til {{url}}",
+    "RELOAD_CAPTION": "Prøv på nytt",
+    "RESOLUTION_1": "Sjekk om serveren er i drift",
+    "RESOLUTION_2": "Sjekk endepunktets adresse",
+    "RESOLUTION_TITLE": "Feilsøk",
+    "TITLE": "Tilkoblingsfeil"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Adresse",
+    "CANCEL_CAPTION": "Avbryt",
+    "ERROR_MESSAGE": "Ugyldig adresse",
+    "MESSAGE": "Angi adressen til Flex Client-applikasjonen på {{brandName}}-serveren.",
+    "SAVE_CAPTION": "Lagre",
+    "TITLE": "Adresse til endepunkt"
+  },
+  "TERMS_OF_USE": "Vilkår for bruk",
+  "TITLE_BAR": {
+    "ADVANCED": "Avansert",
+    "DELETE_SECURITY_SETTINGS": "Slett sikkerhetsinnstillinger",
+    "EDIT_ENDPOINT_ADDRESS": "Redigere endepunktadresse",
+    "REFRESH": "Oppdater",
+    "RESET_ZOOM": "Tilbakestill zoom",
+    "ZOOM_IN": "Zoom inn",
+    "ZOOM_OUT": "Zoom ut"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Fortsett",
+    "INSTALL_OPTION": "Avslutt programmet og installer oppdateringen nå",
+    "MESSAGE": "{{appName}} versjon {{version}} lastet ned og klar for installasjon",
+    "MESSAGE_2": "Installert versjon{{version}}",
+    "MESSAGE_3": "Ny versjon {{version}}",
+    "OPTION_10MIN": "10 minutter",
+    "OPTION_1HOUR": "1 time",
+    "OPTION_24HOUR": "24 timer",
+    "SNOOZE_OPTION": "Minn meg på det igjen:",
+    "TITLE": "Oppdatering klar til å installeres"
+  }
+}

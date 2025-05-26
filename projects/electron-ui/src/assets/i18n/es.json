@@ -1,0 +1,68 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Aceptar y proceder",
+    "CLOSE_CERTIFICATE_CAPTION": "Cerrar la aplicación",
+    "CLOSE_WINDOW_CAPTION": "Cerrar",
+    "IMPORT_CERTIFICATE_CAPTION": "Importar certificado",
+    "MESSAGE": "La URL {{url}} no forma parte de sus certificados de seguridad de confianza",
+    "MESSAGE_REASON": "El motivo es una mala configuración o un ataque a su conexión",
+    "REMEMBER_CAPTION": "Recordar selección",
+    "TITLE": "Conexión no privada",
+    "VIEW_CERTIFICATE_CAPTION": "Mostrar certificado"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Cancelar",
+    "COLUMN_ISSUER": "Emisor",
+    "COLUMN_SERIAL": "Numero de serie",
+    "COLUMN_SUBJECT": "Sujeto",
+    "INFO": "Información del certificado",
+    "MESSAGE": "Seleccione el certificado de autenticación para {{url}}",
+    "NO_CERTIFICATE": "Sin certificado",
+    "OK": "Continuar",
+    "REMEMBER_CAPTION": "Recordar selección",
+    "TITLE": "Iniciar sesión",
+    "USE_CERTIFICATE": "Usar certificado"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Cerrar",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configurar el punto de acceso",
+    "MESSAGE_102": "{{url}} rechazó la coneción",
+    "MESSAGE_118": "Tiempo de espera de conexión a {{url}}",
+    "MESSAGE_DEFAULT": "No se pudo conectar a {{url}}",
+    "RELOAD_CAPTION": "Reintentar",
+    "RESOLUTION_1": "Compruebe si el servidor está funcionando",
+    "RESOLUTION_2": "Verificar la dirección del punto de acceso",
+    "RESOLUTION_TITLE": "Solucionar problemas",
+    "TITLE": "Error de conexión"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Dirección",
+    "CANCEL_CAPTION": "Cancelar",
+    "ERROR_MESSAGE": "Dirección inválida",
+    "MESSAGE": "Inserte la dirección de la aplicación Flex Client en el servidor {{brandName}}",
+    "SAVE_CAPTION": "Guardar",
+    "TITLE": "Dirección del punto de acceso"
+  },
+  "TERMS_OF_USE": "Condiciones de uso",
+  "TITLE_BAR": {
+    "ADVANCED": "Avanzada",
+    "DELETE_SECURITY_SETTINGS": "Borrar ajustes de seguridad",
+    "EDIT_ENDPOINT_ADDRESS": "Editar dirección del punto de acceso",
+    "REFRESH": "Refrescar",
+    "RESET_ZOOM": "Restablecer zoom",
+    "ZOOM_IN": "Acercarse",
+    "ZOOM_OUT": "Alejarse"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Continuar",
+    "INSTALL_OPTION": "Salga de la aplicación e instale la actualización ahora",
+    "MESSAGE": "{{appName}} versión {{version}} descargada y lista para la instalación",
+    "MESSAGE_2": "Versión instalada {{version}}",
+    "MESSAGE_3": "Nueva versión {{version}}",
+    "OPTION_10MIN": "10 minutos",
+    "OPTION_1HOUR": "1 hora",
+    "OPTION_24HOUR": "24 horas",
+    "SNOOZE_OPTION": "Recuérdemelo nuevamente en:",
+    "TITLE": "Actualización lista para instalar"
+  }
+}

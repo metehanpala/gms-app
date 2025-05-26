@@ -1,0 +1,31 @@
+<div>
+  <div class="update-info-main px-6 py-5">
+    <p class="si-title-2">{{'UPDATE_INFO.TITLE' | translate }}</p>
+    <hr>
+    <p>{{'UPDATE_INFO.MESSAGE' | translate:messageValues }}</p>
+    <p>
+      <span>{{'UPDATE_INFO.MESSAGE_2' | translate:currentVersion }}</span><br>
+      <span>{{'UPDATE_INFO.MESSAGE_3' | translate:newVersion }}</span>
+    </p>
+    <form>
+      <div class="form-check form-check-inline mb-2">
+        <input type="radio" id="install-radio-id1" name="install-radio" class="form-check-input" [checked]="installNow"
+          (change)="onInstallRadioChange($event.target.value)">
+        <label class="form-check-label" for="install-radio-id1">{{'UPDATE_INFO.INSTALL_OPTION' | translate }}</label>
+      </div>
+      <div class="form-check form-check-inline mb-2">
+        <input type="radio" id="install-radio-id2" name="install-radio" class="form-check-input" [checked]="!installNow"
+          (change)="onSnoozeRadioChange($event.target.value)">
+        <label class="form-check-label" for="install-radio-id2">{{'UPDATE_INFO.SNOOZE_OPTION' | translate }}</label>
+        <select class="update-info-select" (change)="onChangeReminder($event.target.value)">
+          <option value="0">{{'UPDATE_INFO.OPTION_10MIN' | translate }}</option>
+          <option value="1">{{'UPDATE_INFO.OPTION_1HOUR' | translate }}</option>
+          <option value="2">{{'UPDATE_INFO.OPTION_24HOUR' | translate }}</option>
+        </select>
+      </div>
+    </form>
+    <div class="update-info-footer mt-8">
+        <button type="button" class="update-info-btn-1 btn btn-primary" (click)="onContinue()">{{'UPDATE_INFO.CONT_CAPTION' | translate }}</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="electron-title-bar-container fixed-top">
+  <div class="electron-title-bar">
+    <span [class.unfocused]="!focus" class="ms-6 me-9 si-body-2 electron-title-bar-app-name" [class.electron-title-bar-draggable]="!closedMode">{{appTitle}}</span>
+    <button type="button" [class.unfocused]="!focus" class="btn btn-circle electron-title-bar-btn btn-inline element-left-4 me-6" aria-label="back"
+      (click)="onBackward()" [disabled]="!canGoBack"></button>
+    <button type="button" [class.unfocused]="!focus" class="btn btn-circle electron-title-bar-btn btn-inline element-right-4 me-6" aria-label="forward"
+      (click)="onForward()" [disabled]="!canGoFwd"></button>
+    <div siDropdown #dropdown="si-dropdown" class="btn-group me-5" dropdownDirection="down" dropdownContainer="body">
+      <button siDropdownToggle type="button" [class.unfocused]="!focus" class="btn btn-circle electron-title-bar-btn btn-inline element-options-vertical me-6"></button>
+      <si-menu-legacy *ngIf="dropdown.isOpen"
+        class="dropdown-menu m-5"
+        siDropdownMenu
+        [items]="menuItems"
+      >
+      </si-menu-legacy>
+    </div>
+    <div class="electron-title-bar-empty" [class.electron-title-bar-draggable]="!closedMode"></div>
+    <span *ngIf="closedMode" class="ms-6 me-9 si-body-2 electron-title-bar-time"
+      placement="bottom"
+      triggers="hover"
+      [siPopover]="dateTimeTemplate"
+      (shown)="dtPopoverShown()">
+      {{dateTimeNow | async}}
+    </span>
+  </div>
+</div>
+
+<ng-template #dateTimeTemplate>
+  <h3>{{timeNow | async}}</h3>
+  <div>{{dayNow | async}}</div>
+  <div>{{dateNow | async}}</div>
+</ng-template>

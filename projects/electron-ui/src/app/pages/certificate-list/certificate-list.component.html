@@ -1,0 +1,57 @@
+<div>
+  <div class="certificate-list-main  px-2">
+    <div class="certificate-list-header modal-header py-3">
+      <div class="si-title-2">{{'CERTIFICATE_LIST.TITLE' | translate }}</div>
+      <button type="button" aria-label="Close" class="btn-close" (click)="cancel()"></button>
+    </div>
+    <hr class="my-0 mx-5">
+    <form class="p-5">
+      <div class="form-check mb-2">
+        <input type="radio" id="use-certificate-radio-id1" name="certificate-radio" class="form-check-input" [checked]="useCertificate"
+          (change)="onUseCertificateRadioChange($event.target.value)">
+        <label class="form-check-label" for="use-certificate-radio-id1">{{'CERTIFICATE_LIST.USE_CERTIFICATE' | translate }}</label>
+      </div>
+      <div class="certificate-list-use-section ms-9" [class.certificate-info-disable]="!useCertificate">
+        <p>{{'CERTIFICATE_LIST.MESSAGE' | translate:hostUrlParam }}</p>
+        <ngx-datatable
+          class="table-element elevation-1 certificate-list-table"
+          [cssClasses]="tableConfig.cssClasses"
+          [rows]="rows"
+          [columnMode]="ColumnMode.force"
+          [headerHeight]="tableConfig.headerHeight"
+          [rowHeight]="tableConfig.rowHeightSmall"
+          [footerHeight]="0"
+          [virtualization]="false"
+          [scrollbarV]="true"
+          [selectionType]="SelectionType.single"
+          [selected]="selected"
+          siDatatableInteraction>
+          <ngx-datatable-column prop="subjectName" [name]="columns[0].name">
+          </ngx-datatable-column>
+          <ngx-datatable-column prop="issuerName" [name]="columns[1].name">
+          </ngx-datatable-column>
+          <ngx-datatable-column prop="serialNumber" [name]="columns[2].name">
+          </ngx-datatable-column>
+        </ngx-datatable>
+        <div class="certificate-info-sel-cert mt-5">
+          <a href="javascript:void(0);" role="button" (click)="certificateInfo()">{{'CERTIFICATE_LIST.INFO' | translate }}</a>
+        </div>
+      </div>
+      <div class="form-check mb-2">
+        <input type="radio" id="no-certificate-radio-id1" name="certificate-radio" class="form-check-input" [checked]="!useCertificate"
+          (change)="onNoCertificateRadioChange($event.target.value)">
+        <label class="form-check-label" for="no-certificate-radio-id1">{{'CERTIFICATE_LIST.NO_CERTIFICATE' | translate }}</label>
+      </div>
+    </form>
+    <div class="form-check px-5 pt-5">
+      <label>
+        <input type="checkbox" class="form-check-input" [checked]="acceptanceChecked" (change)="acceptanceChecked = !acceptanceChecked">
+        <span class="form-check-label">{{'CERTIFICATE_LIST.REMEMBER_CAPTION' | translate }}</span>
+      </label>
+    </div>
+    <div class="certificate-list-footer px-5 py-5">
+      <button type="button" class="btn btn-secondary certificate-list-btns me-6" (click)="cancel()">{{'CERTIFICATE_LIST.CANCEL' | translate }}</button>
+      <button type="button" class="btn btn-primary certificate-list-btns" (click)="selectCertificate()">{{'CERTIFICATE_LIST.OK' | translate }}</button>
+    </div>
+  </div>
+</div>

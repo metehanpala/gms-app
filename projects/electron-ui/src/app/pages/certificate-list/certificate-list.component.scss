@@ -1,0 +1,47 @@
+@use '@simpl/element-theme/src/styles/variables';
+
+.certificate-list-main {
+  width: 600px;
+  max-height: 470px;
+  min-height: 470px;
+  background-color: variables.$element-base-1;
+}
+
+.certificate-list-use-section {
+  max-height: 250px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.certificate-list-table {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.certificate-info-disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.certificate-info-sel-cert {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.certificate-list-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.certificate-list-footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.certificate-list-btns {
+  min-width: 120px !important;
+}

@@ -1,0 +1,22 @@
+<div>
+  <div [ngSwitch]="connectionError?.errorCode">
+    <div *ngSwitchCase="-102" class="mt-6">{{'CONNECTION_ERROR.MESSAGE_102' | translate:hostUrlParam }}</div>
+    <div *ngSwitchCase="-118" class="mt-6">{{'CONNECTION_ERROR.MESSAGE_118' | translate:hostUrlParam }}</div>
+    <div *ngSwitchDefault class="mt-6">{{'CONNECTION_ERROR.MESSAGE_DEFAULT' | translate:hostUrlParam }}</div>
+  </div>
+  <div class="mt-6">
+    <p>{{'CONNECTION_ERROR.RESOLUTION_TITLE' | translate}}</p>
+    <ul>
+      <li>{{'CONNECTION_ERROR.RESOLUTION_1' | translate}}</li>
+      <li>{{'CONNECTION_ERROR.RESOLUTION_2' | translate}}</li>
+    </ul>
+  </div>
+  <div class="mt-6">
+    <p>{{connectionError?.errorDescription}} (Code={{connectionError?.errorCode}})</p>
+  </div>
+  <div class="mt-3 connection-error-footer">
+    <button *ngIf="isChildWindow" type="button" class="btn btn-secondary connection-error-btns me-6 text-truncate d-inline"  (click)="closeWindow()">{{ 'CONNECTION_ERROR.CLOSE_WINDOW_CAPTION' | translate }}</button>
+    <button *ngIf="!isChildWindow" type="button" class="btn btn-secondary connection-error-btns me-6 text-truncate d-inline"  (click)="configureEndpoint()">{{ 'CONNECTION_ERROR.CONFIGURE_ENDPOINT_CAPTION' | translate }}</button>
+    <button type="button" class="btn btn-primary connection-error-btns text-truncate d-inline"  (click)="reload()">{{'CONNECTION_ERROR.RELOAD_CAPTION' | translate }}</button>
+  </div>
+</div>

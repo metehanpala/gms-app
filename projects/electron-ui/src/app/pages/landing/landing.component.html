@@ -1,0 +1,16 @@
+<si-landing-page [class.landing-main]="showTitleBar"
+  [heading]="showEndpoint ? ('ENDPOINT.TITLE' | translate) : showConnectionError ? ('CONNECTION_ERROR.TITLE' | translate) : showCertificateError ? ('CERTIFICATE_ERROR.TITLE' | translate) : ''"
+  [subtitle]=""
+  [links]="links"
+  [backgroundImageUrl]="landingImage"
+  [availableLanguages]="languages"
+  [translationKey]="translationKey"
+  [copyrightDetails]="copyrightDetails"
+>
+<gms-endpoint-configuration *ngIf="showEndpoint"></gms-endpoint-configuration>
+<gms-connection-error *ngIf="showConnectionError"></gms-connection-error>
+<gms-certificate-error *ngIf="showCertificateError"></gms-certificate-error>
+</si-landing-page>
+
+
+

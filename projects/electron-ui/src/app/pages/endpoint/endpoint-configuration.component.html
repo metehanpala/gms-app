@@ -1,0 +1,29 @@
+<div>
+  <div class="mt-6">{{'ENDPOINT.MESSAGE' | translate:brandParam }}
+  </div>
+  <div class="endpoint-address mt-6">
+    <form>
+      <label for="endpointAddress" class="form-label">{{ 'ENDPOINT.ADDRESS' | translate }}</label>
+      <div class="form-control-has-icon">
+        <input type="text" class="form-control" id="endpointAddress" [disabled]="isClosedMode"
+          [class.is-invalid]="!endpointValid || endpointNull" [value]="endpoint"
+          [placeholder]="'ENDPOINT.PLACE_HOLDER' | translate" (keyup)="changeAddress($event)">
+
+        <i class="invalid-icon element-cancel-filled"></i>
+
+        <div class="invalid-feedback">
+          {{ endpointNull ? ('ENDPOINT.ERROR_MESSAGE_NO_ADDRESS' | translate) : ('ENDPOINT.ERROR_MESSAGE' | translate)
+          }}
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <div class="mt-5 mb-3 update-info-footer">
+    <button type="button" class="btn btn-secondary endpoint-button me-6 text-truncate d-inline"
+      (click)="cancel()">{{'ENDPOINT.CANCEL_CAPTION' | translate }}</button>
+    <button type="button" class="btn btn-primary endpoint-button text-truncate d-inline"
+      [disabled]="!endpointValid && endpointNull" (click)="saveEndpoint()">{{'ENDPOINT.SAVE_CAPTION' | translate
+      }}</button>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+// Import Element Theme
+@use '@simpl/element-theme/src/theme' with ($siemens-font-path: '@simpl/fonts/dist/fonts');
+
+@use '@simpl/element-theme/src/styles/variables';
+
+.gms-body {
+  background-color: variables.$element-base-1;
+}

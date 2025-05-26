@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Hyväksy ja jatka",
+    "CLOSE_CERTIFICATE_CAPTION": "Sulje sovellus",
+    "CLOSE_WINDOW_CAPTION": "Sulje",
+    "IMPORT_CERTIFICATE_CAPTION": "Tuo varmenne",
+    "MESSAGE": "URL {{url}} ei ole osa luotettuja suojausvarmenteitasi",
+    "MESSAGE_REASON": "Syynä väärät asetukset tai hyökkäys yhteyteesi",
+    "REMEMBER_CAPTION": "Muista valinta",
+    "TITLE": "Yhteys ei yksityinen",
+    "VIEW_CERTIFICATE_CAPTION": "Näytä varmenne"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Peruuta",
+    "COLUMN_ISSUER": "Myöntäjä",
+    "COLUMN_SERIAL": "Sarjanumero",
+    "COLUMN_SUBJECT": "Hakija",
+    "INFO": "Varmennetiedot",
+    "MESSAGE": "Valitse todennusvarmenne kohteelle {{url}}",
+    "NO_CERTIFICATE": "Ei varmennetta",
+    "OK": "Jatka",
+    "REMEMBER_CAPTION": "Muista valinta",
+    "TITLE": "SIsäänkirjaus",
+    "USE_CERTIFICATE": "Käytä varmennetta"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Sulje",
+    "CONFIGURE_ENDPOINT_CAPTION": "Määrittele päätepiste",
+    "MESSAGE_102": "{{url}} kieltäytyi yhteydestä",
+    "MESSAGE_118": "Aikakatkaisu yhdistettäessä kohteeseen {{url}}",
+    "MESSAGE_DEFAULT": "Yhteys kohteeseen {{url}} epäonnistui",
+    "RELOAD_CAPTION": "Yritä uudelleen",
+    "RESOLUTION_1": "Tarkasta, onko palvelin toiminnassa",
+    "RESOLUTION_2": "Tarkasta päätepisteen osoite",
+    "RESOLUTION_TITLE": "Vianmääritys",
+    "TITLE": "Yhteysvirhe"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Osoite",
+    "CANCEL_CAPTION": "Peruuta",
+    "ERROR_MESSAGE": "Viallinen osoite",
+    "ERROR_MESSAGE_NO_ADDRESS": "Vaaditaan",
+    "MESSAGE": "Syötä Flex Client sovelluksen osoite {{brandName}} palvelimella",
+    "SAVE_CAPTION": "Tallenna",
+    "TITLE": "Päätepisteen osoite"
+  },
+  "TERMS_OF_USE": "Käyttöehdot",
+  "TITLE_BAR": {
+    "ADVANCED": "Lisäasetukset",
+    "DELETE_SECURITY_SETTINGS": "Poista suojausasetukset",
+    "EDIT_ENDPOINT_ADDRESS": "Muokkaa päätepisteen osoite",
+    "REFRESH": "Päivitä",
+    "RESET_ZOOM": "Palauta zoom",
+    "ZOOM_IN": "Lähennä",
+    "ZOOM_OUT": "Loitonna"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Jatka",
+    "INSTALL_OPTION": "Sulje sovellus ja asenna päivitys nyt",
+    "MESSAGE": "{{appName}} versio {{version}} ladattu ja valmis asennettavaksi",
+    "MESSAGE_2": "Asennettu versio {{version}}",
+    "MESSAGE_3": "Uusi versio {{version}}",
+    "OPTION_10MIN": "10 minuuttia",
+    "OPTION_1HOUR": "1 tunti",
+    "OPTION_24HOUR": "24 tuntia",
+    "SNOOZE_OPTION": "Muistuta uudelleen:",
+    "TITLE": "Päivitys valmis asennettavaksi"
+  }
+}

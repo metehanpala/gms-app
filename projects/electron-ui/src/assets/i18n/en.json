@@ -1,0 +1,70 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Accept and proceed",
+    "CLOSE_CERTIFICATE_CAPTION": "Close application",
+    "CLOSE_WINDOW_CAPTION": "Close",
+    "IMPORT_CERTIFICATE_CAPTION": "Import certificate",
+    "MESSAGE": "URL {{url}} not part of your trusted security certificates",
+    "MESSAGE_REASON": "Reason is misconfiguration or attack on your connection",
+    "REMEMBER_CAPTION": "Remember selection",
+    "TITLE": "Connection not private",
+    "VIEW_CERTIFICATE_CAPTION": "Show certificate"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Cancel",
+    "COLUMN_ISSUER": "Issuer",
+    "COLUMN_SERIAL": "Serial number",
+    "COLUMN_SUBJECT": "Subject",
+    "INFO": "Certificate information",
+    "MESSAGE": "Select authentication certificate for {{url}}",
+    "NO_CERTIFICATE": "No certificate",
+    "OK": "Continue",
+    "REMEMBER_CAPTION": "Remember selection",
+    "TITLE": "Log in",
+    "USE_CERTIFICATE": "Use certificate"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Close",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configure endpoint",
+    "MESSAGE_102": "{{url}} refused to connect",
+    "MESSAGE_118": "Timeout connecting to {{url}}",
+    "MESSAGE_DEFAULT": "Failed to connect to {{url}}",
+    "RELOAD_CAPTION": "Retry",
+    "RESOLUTION_1": "Check if server is operating",
+    "RESOLUTION_2": "Check endpoint address",
+    "RESOLUTION_TITLE": "Troubleshoot",
+    "TITLE": "Connection error"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Address",
+    "CANCEL_CAPTION": "Cancel",
+    "ERROR_MESSAGE": "Invalid address",
+    "ERROR_MESSAGE_NO_ADDRESS": "Required",
+    "MESSAGE": "Enter address of Flex Client application on {{brandName}} server",
+    "PLACE_HOLDER": "https://my-server.com/application",
+    "SAVE_CAPTION": "Save",
+    "TITLE": "Endpoint address"
+  },
+  "TERMS_OF_USE": "Terms of Use",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Continue",
+    "INSTALL_OPTION": "Exit application and install update now",
+    "MESSAGE": "{{appName}} version {{version}} downloaded and ready for installation",
+    "MESSAGE_2": "Installed version {{version}}",
+    "MESSAGE_3": "New version {{version}}",
+    "OPTION_10MIN": "10 minutes",
+    "OPTION_1HOUR": "1 hour",
+    "OPTION_24HOUR": "24 hours",
+    "SNOOZE_OPTION": "Remind me again in:",
+    "TITLE": "Update ready to install"
+  }
+}

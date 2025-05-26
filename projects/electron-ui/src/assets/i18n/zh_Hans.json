@@ -1,0 +1,68 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "接受并继续",
+    "CLOSE_CERTIFICATE_CAPTION": "关闭应用",
+    "CLOSE_WINDOW_CAPTION": "关闭",
+    "IMPORT_CERTIFICATE_CAPTION": "导入认证文件",
+    "MESSAGE": "URL {{url}} 不是被信任的安全认证",
+    "MESSAGE_REASON": "原因是配置错误或者连接被攻击",
+    "REMEMBER_CAPTION": "记住选项",
+    "TITLE": "不是私有连接",
+    "VIEW_CERTIFICATE_CAPTION": "显示认证文件"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "取消",
+    "COLUMN_ISSUER": "发行人",
+    "COLUMN_SERIAL": "序列号",
+    "COLUMN_SUBJECT": "主题",
+    "INFO": "认证文件信息",
+    "MESSAGE": "为 {{url}}选择授权认证文件",
+    "NO_CERTIFICATE": "无认证文件",
+    "OK": "继续",
+    "REMEMBER_CAPTION": "记住选项",
+    "TITLE": "登录",
+    "USE_CERTIFICATE": "使用认证文件"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "关闭",
+    "CONFIGURE_ENDPOINT_CAPTION": "配置末端",
+    "MESSAGE_102": "{{url}} 拒绝访问",
+    "MESSAGE_118": "连接 {{url}}超时",
+    "MESSAGE_DEFAULT": "连接{{url}}失败",
+    "RELOAD_CAPTION": "重试",
+    "RESOLUTION_1": "查看服务器是否正在运行",
+    "RESOLUTION_2": "查看末端地址",
+    "RESOLUTION_TITLE": "故障检测",
+    "TITLE": "连接错误"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "地址",
+    "CANCEL_CAPTION": "取消",
+    "ERROR_MESSAGE": "地址不可用",
+    "MESSAGE": "在{{brandName}} 服务器上输入Flex客户端应用地址",
+    "SAVE_CAPTION": "保存",
+    "TITLE": "末端地址"
+  },
+  "TERMS_OF_USE": "用户条款",
+  "TITLE_BAR": {
+    "ADVANCED": "高级",
+    "DELETE_SECURITY_SETTINGS": "删除安全设置",
+    "EDIT_ENDPOINT_ADDRESS": "编辑末端地址",
+    "REFRESH": "刷新",
+    "RESET_ZOOM": "重置",
+    "ZOOM_IN": "缩小",
+    "ZOOM_OUT": "放大"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "继续",
+    "INSTALL_OPTION": "退出应用并开始安装",
+    "MESSAGE": "{{appName}} 版本 {{version}} 已下载并准备安装",
+    "MESSAGE_2": "安装版本{{version}}",
+    "MESSAGE_3": "新版本 {{version}}",
+    "OPTION_10MIN": "10分钟",
+    "OPTION_1HOUR": "1小时",
+    "OPTION_24HOUR": "24小时",
+    "SNOOZE_OPTION": "再次提醒：",
+    "TITLE": "准备安装更新"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Accepter et continuer",
+    "CLOSE_CERTIFICATE_CAPTION": "Fermer l'application",
+    "CLOSE_WINDOW_CAPTION": "Fermer",
+    "IMPORT_CERTIFICATE_CAPTION": "Importer un certificat",
+    "MESSAGE": "L'URL {{url}} ne fait pas partie de vos certificats de sécurité approuvés",
+    "MESSAGE_REASON": "Mauvaise configuration ou attaque sur votre connexion",
+    "REMEMBER_CAPTION": "Se souvenir de la sélection",
+    "TITLE": "Connexion non privée",
+    "VIEW_CERTIFICATE_CAPTION": "Afficher le certificat"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Annuler",
+    "COLUMN_ISSUER": "Émetteur",
+    "COLUMN_SERIAL": "N° de série",
+    "COLUMN_SUBJECT": "Objet",
+    "INFO": "Informations sur le certificat",
+    "MESSAGE": "Sélectionner un certificat d'authentification pour {{url}}",
+    "NO_CERTIFICATE": "Pas de certificat",
+    "OK": "Continuer",
+    "REMEMBER_CAPTION": "Se souvenir de la sélection",
+    "TITLE": "Connexion",
+    "USE_CERTIFICATE": "Utiliser certificat"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Fermer",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configurer point de terminaison",
+    "MESSAGE_102": "{{url}} a refusé la connexion",
+    "MESSAGE_118": "Expiration du délai de connexion à {{url}}",
+    "MESSAGE_DEFAULT": "Échec de connexion à {{url}}",
+    "RELOAD_CAPTION": "Réessayer",
+    "RESOLUTION_1": "Vérifier si le serveur est opérationnel",
+    "RESOLUTION_2": "Vérifier l'adresse du point de terminaison",
+    "RESOLUTION_TITLE": "Dépanner",
+    "TITLE": "Erreur de connexion"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Adresse",
+    "CANCEL_CAPTION": "Annuler",
+    "ERROR_MESSAGE": "Adresse incorrecte",
+    "ERROR_MESSAGE_NO_ADDRESS": "Obligatoire",
+    "MESSAGE": "Entrez l'adresse de l'application Flex Client sur le serveur {{brandName}}",
+    "SAVE_CAPTION": "Enregistrer",
+    "TITLE": "Adresse du point de terminaison"
+  },
+  "TERMS_OF_USE": "Conditions d'utilisation",
+  "TITLE_BAR": {
+    "ADVANCED": "Avancé",
+    "DELETE_SECURITY_SETTINGS": "Supprimer les paramètres de sécurité",
+    "EDIT_ENDPOINT_ADDRESS": "Modifier l'adresse du point de terminaison",
+    "REFRESH": "Actualiser",
+    "RESET_ZOOM": "Réinitialiser zoom",
+    "ZOOM_IN": "Zoom avant",
+    "ZOOM_OUT": "Zoom arrière"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Continuer",
+    "INSTALL_OPTION": "Quitter l'application et installer la mise à jour maintenant",
+    "MESSAGE": "{{appName}} version {{version}} téléchargée et prête pour l'installation",
+    "MESSAGE_2": "Version installée {{version}}",
+    "MESSAGE_3": "Nouvelle version {{version}}",
+    "OPTION_10MIN": "10 minutes",
+    "OPTION_1HOUR": "1 heure",
+    "OPTION_24HOUR": "24 heures",
+    "SNOOZE_OPTION": "Me rappeler dans :",
+    "TITLE": "Mise à jour prête à installer"
+  }
+}

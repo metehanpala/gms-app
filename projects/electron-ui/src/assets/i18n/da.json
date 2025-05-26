@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Accepter og fortsæt",
+    "CLOSE_CERTIFICATE_CAPTION": "Luk applikation",
+    "CLOSE_WINDOW_CAPTION": "Luk",
+    "IMPORT_CERTIFICATE_CAPTION": "Importer certifikat",
+    "MESSAGE": "URL {{url}} ikke en del af dine pålidelige sikkerhedscertifikater",
+    "MESSAGE_REASON": "Årsag er fejlkonfiguration eller angreb på din forbindelse",
+    "REMEMBER_CAPTION": "Husk valg",
+    "TITLE": "Forbindelse ikke privat",
+    "VIEW_CERTIFICATE_CAPTION": "Vis certifikat"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Afbryd",
+    "COLUMN_ISSUER": "Udsteder",
+    "COLUMN_SERIAL": "Serienummer",
+    "COLUMN_SUBJECT": "Subjekt",
+    "INFO": "Certifikatinformation",
+    "MESSAGE": "Vælg autentifikationscertifikat for {{url}}",
+    "NO_CERTIFICATE": "Intet certifikat",
+    "OK": "Fortsæt",
+    "REMEMBER_CAPTION": "Husk valg",
+    "TITLE": "Log ind",
+    "USE_CERTIFICATE": "Brug certifikat"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Luk",
+    "CONFIGURE_ENDPOINT_CAPTION": "Konfigurer slutpunkt",
+    "MESSAGE_102": "{{url}} nægtede at forbinde",
+    "MESSAGE_118": "Timeout forbinder til {{url}}",
+    "MESSAGE_DEFAULT": "Kunne ikke forbinde til {{url}}",
+    "RELOAD_CAPTION": "Forsøg igen",
+    "RESOLUTION_1": "Tjek om serveren er i drift",
+    "RESOLUTION_2": "Tjek slutpunktsadresse",
+    "RESOLUTION_TITLE": "Fejlsøg",
+    "TITLE": "Forbindelsesfejl"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Adresse",
+    "CANCEL_CAPTION": "Afbryd",
+    "ERROR_MESSAGE": "Ugyldig adresse",
+    "ERROR_MESSAGE_NO_ADDRESS": "Påkrævet",
+    "MESSAGE": "Indtast adresse på Fleksklient applikation på {{brandName}} server",
+    "SAVE_CAPTION": "Gem",
+    "TITLE": "Slutpunktsadresse"
+  },
+  "TERMS_OF_USE": "Brugerbetingelser",
+  "TITLE_BAR": {
+    "ADVANCED": "Avanceret",
+    "DELETE_SECURITY_SETTINGS": "Slet sikkerhedsindstillinger",
+    "EDIT_ENDPOINT_ADDRESS": "Rediger slutpunktsadresse",
+    "REFRESH": "Opdater",
+    "RESET_ZOOM": "Nulstil zoom",
+    "ZOOM_IN": "Zoom ind",
+    "ZOOM_OUT": "Zoom ud"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Fortsæt",
+    "INSTALL_OPTION": "Luk applikation og installer opdatering nu",
+    "MESSAGE": "{{appName}} version {{version}} downloadet og klar til installation",
+    "MESSAGE_2": "Installeret version {{version}}",
+    "MESSAGE_3": "Ny version {{version}}",
+    "OPTION_10MIN": "10 minutter",
+    "OPTION_1HOUR": "1 time",
+    "OPTION_24HOUR": "24 timer",
+    "SNOOZE_OPTION": "Påmind mig igen om:",
+    "TITLE": "Opdatering klar til at blive installeret"
+  }
+}

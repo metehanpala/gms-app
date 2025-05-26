@@ -1,0 +1,68 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Accepteren en doorgaan",
+    "CLOSE_CERTIFICATE_CAPTION": "Applicatie sluiten",
+    "CLOSE_WINDOW_CAPTION": "Sluiten",
+    "IMPORT_CERTIFICATE_CAPTION": "Certificaat importeren",
+    "MESSAGE": "URL {{url}} maakt geen deel uit van uw vertrouwde beveiligingscertificaten",
+    "MESSAGE_REASON": "Reden is verkeerde configuratie of aanval op je verbinding",
+    "REMEMBER_CAPTION": "Selectie onthouden",
+    "TITLE": "Verbinding niet privé",
+    "VIEW_CERTIFICATE_CAPTION": "Certificaat tonen"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Afbreken",
+    "COLUMN_ISSUER": "Emittent",
+    "COLUMN_SERIAL": "Serienummer",
+    "COLUMN_SUBJECT": "Onderwerp",
+    "INFO": "Certificaat informatie",
+    "MESSAGE": "Selecteer verificatiecertificaat voor {{url}}",
+    "NO_CERTIFICATE": "Geen certificaat",
+    "OK": "Doorgaan",
+    "REMEMBER_CAPTION": "Selectie onthouden",
+    "TITLE": "Inloggen",
+    "USE_CERTIFICATE": "Certificaat gebruiken"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Sluit",
+    "CONFIGURE_ENDPOINT_CAPTION": "Eindpunt configureren",
+    "MESSAGE_102": "{{url}} weigerde verbinding",
+    "MESSAGE_118": "Time-out bij verbinding met {{url}}",
+    "MESSAGE_DEFAULT": "Kan geen verbinding maken met {{url}}",
+    "RELOAD_CAPTION": "Herhalen",
+    "RESOLUTION_1": "Controleer of de server werkt",
+    "RESOLUTION_2": "Controleer het eindpuntadres",
+    "RESOLUTION_TITLE": "Probleemoplossing",
+    "TITLE": "Fout bij verbinding"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Adres",
+    "CANCEL_CAPTION": "Afbreken",
+    "ERROR_MESSAGE": "Ongeldig adres",
+    "MESSAGE": "Voer het adres in van Flex Client-toepassing op {{brandName}} server",
+    "SAVE_CAPTION": "Opslaan",
+    "TITLE": "Adres eindpunt"
+  },
+  "TERMS_OF_USE": "Gebruiksvoorwaarden",
+  "TITLE_BAR": {
+    "ADVANCED": "Geavanceerd",
+    "DELETE_SECURITY_SETTINGS": "Beveiligingsinstellingen verwijderen",
+    "EDIT_ENDPOINT_ADDRESS": "Eindpuntadres bewerken",
+    "REFRESH": "Verversen",
+    "RESET_ZOOM": "Zoom resetten",
+    "ZOOM_IN": "Inzoomen",
+    "ZOOM_OUT": "Uitzoomen"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Doorgaan",
+    "INSTALL_OPTION": "Applicatie afsluiten en update nu installeren",
+    "MESSAGE": "{{appName}} versie {{version}} gedownload en klaar voor installatie",
+    "MESSAGE_2": "Geïnstalleerde versie {{version}}",
+    "MESSAGE_3": "Nieuwe versie {{version}}",
+    "OPTION_10MIN": "10 Minuten",
+    "OPTION_1HOUR": "1 Uur",
+    "OPTION_24HOUR": "24 Uur",
+    "SNOOZE_OPTION": "Herinner me nog eens in:",
+    "TITLE": "Update klaar voor installatie"
+  }
+}

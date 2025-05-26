@@ -1,0 +1,69 @@
+{
+  "CERTIFICATE_ERROR": {
+    "ACCEPT_CERTIFICATE_CAPTION": "Aceite e prossiga",
+    "CLOSE_CERTIFICATE_CAPTION": "Fechar aplicação",
+    "CLOSE_WINDOW_CAPTION": "Fechar",
+    "IMPORT_CERTIFICATE_CAPTION": "Importar certificado",
+    "MESSAGE": "URL {{url}} não faz parte dos seus certificados de segurança confiáveis",
+    "MESSAGE_REASON": "O motivo é configuração incorreta ou ataque à sua ligação",
+    "REMEMBER_CAPTION": "Lembrar da seleção",
+    "TITLE": "Ligação não privada",
+    "VIEW_CERTIFICATE_CAPTION": "Mostrar certificado"
+  },
+  "CERTIFICATE_LIST": {
+    "CANCEL": "Cancelar",
+    "COLUMN_ISSUER": "Emissor",
+    "COLUMN_SERIAL": "Número de série",
+    "COLUMN_SUBJECT": "Assunto",
+    "INFO": "Informações do certificado",
+    "MESSAGE": "Selecione o certificado de autenticação para {{url}}",
+    "NO_CERTIFICATE": "Sem certificado",
+    "OK": "Continuar",
+    "REMEMBER_CAPTION": "Lembrar da seleção",
+    "TITLE": "Início de sessão",
+    "USE_CERTIFICATE": "Utilizar certificado"
+  },
+  "CONNECTION_ERROR": {
+    "CLOSE_WINDOW_CAPTION": "Fechar",
+    "CONFIGURE_ENDPOINT_CAPTION": "Configurar \"endpoint\"",
+    "MESSAGE_102": "{{url}} recusou ligação",
+    "MESSAGE_118": "Tempo limite de ligação com {{url}}",
+    "MESSAGE_DEFAULT": "Falha ao ligar-se a {{url}}",
+    "RELOAD_CAPTION": "Tentar novamente",
+    "RESOLUTION_1": "Verifique se o servidor está em operação",
+    "RESOLUTION_2": "Verifique o endereço do \"endpoint\"",
+    "RESOLUTION_TITLE": "\"Troubleshoot\"",
+    "TITLE": "Erro de ligação"
+  },
+  "ENDPOINT": {
+    "ADDRESS": "Endereço",
+    "CANCEL_CAPTION": "Cancelar",
+    "ERROR_MESSAGE": "Endereço inválido",
+    "ERROR_MESSAGE_NO_ADDRESS": "Requerido",
+    "MESSAGE": "Insira o endereço da aplicação Flex Client no servidor {{brandName}}",
+    "SAVE_CAPTION": "Salvar",
+    "TITLE": "Endereço do \"endpoint\""
+  },
+  "TERMS_OF_USE": "Termos de utilização",
+  "TITLE_BAR": {
+    "ADVANCED": "Avançado",
+    "DELETE_SECURITY_SETTINGS": "Apagar configurações de segurança",
+    "EDIT_ENDPOINT_ADDRESS": "Editar endereço do \"endpoint\"",
+    "REFRESH": "Atualizar",
+    "RESET_ZOOM": "Repor zoom",
+    "ZOOM_IN": "Aumentar Zoom",
+    "ZOOM_OUT": "Reduzir o zoom"
+  },
+  "UPDATE_INFO": {
+    "CONT_CAPTION": "Continuar",
+    "INSTALL_OPTION": "Sair da aplicação e instalar a atualização agora",
+    "MESSAGE": "{{appName}} versão {{version}} baixada e pronta para instalação",
+    "MESSAGE_2": "Versão instalada {{version}}",
+    "MESSAGE_3": "Nova versão {{version}}",
+    "OPTION_10MIN": "10 minutos",
+    "OPTION_1HOUR": "1 hora",
+    "OPTION_24HOUR": "24 horas",
+    "SNOOZE_OPTION": "Lembre-me novamente em:",
+    "TITLE": "Atualização pronta para instalar"
+  }
+}
