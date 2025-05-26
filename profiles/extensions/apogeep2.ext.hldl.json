@@ -1,0 +1,26 @@
+{
+  "hfwExtension": {
+    "snapInTypes": [
+      {
+        "typeId": "TrendSnapInType",
+        "messageTypes": [
+          {
+            "name": "TrendLogApogee"
+          }
+        ]
+      },
+      {
+        "typeId": "WsScheduleSnapInType",
+        "resourceFolder": "@gms-flex/ws-schedule/i18n/",
+        "messageTypes": [
+          {
+            "name": "Apogee Zone"
+          },
+          {
+            "name": "Apogee Zone Folder"
+          }
+        ]
+      }
+    ]
+  }
+}

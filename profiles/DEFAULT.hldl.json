@@ -1,0 +1,1476 @@
+{
+  "hfwInstance": {
+    "startingFrameId": "system-manager",
+    "snapInTypes": [
+      {
+        "typeId": "SystemBrowserType",
+        "resourceFolder": "@gms-flex/system-browser/i18n/"
+      },
+      {
+        "typeId": "RelatedItemType",
+        "resourceFolder": "@gms-flex/related-items/i18n/",
+        "config": {
+          "exceptions": [
+            {
+              "managedTypeName": "NewReport",
+              "new": true,
+              "hide": true
+            },
+            {
+              "managedTypeName": "NewTrend",
+              "new": true,
+              "hide": false
+            },
+            {
+              "managedTypeName": "NewRemoteNotification",
+              "new": true,
+              "hide": true
+            },
+            {
+              "managedTypeName": "BACnet Command Table",
+              "new": false,
+              "hide": true
+            },
+            {
+              "managedTypeName": "OperatorTasksTemplate",
+              "new": true,
+              "hide": false
+            },
+            {
+              "managedTypeName": "ReportDefinition",
+              "new": false,
+              "hide": false
+            },
+            {
+              "managedTypeName": "NewMassNotificationMessage",
+              "new": false,
+              "hide": true
+            },
+            {
+              "managedTypeName": "NewMassNotificationLiveAnnouncement",
+              "new": false,
+              "hide": true
+            }
+          ]
+        }
+      },
+      {
+        "typeId": "EasyNavigationBarType",
+        "resourceFolder": "@gms-flex/easy-navigation-bar/i18n/",
+        "config": {
+          "UserDefinedView": "EasyNavigation",
+          "SystemId": null,
+          "Enabled": true
+        }
+      },
+      {
+        "typeId": "GraphicsViewerType",
+        "resourceFolder": "@gms-flex/graphics-viewer/i18n/",
+        "config": {
+          "EnableAlarmIndication": true,
+          "AlarmIconSize": 16,
+          "EnableDownwardNavigation": false,
+          "ExcludeFromDownwardNavigation": []
+        }
+      },
+      {
+        "typeId": "TextualViewerType",
+        "resourceFolder": "@gms-flex/textual-viewer/i18n/"
+      },
+      {
+        "typeId": "DocumentViewerType",
+        "resourceFolder": "@gms-flex/document/i18n/",
+        "messageTypes": [
+          {
+            "name": "External Document"
+          },
+          {
+            "name": "File Viewer"
+          }
+        ]
+      },
+      {
+        "typeId": "ReportViewerSnapInType",
+        "resourceFolder": "@gms-flex/report-viewer/i18n/"
+      },
+      {
+        "typeId": "LicenseSnapinType",
+        "resourceFolder": "@gms-flex/license/i18n/",
+        "messageTypes": [
+          {
+            "name": "License"
+          }
+        ]
+      },
+      {
+        "typeId": "PropertyViewerType",
+        "resourceFolder": "@gms-flex/property/i18n/"
+      },
+      {
+        "typeId": "SummaryBarType",
+        "resourceFolder": "@gms-flex/summary-bar/i18n/"
+      },
+      {
+        "typeId": "investigativeTreatmentType",
+        "resourceFolder": "@gms-flex/summary-bar/i18n/"
+      },
+      {
+        "typeId": "EventListType",
+        "resourceFolder": "@gms-flex/event-list/i18n/"
+      },
+      {
+        "typeId": "OperatorTaskSnapinType",
+        "resourceFolder": "@gms-flex/operator-task/i18n/",
+        "messageTypes": [
+          {
+            "name": "OperatorTasksTemplate"
+          }
+        ]
+      },
+      {
+        "typeId": "EventDetailsType",
+        "resourceFolder": "@gms-flex/event-details/i18n/"
+      },
+      {
+        "typeId": "TrendSnapInType",
+        "resourceFolder": "@gms-flex/trend/i18n/",
+        "config": {
+          "collectPropertyNameSubsystem": [
+            {
+              "TrendLog": [
+                {
+                  "property": "Log_Enable",
+                  "command": "Collect"
+                },
+                {
+                  "property": "Enable",
+                  "command": "CollectTrend"
+                },
+                {
+                  "property": "Dpx_Enable_Log",
+                  "command": "CollectTrend"
+                }
+              ]
+            },
+            {
+              "TrendLogSORIS": [
+                {
+                  "property": "Object_Name",
+                  "command": "Collect"
+                }
+              ]
+            },
+            {
+              "TrendLogApogee": [
+                {
+                  "property": "Samples",
+                  "command": "CollectSample"
+                }
+              ]
+            },
+            {
+              "P2": [
+                {
+                  "property": "Enabled_P2",
+                  "command": ""
+                }
+              ]
+            }
+          ]
+        },
+        "messageTypes": [
+          {
+            "name": "TrendLog"
+          },
+          {
+            "name": "TrendLogApogee"
+          },
+          {
+            "name": "TrendLogOnline"
+          },
+          {
+            "name": "TrendsFolder"
+          },
+          {
+            "name": "TrendLogPredicted"
+          },
+          {
+            "name": "TrendViewDefinition"
+          },
+          {
+            "name": "NewTrend"
+          },
+          {
+            "name": "TrendLogSORIS"
+          },
+          {
+            "name": "TrendLogS7"
+          }
+        ]
+      },
+      {
+        "typeId": "LogViewerSnapInType",
+        "resourceFolder": "@gms-flex/log-viewer/i18n/",
+        "messageTypes": [
+          {
+            "name": "LogViewer"
+          },
+          {
+            "name": "LogViewFolder"
+          },
+          {
+            "name": "LogViewDefinition"
+          }
+        ]
+      },
+      {
+        "typeId": "AboutSnapinType",
+        "resourceFolder": "@gms-flex/about/i18n/"
+      },
+      {
+        "typeId": "AccountSnapinType",
+        "resourceFolder": "@gms-flex/account/i18n/"
+      },
+      {
+        "typeId": "NotifConfigSnapinType",
+        "resourceFolder": "@gms-flex/notifconfig/i18n/"
+      },
+      {
+        "typeId": "ScheduleSnapInType",
+        "resourceFolder": "@gms-flex/schedule/i18n/",
+        "messageTypes": [
+          {
+            "name": "BACnet Schedule"
+          },
+          {
+            "name": "BACnet Calendar"
+          }
+        ]
+      },
+      {
+        "typeId": "SessionsSnapinType",
+        "resourceFolder": "@gms-flex/sessions/i18n/",
+        "messageTypes": [
+          {
+            "name": "SecurityUsersFolder"
+          }
+        ]
+      }
+    ],
+    "hfwFrames": [
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "sb",
+            "typeId": "SummaryBarType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "sb",
+                "config": {
+                  "EnableNotificationsForNewEvents": true,
+                  "EnableCollapsing": true,
+                  "IsCollapsed": true,
+                  "CanMuteSoundFor": "EntireSession",
+                  "AudioAlertForAckedEvents": false
+                }
+              }
+            ],
+            "id": "sb-pane"
+          }
+        ],
+        "id": "summary-bar",
+        "docked": "top"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "in",
+            "typeId": "investigativeTreatmentType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "in"
+              }
+            ],
+            "id": "in-pane"
+          }
+        ],
+        "id": "investigative",
+        "docked": "top"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "easy-navigation-bar",
+            "typeId": "EasyNavigationBarType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "easy-navigation-bar",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              }
+            ],
+            "id": "easy-navigation-bar-pane-id"
+          }
+        ],
+        "id": "easy-navigation-bar-frame-id",
+        "docked": "top"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "about",
+            "typeId": "AboutSnapinType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "about"
+              }
+            ],
+            "id": "about-pane"
+          }
+        ],
+        "id": "about-frame-id",
+        "docked": "none"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "account",
+            "typeId": "AccountSnapinType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "account"
+              }
+            ],
+            "id": "account-pane"
+          }
+        ],
+        "id": "account-frame-id",
+        "docked": "none"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "notifconfig",
+            "typeId": "NotifConfigSnapinType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "notifconfig",
+                "config": {
+                  "CanEditSoundSettings": true
+                }
+              }
+            ],
+            "id": "notifconfig-pane"
+          }
+        ],
+        "id": "notifconfig-frame-id",
+        "docked": "none"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "el",
+            "typeId": "EventListType",
+            "tabTitleId": "SNAPIN-TITLE"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "el",
+                "canSendToSelf": true,
+                "communicationRules": [
+                  {
+                    "destination": "event-list.el-pane",
+                    "hitRightPanel": true
+                  }
+                ],
+                "config": {
+                  "autoRemoveFilterOnNewEvents": false,
+                  "disableGroupEvents": false,
+                  "disableMultiselection": false,
+                  "disableSorting": false,
+                  "disableEventsCommandOnActiveEventFilter": false,
+                  "isULC": false,
+                  "isULInactivityTimeout": false,
+                  "columns": [
+                    {
+                      "name": "eventIcon"
+                    },
+                    {
+                      "name": "cause"
+                    },
+                    {
+                      "name": "state"
+                    },
+                    {
+                      "name": "creationTime"
+                    },
+                    {
+                      "name": "srcSource"
+                    },
+                    {
+                      "name": "belongsTo"
+                    }
+                  ],
+                  "sorting_criteria": [
+                    {
+                      "column_name": "state",
+                      "direction": "Ascending"
+                    },
+                    {
+                      "column_name": "categoryDescriptor",
+                      "direction": "Ascending"
+                    },
+                    {
+                      "column_name": "creationTime",
+                      "direction": "Descending"
+                    }
+                  ]
+                }
+              }
+            ],
+            "id": "el-pane",
+            "titleVisible": true,
+            "paneTitleOrSnapinTitle": "snapin",
+            "primaryHeader": false,
+            "hasTab": false
+          }
+        ],
+        "rightPanelCommunications": [
+          {
+            "id": "related-items",
+            "communicationRules": [
+              {
+                "ruleName": "SecondarySelection",
+                "canSwitchLayout": true,
+                "destination": "system-manager.comparison-pane",
+                "fallbackDestination": "system-manager.primary-pane"
+              },
+              {
+                "destination": "system-manager.primary-pane"
+              },
+              {
+                "destination": "system-manager.single-pane"
+              },
+              {
+                "destination": "system-manager.selection-pane",
+                "ruleName": "new-primary-selection"
+              }
+            ]
+          }
+        ],
+        "layoutInstances": [
+          {
+            "paneInstance": {
+              "id": "el-pane"
+            },
+            "id": "1-pane",
+            "iconClass": "element-layout-pane-1",
+            "mediaQuery": "only screen and (min-width:577px)"
+          },
+          {
+            "paneInstance": {
+              "id": "el-pane"
+            },
+            "id": "2-pane-mobile",
+            "iconClass": "element-smartphone",
+            "isDefault": true,
+            "mediaQuery": "only screen and (min-width:360px) and (max-width:576px)"
+          }
+        ],
+        "qParamServices": [
+          {
+            "id": "EventQParamService",
+            "primaryChannelId": "primary",
+            "channels": [
+              {
+                "id": "primary",
+                "communicationRules": [
+                  {
+                    "destination": "event-list.el-pane"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "event-list",
+        "iconClass": "element-alarm-filled"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "otl",
+            "typeId": "OperatorTaskSnapinType",
+            "tabTitleId": "SNAPIN-TITLE"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "otl",
+                "canSendToSelf": true,
+                "communicationRules": [
+                  {
+                    "destination": "operator-task.otl-pane",
+                    "hitRightPanel": true
+                  }
+                ],
+                "config": {}
+              }
+            ],
+            "id": "otl-pane",
+            "titleVisible": true,
+            "paneTitleOrSnapinTitle": "snapin",
+            "primaryHeader": false,
+            "hasTab": false
+          }
+        ],
+        "rightPanelCommunications": [
+          {
+            "id": "related-items",
+            "communicationRules": [
+              {
+                "ruleName": "SecondarySelection",
+                "canSwitchLayout": true,
+                "destination": "system-manager.comparison-pane",
+                "fallbackDestination": "system-manager.primary-pane"
+              },
+              {
+                "destination": "system-manager.primary-pane"
+              },
+              {
+                "destination": "system-manager.single-pane"
+              },
+              {
+                "destination": "system-manager.selection-pane",
+                "ruleName": "new-primary-selection"
+              },
+              {
+                "destination": "system-manager.selection-pane",
+                "ruleName": "new-primary-selection"
+              }
+            ]
+          }
+        ],
+        "layoutInstances": [
+          {
+            "paneInstance": {
+              "id": "otl-pane"
+            },
+            "id": "1-pane",
+            "iconClass": "element-layout-pane-1"
+          }
+        ],
+        "qParamServices": [
+          {
+            "id": "OperatorTaskQParamService",
+            "primaryChannelId": "primary",
+            "channels": [
+              {
+                "id": "primary",
+                "communicationRules": [
+                  {
+                    "destination": "operator-task.otl-pane"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": "operator-task",
+        "iconClass": "element-alarm-filled"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "sys-brow",
+            "typeId": "SystemBrowserType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "trend",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "TrendSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "log-viewer",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "LogViewerSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "schedule",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "ScheduleSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "document",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "DocumentViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "license",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "LicenseSnapinType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "easy-navigation-bar",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "EasyNavigationBarType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "graph",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "GraphicsViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },       
+          {
+            "snapInId": "txt-view",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "TextualViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "report-view",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "ReportViewerSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "related",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "RelatedItemType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "sessions",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "SessionsSnapinType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "log-viewer-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "LogViewerSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "trend-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "TrendSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "schedule-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "ScheduleSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "document-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "DocumentViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "graph-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "GraphicsViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "otl-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "OperatorTaskSnapinType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "txt-view-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "TextualViewerType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "report-view-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "ReportViewerSnapInType",
+            "tabTitleId": "SNAPIN-TITLE"
+          },
+          {
+            "snapInId": "sessions-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "SessionsSnapinType",
+            "tabTitleId": "SNAPIN-TITLE"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "sys-brow",
+                "communicationRules": [
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane"
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "SecondarySelection",
+                    "canSwitchLayout": true
+                  }
+                ],
+                "config": {
+                  "enableValues": [
+                    {
+                      "enabled": false
+                    }
+                  ],
+                  "postActiveView": true
+                }
+              }
+            ],
+            "id": "selection-pane",
+            "titleVisible": true,
+            "paneTitleOrSnapinTitle": "snapin",
+            "primaryHeader": false,
+            "hasTab": false
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "trend",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "log-viewer",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "schedule",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "SecondarySelection",
+                    "canSwitchLayout": true
+                  }
+                ]
+              },
+              {
+                "id": "document",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "license",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "graph",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },          
+              {
+                "id": "report-view",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "sessions",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "txt-view",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  }
+                ]
+              }
+            ],
+            "id": "primary-pane",
+            "hasTab": true,
+            "canStartWithoutSelectedSnapin": true,
+            "hasFullScreen": true,
+            "displaySelectedObject": true,
+            "showSelectedObjectInAppTitle": true
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "trend-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "log-viewer-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "schedule-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "SecondarySelection",
+                    "canSwitchLayout": true
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "document-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "graph-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "otl-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "report-view-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "sessions-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              },
+              {
+                "id": "txt-view-comparison",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.comparison-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "canSendToSelf": true
+              }
+            ],
+            "id": "comparison-pane",
+            "primaryHeader": true,
+            "hasTab": true,
+            "closeButton": true,
+            "paneTitleOrSnapinTitle": "snapin",
+            "canStartWithoutSelectedSnapin": true,
+            "hasFullScreen": true,
+            "displaySelectedObject": true
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "trend",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "log-viewer",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "schedule",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane",
+                    "ruleName": "SecondarySelection"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "document",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "graph",
+                "canSendToSelf": true,
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ],
+                "config": {
+                  "EnableAlarmIndication": true,
+                  "AlarmIconSize": 16,
+                  "EnableDownwardNavigation": false,
+                  "ExcludeFromDownwardNavigation": [],
+                  "IsSinglePane": true,
+                  "avoidPreselectOnSecondarySelection": true
+                }
+              },           
+              {
+                "id": "report-view",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "sessions",
+                "canSendToSelf": true,
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  },
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              },
+              {
+                "id": "txt-view",
+                "communicationRules": [
+                  {
+                    "hitRightPanel": true
+                  }
+                ],
+                "config": {
+                  "avoidPreselectOnSecondarySelection": true
+                }
+              }
+            ],
+            "id": "single-pane",
+            "hasTab": true,
+            "canStartWithoutSelectedSnapin": true,
+            "displaySelectedObject": true,
+            "showSelectedObjectInAppTitle": true
+          }
+        ],
+        "rightPanelCommunications": [
+          {
+            "id": "related-items",
+            "communicationRules": [
+              {
+                "ruleName": "SecondarySelection",
+                "canSwitchLayout": true,
+                "destination": "system-manager.comparison-pane",
+                "fallbackDestination": "system-manager.primary-pane"
+              },
+              {
+                "destination": "system-manager.primary-pane",
+                "hitRightPanel": true
+              },
+              {
+                "destination": "system-manager.single-pane"
+              },
+              {
+                "destination": "system-manager.selection-pane",
+                "ruleName": "new-primary-selection"
+              }
+            ]
+          },
+          {
+            "id": "log-viewer",
+            "communicationRules": [
+              {
+                "destination": "system-manager.selection-pane",
+                "ruleName": "new-primary-selection"
+              }
+            ]
+          }
+        ],
+        "layoutInstances": [
+          {
+            "paneInstance": {
+              "id": "single-pane"
+            },
+            "id": "1-pane",
+            "iconClass": "element-layout-pane-1",
+            "mediaQuery": "only screen and (min-width:577px)"
+
+          },
+          {
+            "splitter": {
+              "id": "selection-pane-splitter",
+              "firstChild": {
+                "paneInstance": {
+                  "id": "selection-pane"
+                }
+              },
+              "secondChild": {
+                "paneInstance": {
+                  "id": "primary-pane"
+                }
+              },
+              "orientation": "vertical",
+              "firstChildSize": "340px"
+            },
+            "id": "2-pane",
+            "iconClass": "element-layout-pane-2",
+            "isDefault": true,
+            "mediaQuery": "only screen and (min-width:577px)"
+
+          },
+          {
+            "splitter": {
+              "id": "selection-pane-splitter",
+              "firstChild": {
+                "paneInstance": {
+                  "id": "selection-pane"
+                }
+              },
+              "secondChild": {
+                "paneInstance": {
+                  "id": "primary-pane"
+                }
+              },
+              "orientation": "vertical",
+              "firstChildSize": "340px"
+            },
+            "id": "2-pane-mobile",
+            "iconClass": "element-smartphone",
+            "isDefault": true,
+            "mediaQuery": "only screen and (min-width:360px) and (max-width:576px)"
+          },
+          {
+            "splitter": {
+              "id": "selection-pane-splitter",
+              "firstChild": {
+                "paneInstance": {
+                  "id": "selection-pane"
+                }
+              },
+              "secondChild": {
+                "splitter": {
+                  "id": "comparison-pane-splitter",
+                  "firstChild": {
+                    "paneInstance": {
+                      "id": "primary-pane"
+                    }
+                  },
+                  "secondChild": {
+                    "paneInstance": {
+                      "id": "comparison-pane",
+                      "whenClosed": "2-pane"
+                    }
+                  },
+                  "orientation": "vertical",
+                  "firstChildSize": "50%",
+                  "collapsingPane": "second"
+                }
+              },
+              "orientation": "vertical",
+              "firstChildSize": "340px"
+            },
+            "id": "2-pane-comparison",
+            "iconClass": "element-layout-pane-3-alt",
+            "mediaQuery": "only screen and (min-width:1360px)"
+          }
+        ],
+        "qParamServices": [
+          {
+            "id": "SystemQParamService",
+            "primaryChannelId": "primary",
+            "channels": [
+              {
+                "id": "primary",
+                "communicationRules": [
+                  {
+                    "destination": "system-manager.primary-pane",
+                    "hitRightPanel": true
+                  },
+                  {
+                    "destination": "system-manager.single-pane"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "appliesOnLayoutIds": [
+                      {
+                        "id": "1-pane"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "views": [
+          {
+            "id": "tree-view",
+            "viewLayouts": [
+              {
+                "id": "1-pane"
+              },
+              {
+                "id": "2-pane"
+              },
+              {
+                "id": "2-pane-mobile"
+              },
+              {
+                "id": "2-pane-comparison"
+              }
+            ],
+            "preferredSnapin": {
+              "paneId": "selection-pane",
+              "snapinId": "sys-brow"
+            }
+          }
+        ],
+        "id": "system-manager",
+        "iconClass": "element-list"
+      }
+    ],
+    "primaryBarConfig": {
+      "primaryItems": [
+        {
+          "id": "system",
+          "childrenIds": [
+            {
+              "id": "system-manager"
+            }
+          ]
+        },
+        {
+          "id": "events",
+          "childrenIds": [
+            {
+              "id": "event-list"
+            }
+          ]
+        },
+        {
+          "id": "tasks",
+          "childrenIds": [
+            {
+              "id": "operator-task"
+            }
+          ]
+        }
+      ]
+    },
+    "verticalBarConfigs": [
+      {
+        "id": "account-settings",
+        "availableOnFrames": [
+          {
+            "id": "account-frame-id"
+          },
+          {
+            "id": "notifconfig-frame-id"
+          }
+        ],
+        "verticalBarItems": [
+          {
+            "id": "Account",
+            "icon": "element-account",
+            "targetFrame": "account-frame-id"
+          },
+          {
+            "id": "Settings",
+            "icon": "element-settings",
+            "verticalBarItems": [
+              {
+                "id": "Notification",
+                "targetFrame": "notifconfig-frame-id"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "system",
+        "availableOnFrames": [
+          {
+            "id": "system-manager"
+          },
+          {
+            "id": "print-settings"
+          }
+        ],
+        "verticalBarItems": [
+          {
+            "id": "Views",
+            "icon": "element-show",
+            "hideFolderOnSingleEntry": true,
+            "verticalBarItems": [
+              {
+                "id": "Tree-View",
+                "targetView": "tree-view",
+                "targetFrame": "system-manager"
+              }
+            ]
+          },
+          {
+            "id": "Settings",
+            "icon": "element-settings",
+            "verticalBarItems": [
+              {
+                "id": "Printer-Settings",
+                "targetFrame": "print-settings"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "modes": [
+      {
+        "id": "default",
+        "isDefaultMode": true
+      },
+      {
+        "id": "investigative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "hfwExtension": {
+    "snapInTypes": [
+      {
+        "typeId": "TrendSnapInType",
+        "messageTypes": [
+          {
+            "name": "TrendLogS7"
+          }
+        ]
+      },
+      {
+        "typeId": "WsScheduleSnapInType",
+        "resourceFolder": "@gms-flex/ws-schedule/i18n/",
+        "messageTypes": [
+          {
+            "name": "S7Schedule"
+          },
+          {
+            "name": "S7Calendar"
+          }
+        ]
+      }
+    ]
+  }
+}

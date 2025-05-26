@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Scheduler",
+    "profile": "schedule.ext.hldl.json"
+  },
+  {
+    "name": "",
+    "profile": "calendar-manager.ext.hldl.json"
+  },
+  {
+    "name": "central-function",
+    "profile": "central-function.ext.hldl.json"
+  },
+  {
+    "name": "common-event",
+    "profile": "common-event.ext.hldl.json"
+  },
+  {
+    "name": "room-overview",
+    "profile": "room-overview.ext.hldl.json"
+  },
+  {
+    "name": "plant-overview",
+    "profile": "plant-overview.ext.hldl.json"
+  },
+  {
+    "name":"VIDEO",
+    "profile":"video.ext.hldl.json"
+  },
+  {
+    "name":"DMS_Common",
+    "profile":"node-map.ext.hldl.json"
+  },
+  {
+    "name": "Apogee-P2",
+    "profile": "apogeep2.ext.hldl.json"
+  },
+  {
+    "name":"powermanager-energy-management",
+    "profile":"powermanager-energy-management.ext.hldl.json"
+  },
+  {
+    "name":"powermanager-custom-dashboard",
+    "profile":"powermanager-custom-dashboard.ext.hldl.json"
+  },
+  {
+    "name":"Notification",
+    "profile":"notification.ext.hldl.json"
+  },
+  {
+    "name":"powermanager-area-summary",
+    "profile":"powermanager-area-summary.ext.hldl.json"
+  },
+  {
+    "name":"powermanager-power-quality",
+    "profile":"powermanager-power-quality.ext.hldl.json"
+  },
+  {
+    "name":"powermanager-system-summary",
+    "profile":"powermanager-system-summary.ext.hldl.json"
+  },
+  {
+    "name": "Simatic_HVAC_System",
+    "profile": "s7hvac.ext.hldl.json"
+  },
+  {
+    "name":"Siclimat",
+    "profile":"siclimat.ext.hldl.json"
+  }
+]

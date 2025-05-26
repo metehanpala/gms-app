@@ -1,0 +1,172 @@
+{
+  "hfwExtension": {
+    "snapInTypes": [
+      {
+        "typeId": "HfwTestSnapinType",
+        "moduleURL": "@gms-flex/test-snapin/bundles/hfw-test-snapin.umd.min",
+        "moduleName": "HfwTestSnapinModule",
+        "resourceFolder": "@gms-flex/test-snapin/i18n/"
+      }
+    ],
+    "hfwFrames": [
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "vid-view",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "HfwTestSnapinType"
+          },
+          {
+            "snapInId": "vid-view-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "HfwTestSnapinType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "event-list.contextual-pane"
+                  },
+                  {
+                    "destination": "event-list.compact-contextual-pane"
+                  },
+                  {
+                    "destination": "event-list.related-pane"
+                  },
+                  {
+                    "destination": "event-list.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              }
+            ],
+            "id": "primary-pane"
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "event-list.compact-primary-pane"
+                  },
+                  {
+                    "destination": "event-list.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              }
+            ],
+            "id": "compact-primary-pane"
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view-comparison",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "event-list.contextual-pane"
+                  },
+                  {
+                    "destination": "event-list.related-pane"
+                  },
+                  {
+                    "destination": "event-list.compact-contextual-pane"
+                  }
+                ]
+              }
+            ],
+            "id": "comparison-pane"
+          }
+        ],
+        "id": "event-list"
+      },
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "vid-view",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "HfwTestSnapinType"
+          },
+          {
+            "snapInId": "vid-view-comparison",
+            "canLoseFocusOnPreselection": true,
+            "typeId": "HfwTestSnapinType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "system-manager.contextual-pane"
+                  },
+                  {
+                    "destination": "system-manager.compact-contextual-pane"
+                  },
+                  {
+                    "destination": "system-manager.related-pane"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              }
+            ],
+            "id": "primary-pane"
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "system-manager.compact-primary-pane"
+                  },
+                  {
+                    "destination": "system-manager.selection-pane",
+                    "ruleName": "new-primary-selection"
+                  }
+                ]
+              }
+            ],
+            "id": "compact-primary-pane"
+          },
+          {
+            "snapInReferences": [
+              {
+                "id": "vid-view-comparison",
+                "order": "4",
+                "communicationRules": [
+                  {
+                    "destination": "system-manager.contextual-pane"
+                  },
+                  {
+                    "destination": "system-manager.related-pane"
+                  },
+                  {
+                    "destination": "system-manager.compact-contextual-pane"
+                  }
+                ]
+              }
+            ],
+            "id": "comparison-pane"
+          }
+        ],
+        "id": "system-manager"
+      }
+    ]
+  }
+}

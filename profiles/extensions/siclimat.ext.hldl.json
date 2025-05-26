@@ -1,0 +1,31 @@
+{
+    "hfwExtension": {
+      "snapInTypes": [
+        {
+          "typeId": "WsScheduleSnapInType",
+          "resourceFolder": "@gms-flex/ws-schedule/i18n/",
+          "messageTypes": [
+            {
+              "name": "SiclimatXSchedule"
+            },
+            {
+              "name": "SiclimatXCalendar"
+            },
+            {
+              "name": "SiclimatXScheduleContainer"
+            }
+          ]
+        },
+        {
+            "typeId": "SceneSnapInType",
+            "resourceFolder": "@gms-flex/scene/i18n/",
+            "messageTypes": [
+              {
+                "name": "SiclimatXSchedule"
+              }
+            ]
+          }
+      ]
+    }
+  }
+  

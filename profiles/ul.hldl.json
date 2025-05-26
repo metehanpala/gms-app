@@ -1,0 +1,191 @@
+{
+  "hfwExtension": {
+    "parentProfile": "DEFAULT.hldl.json",
+    "startingFrameId": "event-list",
+	"snapInTypes": [
+      {
+        "typeId": "GraphicsViewerType",
+        "config": {
+          "EnableAlarmIndication": true,
+          "AlarmIconSize": 16,
+          "EnableDownwardNavigation": true,
+          "ExcludeFromDownwardNavigation": []
+        }
+      }
+    ],
+    "hfwFrames": [
+      {
+        "id": "summary-bar",
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "sb",
+                "config": {
+                  "EnableNotificationsForNewEvents": true,
+                  "EnableCollapsing": true,
+                  "CanMuteSoundFor": "CurrentUnprocessedEvents",
+                  "ResoundData": [
+                    {
+                      "Category": 1,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 2,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 3,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 4,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 5,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 6,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 7,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 8,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 9,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 10,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 11,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 12,
+                      "Timeout": 86400
+                    },
+                    {
+
+                      "Category": 13,
+                      "Timeout": 86400
+                    }
+                  ]
+                }
+              }
+            ],
+            "id": "sb-pane"
+          }
+        ]
+      },
+	    {
+        "id": "notifconfig-frame-id",
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "notifconfig",
+                "config": {
+                  "CanEditSoundSettings": false
+                }
+              }
+            ],
+            "id": "notifconfig-pane"
+          }
+        ]
+      },
+      {
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "el",
+                "communicationRules": [
+                  {
+                    "destination": "event-list.ed-pane"
+                  }
+                ],
+                "config": {
+                  "autoRemoveFilterOnNewEvents": false,
+                  "disableGroupEvents": true,
+                  "disableMultiselection": true,
+                  "disableSorting":true,
+                  "disableEventsCommandOnActiveEventFilter": true,
+                  "isULInactivityTimeout": true,
+                  "coloredRows": true,
+                  "splitPosition": 80,
+                  "columns": [
+                    {
+                      "name": "eventIcon"
+                    },
+                    {
+                      "name": "cause"
+                    },
+                    {
+                      "name": "srcSource"
+                    },
+                    {
+                      "name": "state"
+                    },
+                    {
+                      "name": "suggestedAction"
+                    },
+                    {
+                      "name": "commands"
+                    },
+                    {
+                      "name": "creationTime"
+                    },
+                    {
+                      "name": "srcPath"
+                    }
+                  ],
+                  "sorting_criteria": [
+                    {
+                      "column_name": "categoryDescriptor",
+                      "direction": "Ascending"
+                    },
+                    {
+                      "column_name": "InOut",
+                      "direction": "Ascending"
+                    },
+                    {
+                      "column_name": "creationTime",
+                      "direction": "Ascending"
+                    }
+                  ]
+                }
+              }
+            ],
+            "id": "el-pane",
+            "titleVisible": true,
+            "paneTitleOrSnapinTitle": "snapin",
+            "primaryHeader": false,
+            "hasTab": false
+          }
+        ],
+        "id": "event-list"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "hfwExtension": {
+    "parentProfile": "DEFAULT.hldl.json",
+    "hfwFrames": [
+      {
+        "snapInInstances": [
+          {
+            "snapInId": "sb",
+            "typeId": "SummaryBarType"
+          }
+        ],
+        "panes": [
+          {
+            "snapInReferences": [
+              {
+                "id": "sb",
+                "config": {
+                  "EnableNotificationsForNewEvents": true,
+                  "EnableCollapsing": true,
+                  "IsCollapsed": true,
+                  "CanMuteSoundFor": "EntireSession"
+                }
+              }
+            ],
+            "id": "sb-pane"
+          }
+        ],
+        "id": "summary-bar",
+        "docked": "top"
+      }
+
+
+    ]
+  }
+}
