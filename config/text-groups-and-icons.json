@@ -1,0 +1,765 @@
+{
+  "disciplines": [
+    {
+      "id": 0,
+      "descriptor": "Management System",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 20,
+      "descriptor": "Building Infrastructure",
+      "icon": "element-box"
+    },
+    {
+      "id": 50,
+      "descriptor": "Building Automation",
+      "icon": "element-plant"
+    },
+    {
+      "id": 100,
+      "descriptor": "Fire",
+      "icon": "element-fire"
+    },
+    {
+      "id": 150,
+      "descriptor": "Security",
+      "icon": "element-security"
+    },
+    {
+      "id": 200,
+      "descriptor": "Energy Management",
+      "icon": "element-power"
+    },
+    {
+      "id": 250,
+      "descriptor": "Notification",
+      "icon": "element-mass-notification"
+    }
+  ],
+  "subdisciplines": [
+    {
+      "id": 0,
+      "descriptor": "Unassigned",
+      "icon": ""
+    },
+    {
+      "id": 1,
+      "descriptor": "Applications",
+      "icon": "element-application-function"
+    },
+    {
+      "id": 2,
+      "descriptor": "Communication",
+      "icon": "element-network"
+    },
+    {
+      "id": 3,
+      "descriptor": "Supervision",
+      "icon": "element-show"
+    },
+    {
+      "id": 4,
+      "descriptor": "System Settings",
+      "icon": "element-settings"
+    },
+    {
+      "id": 21,
+      "descriptor": "Elevators",
+      "icon": "element-elevator"
+    },
+    {
+      "id": 22,
+      "descriptor": "Escalators",
+      "icon": "element-escalator"
+    },
+    {
+      "id": 23,
+      "descriptor": "Data Network",
+      "icon": "element-network"
+    },
+    {
+      "id": 24,
+      "descriptor": "I/O Monitoring",
+      "icon": "element-box"
+    },
+    {
+      "id": 25,
+      "descriptor": "Emergency Equipment",
+      "icon": "element-box"
+    },
+    {
+      "id": 51,
+      "descriptor": "Air Handling",
+      "icon": "element-fan"
+    },
+    {
+      "id": 52,
+      "descriptor": "Lighting",
+      "icon": "element-light-on"
+    },
+    {
+      "id": 53,
+      "descriptor": "Chilled Water",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 54,
+      "descriptor": "Domestic Water",
+      "icon": "element-dhw"
+    },
+    {
+      "id": 55,
+      "descriptor": "Hot Water",
+      "icon": "element-heat"
+    },
+    {
+      "id": 56,
+      "descriptor": "Room Control",
+      "icon": "element-room"
+    },
+    {
+      "id": 57,
+      "descriptor": "Steam",
+      "icon": "element-steam"
+    },
+    {
+      "id": 101,
+      "descriptor": "Evacuation",
+      "icon": "element-escape-right"
+    },
+    {
+      "id": 102,
+      "descriptor": "Extinguishing",
+      "icon": "element-extinguishing"
+    },
+    {
+      "id": 103,
+      "descriptor": "Detection",
+      "icon": "element-fire-sensor"
+    },
+    {
+      "id": 104,
+      "descriptor": "Gas Monitoring",
+      "icon": "element-alarm-gas"
+    },
+    {
+      "id": 151,
+      "descriptor": "Access Control",
+      "icon": "element-access-card"
+    },
+    {
+      "id": 152,
+      "descriptor": "Door Control",
+      "icon": "element-door"
+    },
+    {
+      "id": 153,
+      "descriptor": "Intrusion",
+      "icon": "element-intrusion-sensor"
+    },
+    {
+      "id": 154,
+      "descriptor": "Video",
+      "icon": "element-security-cam"
+    },
+    {
+      "id": 201,
+      "descriptor": "Power Distribution",
+      "icon": "element-power-pole"
+    },
+    {
+      "id": 202,
+      "descriptor": "Power Generation",
+      "icon": "element-wind-power"
+    },
+    {
+      "id": 203,
+      "descriptor": "Metering",
+      "icon": "element-watt"
+    },
+    {
+      "id": 251,
+      "descriptor": "Mass Notification",
+      "icon": "element-mass-notification"
+    },
+    {
+      "id": 252,
+      "descriptor": "Remote Notification",
+      "icon": "element-mass-notification"
+    },
+    {
+      "id": 253,
+      "descriptor": "Mass Notification High",
+      "icon": "element-mass-notification"
+    },
+    {
+      "id": 254,
+      "descriptor": "Mass Notification Low",
+      "icon": "element-mass-notification"
+    }
+  ],
+  "objecttypes": [
+    {
+      "id": 0,
+      "descriptor": "Unassigned",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 100,
+      "descriptor": "Addressbook",
+      "icon": "element-address-book"
+    },
+    {
+      "id": 200,
+      "descriptor": "AHU",
+      "icon": "element-compact-ahu"
+    },
+    {
+      "id": 400,
+      "descriptor": "Boiler",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 500,
+      "descriptor": "Burner",
+      "icon": "element-burner"
+    },
+    {
+      "id": 600,
+      "descriptor": "Camera",
+      "icon": "element-security-cam"
+    },
+    {
+      "id": 700,
+      "descriptor": "Change Over",
+      "icon": "element-heat-cool-changeover"
+    },
+    {
+      "id": 800,
+      "descriptor": "Channel",
+      "icon": "element-physical-input"
+    },
+    {
+      "id": 900,
+      "descriptor": "Chiller",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 1000,
+      "descriptor": "Client Software",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 1100,
+      "descriptor": "Command",
+      "icon": "element-physical-output"
+    },
+    {
+      "id": 1200,
+      "descriptor": "Computer",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 1300,
+      "descriptor": "Condenser",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 1400,
+      "descriptor": "Configuration",
+      "icon": "element-process-value"
+    },
+    {
+      "id": 1500,
+      "descriptor": "Contact",
+      "icon": "element-contact"
+    },
+    {
+      "id": 1600,
+      "descriptor": "Control",
+      "icon": "element-process-value"
+    },
+    {
+      "id": 1700,
+      "descriptor": "Control Panel",
+      "icon": "element-automation-station"
+    },
+    {
+      "id": 1800,
+      "descriptor": "Cooling Coil",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 1900,
+      "descriptor": "Cooling Group",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 2000,
+      "descriptor": "Cooling Tower",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 2100,
+      "descriptor": "Damper",
+      "icon": "element-physical-output"
+    },
+    {
+      "id": 2200,
+      "descriptor": "Detector",
+      "icon": "element-physical-input"
+    },
+    {
+      "id": 2300,
+      "descriptor": "Device",
+      "icon": "element-automation-station"
+    },
+    {
+      "id": 2400,
+      "descriptor": "Display",
+      "icon": "element-device"
+    },
+    {
+      "id": 2500,
+      "descriptor": "District Hot Water",
+      "icon": "element-heat"
+    },
+    {
+      "id": 2600,
+      "descriptor": "Document",
+      "icon": "element-document"
+    },
+    {
+      "id": 2700,
+      "descriptor": "Driver",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 2800,
+      "descriptor": "Effect Request",
+      "icon": "element-process-value"
+    },
+    {
+      "id": 2900,
+      "descriptor": "Electric Heater",
+      "icon": "element-heat"
+    },
+    {
+      "id": 3000,
+      "descriptor": "Energy Recovery",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 3100,
+      "descriptor": "Evaporator",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 3200,
+      "descriptor": "Fan",
+      "icon": "element-fan"
+    },
+    {
+      "id": 3300,
+      "descriptor": "Filter",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 3500,
+      "descriptor": "Control Function",
+      "icon": "element-application-function"
+    },
+    {
+      "id": 3600,
+      "descriptor": "Graphics",
+      "icon": "element-image"
+    },
+    {
+      "id": 3700,
+      "descriptor": "Group",
+      "icon": "element-group-member"
+    },
+    {
+      "id": 3800,
+      "descriptor": "Heat Exchanger",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 3900,
+      "descriptor": "Heating Coil",
+      "icon": "element-heat"
+    },
+    {
+      "id": 4000,
+      "descriptor": "Heating Group",
+      "icon": "element-heat"
+    },
+    {
+      "id": 4100,
+      "descriptor": "Horn",
+      "icon": "element-horn"
+    },
+    {
+      "id": 4200,
+      "descriptor": "Humidifier",
+      "icon": "element-humidity"
+    },
+    {
+      "id": 4300,
+      "descriptor": "Incident Template",
+      "icon": "element-application-function"
+    },
+    {
+      "id": 4400,
+      "descriptor": "Input",
+      "icon": "element-physical-input"
+    },
+    {
+      "id": 4500,
+      "descriptor": "Journaling",
+      "icon": "element-log"
+    },
+    {
+      "id": 4600,
+      "descriptor": "Library Element",
+      "icon": "element-library"
+    },
+    {
+      "id": 4700,
+      "descriptor": "Macro",
+      "icon": "element-application-function"
+    },
+    {
+      "id": 4800,
+      "descriptor": "Manual",
+      "icon": "element-trigger-value"
+    },
+    {
+      "id": 4900,
+      "descriptor": "Message Template",
+      "icon": "element-notification"
+    },
+    {
+      "id": 5000,
+      "descriptor": "Module",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 5100,
+      "descriptor": "Motor",
+      "icon": "element-physical-output"
+    },
+    {
+      "id": 5200,
+      "descriptor": "Network",
+      "icon": "element-network"
+    },
+    {
+      "id": 5300,
+      "descriptor": "Notification Element",
+      "icon": "element-alarm"
+    },
+    {
+      "id": 5400,
+      "descriptor": "Notification Template",
+      "icon": "element-notification"
+    },
+    {
+      "id": 5500,
+      "descriptor": "Operating Procedure",
+      "icon": "element-list"
+    },
+    {
+      "id": 5600,
+      "descriptor": "Output",
+      "icon": "element-physical-output"
+    },
+    {
+      "id": 5700,
+      "descriptor": "Power Supply",
+      "icon": "element-power"
+    },
+    {
+      "id": 5800,
+      "descriptor": "Pre-heater",
+      "icon": "element-heat"
+    },
+    {
+      "id": 5900,
+      "descriptor": "Printer",
+      "icon": "element-print"
+    },
+    {
+      "id": 6000,
+      "descriptor": "Program",
+      "icon": "element-application-function"
+    },
+    {
+      "id": 6100,
+      "descriptor": "Pump",
+      "icon": "element-physical-output"
+    },
+    {
+      "id": 6200,
+      "descriptor": "Report",
+      "icon": "element-report"
+    },
+    {
+      "id": 6300,
+      "descriptor": "Scheduler",
+      "icon": "element-scheduler"
+    },
+    {
+      "id": 6400,
+      "descriptor": "Scope",
+      "icon": "element-scope"
+    },
+    {
+      "id": 6500,
+      "descriptor": "Security Group",
+      "icon": "element-user-group"
+    },
+    {
+      "id": 6600,
+      "descriptor": "Security Profile",
+      "icon": "element-user"
+    },
+    {
+      "id": 6700,
+      "descriptor": "Sensor",
+      "icon": "element-physical-input"
+    },
+    {
+      "id": 6800,
+      "descriptor": "Sequence",
+      "icon": "element-repeat"
+    },
+    {
+      "id": 6900,
+      "descriptor": "Server Software",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 7000,
+      "descriptor": "Setpoint",
+      "icon": "element-config-value"
+    },
+    {
+      "id": 7100,
+      "descriptor": "Speaker",
+      "icon": "element-horn"
+    },
+    {
+      "id": 7200,
+      "descriptor": "Strobe",
+      "icon": "element-light-on"
+    },
+    {
+      "id": 7300,
+      "descriptor": "Switch",
+      "icon": "element-contact"
+    },
+    {
+      "id": 7400,
+      "descriptor": "Trend",
+      "icon": "element-trend"
+    },
+    {
+      "id": 7500,
+      "descriptor": "Ultra Violet",
+      "icon": "element-light-on"
+    },
+    {
+      "id": 7600,
+      "descriptor": "UPS",
+      "icon": "element-power"
+    },
+    {
+      "id": 7700,
+      "descriptor": "User",
+      "icon": "element-user"
+    },
+    {
+      "id": 7800,
+      "descriptor": "Value",
+      "icon": "element-process-value"
+    },
+    {
+      "id": 7900,
+      "descriptor": "Valve",
+      "icon": "element-valve"
+    },
+    {
+      "id": 8000,
+      "descriptor": "View Element",
+      "icon": "element-folder-open"
+    },
+    {
+      "id": 8100,
+      "descriptor": "Area",
+      "icon": "element-area"
+    },
+    {
+      "id": 8200,
+      "descriptor": "Section",
+      "icon": "element-sub-area"
+    },
+    {
+      "id": 8300,
+      "descriptor": "Zone",
+      "icon": "element-sub-area"
+    },
+    {
+      "id": 8400,
+      "descriptor": "Door",
+      "icon": "element-door"
+    },
+    {
+      "id": 8500,
+      "descriptor": "Ventilation",
+      "icon": "element-fan"
+    },
+    {
+      "id": 8600,
+      "descriptor": "Heat Generation",
+      "icon": "element-heat"
+    },
+    {
+      "id": 8700,
+      "descriptor": "Cooling Generation",
+      "icon": "element-cooling"
+    },
+    {
+      "id": 8800,
+      "descriptor": "Heating / Cooling Group",
+      "icon": "element-heat-cool-changeover"
+    },
+    {
+      "id": 8900,
+      "descriptor": "Cool Exchanger",
+      "icon": "element-special-object"
+    },
+    {
+      "id": 9000,
+      "descriptor": "Monitor",
+      "icon": "element-workstation"
+    },
+    {
+      "id": 9100,
+      "descriptor": "Light",
+      "icon": "element-light-on"
+    },
+    {
+      "id": 9200,
+      "descriptor": "Blinds",
+      "icon": "element-blind"
+    },
+    {
+      "id": 9400,
+      "descriptor": "Domestic Hot Water",
+      "icon": "element-dhw"
+    },
+    {
+      "id": 9500,
+      "descriptor": "Heating / Cooling Generation",
+      "icon": "element-heat-cool-changeover"
+    },
+    {
+      "id": 9900,
+      "descriptor": "Other",
+      "icon": "element-special-object"
+    }
+  ],
+  "subtypes": [
+    {
+      "id": 2211,
+      "descriptor": "Gas",
+      "icon": "element-fire-sensor"
+    },
+    {
+      "id": 2225,
+      "descriptor": "Automatic",
+      "icon": "element-fire-sensor"
+    },
+    {
+      "id": 3501,
+      "descriptor": "Controller",
+      "icon": "element-control-loop"
+    },
+    {
+      "id": 4801,
+      "descriptor": "PullStation",
+      "icon": "element-manual-fire-sensor"
+    },
+    {
+      "id": 4802,
+      "descriptor": "CallPoint",
+      "icon": "element-manual-fire-sensor"
+    },
+    {
+      "id": 6301,
+      "descriptor": "Calendar",
+      "icon": "element-calendar"
+    },
+    {
+      "id": 6302,
+      "descriptor": "Command Group",
+      "icon": "element-scenes"
+    },
+    {
+      "id": 6303,
+      "descriptor": "Schedule",
+      "icon": "element-scheduler"
+    },
+    {
+      "id": 8001,
+      "descriptor": "Area",
+      "icon": "element-area"
+    },
+    {
+      "id": 8002,
+      "descriptor": "Building",
+      "icon": "element-building"
+    },
+    {
+      "id": 8003,
+      "descriptor": "Campus",
+      "icon": "element-plant"
+    },
+    {
+      "id": 8004,
+      "descriptor": "Cluster",
+      "icon": "element-group-member"
+    },
+    {
+      "id": 8005,
+      "descriptor": "Door",
+      "icon": "element-door"
+    },
+    {
+      "id": 8007,
+      "descriptor": "Floor",
+      "icon": "element-floor"
+    },
+    {
+      "id": 8008,
+      "descriptor": "Group",
+      "icon": "element-group-member"
+    },
+    {
+      "id": 8010,
+      "descriptor": "Room",
+      "icon": "element-room"
+    },
+    {
+      "id": 8012,
+      "descriptor": "Section",
+      "icon": "element-sub-area"
+    },
+    {
+      "id": 8017,
+      "descriptor": "Zone",
+      "icon": "element-sub-area"
+    }
+  ]
+}

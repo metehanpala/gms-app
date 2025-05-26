@@ -1,0 +1,7 @@
+{
+  "protocol":"https",
+  "host": "metep",
+  "port": "443",
+  "site": "WSI",
+  "renewTimeOut": "30"
+}

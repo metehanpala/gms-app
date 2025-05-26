@@ -1,0 +1,23 @@
+{
+  "productIcon": "assets/images/ApplicationIcon.ico",
+  "landingPageImage":  "assets/images/Login_image.jpg",
+  "navigationBarLogo": "assets/images/Navigation_logo.svg",
+  "landingPageLogo": "assets/images/Landing_logo.svg",
+  "brandProductName": "Desigo CC",
+  "productVersion": "9.0",
+  "clientVersion": "9.0.0000.0",
+  "version": "9.0.0-alpha.35",
+  "fallbackCulture": "en",
+  "installedLanguages": ["ar","bg", "cs", "da", "de", "en-GB", "en", "es","fi", "fr", "he", "hr", "hu", "it", "ja", "ko", "nb", "nl", "pl", "pt-BR", "pt", "ro", "ru", "sk", "sl", "sv", "tr", "zh-CN", "zh-TW"],
+  "installedLanguageNames": ["العربية", "Български", "Čeština", "Dansk", "Deutsch", "English (United Kingdom)","English", "Español", "Suomi", "Français", "עברית","Hrvatski", "Magyar", "Italiano", "日本語", "한국어", "Norsk bokmål","Nederlands", "Polski", "Português brasileiro", "Português", "Română", "Русский", "Română", "Slovenčina", "Svenska", "Türkçe", "正體中文", "简体中文"],
+  "productLanguages": ["ar-SA","bg-BG", "cs-CZ", "da-DK", "de-DE", "en-GB", "en-US","es-ES","fi-FI", "fr-FR", "he-IL", "hr-HR", "hu-HU" ,"it-IT", "ja-JP", "ko-KR", "nb-NO", "nl-NL", "pl-PL", "pt-BR","pt-PT", "ro-RO", "ru-RU", "sk-SK", "sl-SL", "sv-SE", "tr-TR", "zh-CN", "zh-TW"],
+  "eulaLink": { "name": "EULA", "url": "" },
+  "ossLink": { "name": "OSS", "url": "eula/ReadMe_OSS_GMS_Flex_Client.html"},
+  "corporateLink":[ {"language": "en","url":""},
+    {"language": "de","url":""}, {"language": "fr","url":""}],
+  "privacyLink": [ {"language": "en","url":""},
+    {"language": "de","url":""}, {"language": "fr","url":""}],
+  "cookieLink": [ {"language": "en","url":""},
+    {"language": "de","url":""}, {"language": "fr","url":""}],
+  "flexClientAddress": "https://127.0.0.1:8086"
+}

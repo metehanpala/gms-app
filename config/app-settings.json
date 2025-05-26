@@ -1,0 +1,7 @@
+{
+    "minimalNotificationUpdateRate": 200,
+    "preselectionTimeout": 4000,
+    "instrumentationTimeout": 30,
+    "traceEnabled": true,
+    "systemConfiguration": false
+}
