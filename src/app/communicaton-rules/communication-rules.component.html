@@ -1,0 +1,133 @@
+<div class="pt-9 px-9 hfw-flex-container-column hfw-flex-item-grow">
+  <div class="hfw-flex-container-column hfw-flex-item-grow communication-rules-parent">
+    <h2 class="mt-8 text-center hfw-flex-item">{{windowTitle}}</h2>
+    <ngx-datatable
+      class="table-element communication-rules-table hfw-flex-item-grow elevation-1 mt-6"
+      siDatatableInteraction
+      [cssClasses]="tableConfig.cssClasses"
+      [rows]="communicationRules"
+      [columnMode]="ColumnMode.force"
+      [headerHeight]="tableConfig.headerHeight"
+      [rowHeight]="tableConfig.rowHeightSmall"
+      [footerHeight]="0"
+      [virtualization]="false"
+      [scrollbarV]="true"
+      [selectionType]="SelectionType.single"
+      [selected]="selectedCommunicationRule"
+      [columns]="tableColumns"
+      (select)="onSelectRow($event.selected[0])">
+      <si-empty-state empty-content
+        icon="element-technical-operator"
+        [heading]="'RULES.EMPTY_TABLE_MSG' | translate"
+      />
+    </ngx-datatable>
+    <div class="my-8 hfw-flex-item">
+      <button type="button" class="btn btn-secondary" (click)="onAddClick()">{{'RULES.ADD_RULE_BTN' | translate }}</button>
+    </div>
+  </div>
+  <div *ngIf="!wizardCommunicationRule" class="communication-rules-wizard hfw-flex-item">
+  </div>
+  <si-wizard *ngIf="wizardCommunicationRule" class="communication-rules-wizard hfw-flex-item" [enableCompletionPage]="true" [completionPageVisibleTime]="1000"
+    [backText]="backButtonText" [nextText]="nextButtonText" [saveText]="saveButtonText" (completionAction)="onComplete()">
+    <si-wizard-step [heading]="'RULES.DEFINE_OBJ_FILTER_STEP_TITLE' | translate" [failed]="!wizardCommunicationRule?.isObjectFilterValid" (next)="onStepChanged()" (back)="onStepChanged()">
+      <h2 class="text-center mt-8 mb-6">{{'RULES.DEFINE_OBJ_FILTER_STEP_TITLE' | translate }}</h2>
+      <form class="px-4 mt-5 mb-8">
+        <div class="steps-container">
+          <label for="selectedObject" class="form-label">{{'RULES.SELECT_OBJ_LBL' | translate }}</label>
+          <input
+            type="text"
+            class="form-control"
+            id="selectedObject"
+            readonly
+            [placeholder]="'RULES.SELECT_OBJ_PLACEHOLDER' | translate"
+            [class.is-warning]="!wizardCommunicationRule?.objectIsValid"
+            [value]="wizardCommunicationRuleObjectDesignation" (click)="onBrowseObjects()">
+          <div class="warning-feedback">{{'RULES.SELECT_OBJ_NOT_EXIST_ERROR' | translate }}</div>
+          <label for="selectedFilter" class="form-label mt-5">{{'RULES.SELECT_OBJ_FILTER_CRITERIA_LBL' | translate }}</label>
+          <div>
+            <select
+              aria-label="number"
+              id="selectedFilter"
+              class="form-select object-filter-type-1"
+              name="objectfiltertype"
+              [class.is-warning]="wizardCommunicationRule?.showFilterCriteriaWarning"
+              [disabled]="!wizardCommunicationRule?.objectIsValid"
+              [(ngModel)]="wizardCommunicationRule?.filterCriteria.filterType"
+              (ngModelChange)="objectFilterTypeChanged($event)">
+              <option *ngFor="let itemTypeInfo of objectFilterTypesInfo; trackBy: trackByIndex" [ngValue]="itemTypeInfo.type">{{itemTypeInfo.text}}</option>
+            </select>
+            <div class="warning-feedback">{{'RULES.SELECT_FILTER_TYPE_ERROR' | translate }}</div>
+            <select *ngIf="wizardCommunicationRule?.isFilterCriteriaInstance"
+              aria-label="number" id="selectedFilter"
+              class="form-select object-filter-type-2"
+              name="objectfilterinstancetype"
+              [disabled]="!wizardCommunicationRule?.objectIsValid"
+              [(ngModel)]="wizardCommunicationRule?.filterCriteria.filterInstanceType"
+              (ngModelChange)="objectFilterInstanceTypeChanged($event)">
+              <option *ngFor="let itemTypeInfo of objectFilterInstanceTypesInfo; trackBy: trackByIndex" [ngValue]="itemTypeInfo.type">{{itemTypeInfo.text}}</option>
+            </select>
+          </div>
+          <label for="selectedFilter" class="form-label mt-5">{{'RULES.OBJ_FILTER_DEFINED' | translate }}</label>
+          <input type="text" class="form-control" id="selectedFilter" readonly [value]="wizardCommunicationRule?.objectFilterCriteria">
+        </div>
+      </form>
+    </si-wizard-step>
+    <si-wizard-step [heading]="'RULES.SELECT_SOURCE_WIN_STEP_TITLE' | translate" [failed]="!isSourceWindowStepValid" (next)="onStepChanged()" (back)="onStepChanged()">
+      <div>
+        <h2 class="text-center mt-8 mb-6">{{'RULES.SELECT_SOURCE_WIN_STEP_TITLE' | translate }}</h2>
+        <p *ngIf="!isSourceWindowStepValid" class="text-center status-warning">{{'RULES.SELECT_WIN_ERROR' | translate }}</p>
+        <form class="steps-container-window p-5 mb-8">
+          <div>
+            <div class="form-check-inline mb-2">
+              <input type="radio" id="any-source-window-radio-id1" name="source-window-radio" class="form-check-input" [checked]="useAnySourceWindowSelection"
+                (change)="onUseAnySourceWindowRadioChange($event.target.value)">
+              <label class="form-check-label" for="any-source-window-radio-id1">{{'RULES.SELECT_ANY_WIN_OPTION' | translate }}</label>
+            </div>
+            <div class="form-check-inline mb-2">
+              <input type="radio" id="single-source-window-radio-id1" name="source-window-radio" class="form-check-input" [checked]="!useAnySourceWindowSelection"
+                (change)="onUseSingleSourceWindowRadioChange($event.target.value)">
+              <label class="form-check-label" for="single-source-window-radio-id1">{{'RULES.SELECT_SINGLE_WIN_OPTION' | translate }}</label>
+            </div>
+          </div>
+          <div class="mt-6 window-list" [class.source-window-disable]="useAnySourceWindowSelection">
+            <gms-window-list componentId="source" [initWindows]="sourceWindowStepInit" [selectedManagerWindowId]="selectedSourceManagerWindowId" (windowClicked)="onSourceWindowClicked($event)" />
+          </div>
+        </form>
+      </div>
+    </si-wizard-step>
+    <si-wizard-step [heading]="'RULES.SELECT_TARGET_WIN_STEP_TITLE' | translate" [failed]="!isTargetWindowStepValid" (next)="onStepChanged()" (back)="onStepChanged()">
+      <h2 class="text-center mt-8 mb-6">{{'RULES.SELECT_TARGET_WIN_STEP_TITLE' | translate }}</h2>
+      <p *ngIf="!isTargetWindowStepValid" class="text-center status-warning">{{'RULES.SELECT_WIN_ERROR' | translate }}</p>
+      <div class="steps-container-window mt-5 mb-8 window-list">
+        <gms-window-list componentId="target" [initWindows]="targetWindowStepInit" [selectedManagerWindowId]="selectedTargetManagerWindowId" (windowClicked)="onTargetWindowClicked($event)" />
+      </div>
+    </si-wizard-step>
+    <si-wizard-step [heading]="'RULES.SAVE_RULE_STEP_TITLE_SHORT' | translate" (save)="saveCommunicationRule()" (next)="onStepChanged()" (back)="onStepChanged()">
+      <h2 class="text-center mt-8 mb-8">{{'RULES.SAVE_RULE_STEP_TITLE' | translate }}</h2>
+    </si-wizard-step>
+  </si-wizard>
+  <div class="mx-9 communciation-footer">
+    <button type="button" class="btn btn-secondary endpoint-button mb-7 text-truncate d-inline" (click)="onCloseClick()">{{'RULES.CLOSE_WINDOW_BTN' | translate }}</button>
+  </div>
+</div>
+
+<ng-template #statusCellTempl let-value="value" let-row="row" ngx-datatable-cell-template>
+  <si-icon *ngIf="row.isValid" icon="element-ok-filled" color="status-success" />
+  <si-icon *ngIf="!row.isValid" icon="element-warning-filled" color="status-warning" />
+</ng-template>
+
+<ng-template #activeCellTempl let-value="value" let-row="row" ngx-datatable-cell-template>
+  <div class="mb-2">
+    <input type="checkbox" class="form-check-input" [checked]="row.isRuleActive" (change)="activateRuleChanged(row)">
+  </div>
+</ng-template>
+
+<ng-template #activeHeaderCellTempl let-value="value" let-row="row" ngx-datatable-cell-template>
+  <div class="mb-2">
+    <input type="checkbox" class="form-check-input" [indeterminate]="rulesPartiallyActivated" [checked]="allRulesActivated" (change)="activateRulesChanged(!allRulesActivated)">
+  </div>
+</ng-template>
+
+<ng-template #deleteCellTempl let-value="value" let-row="row" ngx-datatable-cell-template>
+  <si-icon icon="element-delete" (click)="deleteRowConfirmed(row)" />
+</ng-template>

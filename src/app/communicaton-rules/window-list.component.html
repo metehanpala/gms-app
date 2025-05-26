@@ -1,0 +1,12 @@
+<div class="hfw-flex-container-row hfw-flex-item-grow list-main-contentainer">
+  <ng-container *ngFor="let cwInfo of cwInfos; trackBy: trackByIndex">
+    <div class="me-6 mb-8">
+      <p class="video-label si-caption mb-4">{{cwInfo.windowInfo.title}}</p>
+      <!-- <p class="video-label si-caption mb-4">{{cwInfo.windowInfo.managerWindowId}}</p> -->
+      <button type="button" class="btn btn-secondary video-button p-2" [class.window-selected]="isWindowSelected(cwInfo)" (click)="onWindowClick(cwInfo)">
+        <video class="video-manager" [id]="'videoManager-' + componentId + cwInfo.windowInfo.browserWindowId">
+        </video>
+      </button>
+    </div>
+  </ng-container>
+</div>

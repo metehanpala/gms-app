@@ -1,0 +1,5 @@
+<div *ngIf="runsInElectron && showBackdrop" class="modal-backdrop fade show in"></div>
+<gms-electron-title-bar *ngIf="runsInElectron" [canGoBack]="canGoBack" [canGoFwd]="canGoFwd" [appTitle]="title" [focus]="focus"
+[changeCurrentConfigurationAllowed]="changeCurrentConfigurationAllowed" [electronAppBootstrapped]="electronAppBootstrapped"
+  (backward)="onBackward()" (forward)="onForward()" (reload)="onReload($event)" (editRules)="onEditRules()" />
+<router-outlet />

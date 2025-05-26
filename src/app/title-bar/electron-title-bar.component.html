@@ -1,0 +1,33 @@
+<div class="electron-title-bar-container fixed-top">
+  <div class="electron-title-bar">
+    <span class="ms-6 me-9 si-body-2 electron-title-bar-app-name" [class.electron-title-bar-draggable]="changeCurrentConfigurationAllowed" [class.unfocused]="!focus">{{appTitle}}</span>
+    <button type="button" class="btn btn-circle electron-title-bar-btn btn-inline element-left-4 me-6" aria-label="back" [class.unfocused]="!focus"
+      [disabled]="!canGoBack" (click)="onBackward()"></button>
+    <button type="button" class="btn btn-circle electron-title-bar-btn btn-inline element-right-4 me-6" aria-label="forward"
+      [class.unfocused]="!focus" [disabled]="!canGoFwd" (click)="onForward()"></button>
+    <div #dropdown="si-dropdown" siDropdown class="btn-group me-5" dropdownDirection="down" dropdownContainer="body">
+      <!-- eslint-disable-next-line @angular-eslint/template/elements-content -->
+      <button siDropdownToggle type="button" class="btn btn-circle electron-title-bar-btn btn-inline element-options-vertical me-6" [class.unfocused]="!focus"></button>
+      <si-menu-legacy *ngIf="dropdown.isOpen"
+        class="dropdown-menu m-5"
+        style="overflow: visible"
+        siDropdownMenu
+        [items]="menuItems"
+      />
+    </div>
+    <div class="electron-title-bar-empty" [class.electron-title-bar-draggable]="changeCurrentConfigurationAllowed"></div>
+    <span *ngIf="closedMode" class="ms-6 me-9 si-body-2 electron-title-bar-time"
+      placement="bottom"
+      triggers="hover"
+      [siPopover]="dateTimeTemplate"
+      (shown)="dtPopoverShown()">
+      {{dateTimeNow | async}}
+    </span>
+  </div>
+</div>
+
+<ng-template #dateTimeTemplate>
+  <h3>{{timeNow | async}}</h3>
+  <div>{{dayNow | async}}</div>
+  <div>{{dateNow | async}}</div>
+</ng-template>

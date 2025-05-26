@@ -1,0 +1,37 @@
+$summary-bar-height: 48px;
+$gms-title-bar-height: 36px;
+
+// Required SiMPL Element and Icon styles
+@import '@simpl/element-theme/src/theme';
+@import '@simpl/element-ng/simpl-element-ng';
+
+// Required serv-ui styles
+@import '@serv/serv-ui/RecCtl.css';
+
+// Import the SiMPL Scheduler SCSS styles
+@import '@simpl/scheduler-ng/simpl-scheduler-ng';
+
+
+.gms-has-navbar-titlebar-fixed-top {
+  padding-top: $summary-bar-height + $gms-title-bar-height;
+}
+
+.gms-has-navbar-titlebar-fixed-top-navbar header {
+  top: $gms-title-bar-height !important;
+}
+
+.gms-has-navbar-titlebar-fixed-top-lp nav {
+  top: $summary-bar-height + $gms-title-bar-height !important;
+}
+
+.gms-has-navbar-titlebar-fixed-top-rp>div:first-child {
+  top: $summary-bar-height + $gms-title-bar-height;
+}
+
+.gms-has-navbar-titlebar-fixed-top-login si-landing-page {
+  padding-top: $gms-title-bar-height;
+}
+
+.gms-no-selectable-text {
+  user-select: none;
+}

@@ -1,0 +1,19 @@
+<div class="modal-header">
+  <span class="modal-title si-title-2">{{ heading | translate }}</span>
+  <button type="button" class="btn btn-circle btn-sm btn-ghost element-cancel" aria-label="Close" (click)="onClose()">
+  </button>
+</div>
+<div class="main-content ps-8">
+  <ng-container *ngFor="let cwInfo of cwInfos; trackBy: trackByIndex">
+    <div class="me-4 mb-8">
+      <p class="video-label si-caption mb-4">{{cwInfo.windowInfo.title}}</p>
+      <button type="button" class="btn btn-secondary video-button p-2" (click)="onWindowClick(cwInfo)">
+        <video class="video-manager" [id]="'videoManager-' + cwInfo.windowInfo.browserWindowId">
+        </video>
+      </button>
+    </div>
+    <!-- <button type="button" class="btn btn-secondary video-button me-4 mb-4">
+      <img [id]="'videoManagerThumbnail-' + cwInfo.windowInfo.browserWindowId" class="thumbnail-manager">
+    </button> -->
+  </ng-container>
+</div>

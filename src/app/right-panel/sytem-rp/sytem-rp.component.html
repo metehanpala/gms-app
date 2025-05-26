@@ -1,0 +1,123 @@
+<si-accordion [fullHeight]="true">
+  <!-- Property accordion -->
+  <!--
+  <si-collapsible-panel icon="element-settings" heading={{propertiesText}} [opened]="!lastHeadingOpened || (lastHeadingOpened === 'propertiesText')"  (toggle)="onPropertyToggle()">
+  -->
+  <si-collapsible-panel icon="element-settings" [heading]="propertiesText" [opened]="!lastHeadingOpened || (lastHeadingOpened === 'propertiesText')" (toggle)="onPropertyToggle()">
+
+    <div class="flex-grow-1 px-5 pt-5">
+      <!-- Toggle control for standard / extended operation views -->
+      <div class="d-flex flex-row justify-content-begin align-items-center w-100" style="flex: 1 1 auto;">
+        <div class="form-group mb-0 d-flex flex-row align-items-center">
+          <label class="px-4 py-0 m-0" for="advswitch">{{ switchLabel }}</label>
+          <!-- <si-switch id="advswitch" [disabled]="snapInVm.detailProperty !== undefined"
+            [on]="snapInVm.showPropertyListExt" (toggle)="togglePropertyList()">
+          </si-switch> -->
+          <div class="form-switch">
+            <input 
+                class="form-check-input"
+                type="checkbox" id="advswitch" role="switch"
+                [checked]="snapInVm.showPropertyListExt"
+                [disabled]="snapInVm.detailProperty !== undefined"
+                (change)="togglePropertyList()">
+        </div> 
+        </div>
+      </div>
+
+      <div *ngIf="isLoading" class="d-flex flex-column justify-content-center pb-10">
+        <si-loading-spinner *ngIf="isLoadingSpinnerEnabled" />
+      </div>
+
+      <div *ngIf="!isLoading && isPropertyListEmpty" class="p-5">
+        <si-empty-state class="d-flex flex-column" icon="element-technical-operator" [heading]="propertyListEmptyText" />
+      </div>
+
+      <si-property-viewer *ngIf="!isLoading && !isPropertyListEmpty" [objectId]="snapInVm.siSelectionContext"
+        [filter]="snapInVm.detailProperty ? snapInVm.detailProperty.objectFilter : snapInVm.propertyFilter" />
+    </div>
+  </si-collapsible-panel>
+
+  <!-- Related Items-->
+  <!-- No related items -->
+  <ng-container *ngIf=displayRelatedItems>
+    <ng-container *ngIf="isRelatedItemsEmpty; else relatedItemGroupsTemplate">
+      <si-empty-state class="flex-grow-1" icon="element-technical-operator" [heading]="noRelatedItemsText" />
+    </ng-container>
+  </ng-container>
+
+  <!-- Related items grouped -->
+  <ng-template #relatedItemGroupsTemplate>
+    <ng-container *ngFor="let group of relatedSnapInVm.relatedItemGroups; trackBy: trackByIndex">
+      <si-collapsible-panel [hidden]="group |  hideGroup: this.hasComparisonPane" [heading]="group.groupLabel" [icon]="group.groupIcon | async" [opened]="lastHeadingOpened === group.groupLabel" (toggle)="onRelatedToggle(group.groupLabel)">
+        <!-- new item menu (optional) -->
+        <div *ngIf="group.newItems.length > 0" class="d-flex justify-content-end">
+          <si-content-action-bar viewType="expanded"
+            [primaryActions]="group.newItems | createItemMenuPipe : menuHelper : hasComparisonPane" [secondaryActions]="[]" />
+        </div>
+
+        <!-- list of related items -->
+        <ul class="list-group">
+          <ng-container *ngFor="let ri of group.relatedItems; trackBy: trackByIndex">
+            <li class="list-group-item list-group-item-ovrd">
+              <gms-ri-item [relatedItem]="ri" [comparisonPaneSupported]="hasComparisonPane"
+                (relatedItemSelected)="onItemSelected($event)" />
+            </li>
+          </ng-container>
+        </ul>
+      </si-collapsible-panel>
+    </ng-container>
+  </ng-template>
+
+  <si-collapsible-panel *ngIf="isRightsApplicable" #historyOpenClose class="position-relative" heading="History"  icon="element-log" [opened]="lastHeadingOpened === 'LogViewer'" (toggle)="onLogViewerToggle()">
+    <div class="d-flex justify-content-end ">
+      <si-content-action-bar viewType="expanded"
+        [primaryActions]="navigateToLogViewer" [secondaryActions]="[]" />
+    </div>
+    <div *ngIf="isLoadingData" class="position-absolute top-50 start-50 translate-middle" >
+        <si-loading-spinner />
+    </div>
+    <gms-log-viewer [isHistoryExpanded]="isHistoryExpanded" [style.opacity]="blockOpacity" [style.height]="logViewerHeight? logViewerHeight : '100%'" [fullId] = "snapInVm?.id" [receivedViewId]="viewId" [dpeNameHistoryLog]="(snapInVm?.contextObjectList[0])?.ObjectId" [recordTypeHistoryLog]="(snapInVm?.contextObjectList[0])?.AdditionalInfo?.recordType" [alertIdHistoryLog]="(snapInVm?.contextObjectList[0])?.AdditionalInfo?.alertId"  [systemId]="(snapInVm?.contextObjectList[0])?.SystemId"  [objectIdRightPane]="eventSelectedId"  [objectLocationRightPane]="(snapInVm?.contextObjectList[0])?.Location"  [objectDesignationRightPane]="(snapInVm?.contextObjectList[0])?.Designation" (criteriaLocLogViewer)="criteriaLocLogViewer($event)"   (paneControlsOp) = "paneControls($event)" (isDetailActive) = "isDetailActive($event)"  (dataLength)="logTableDataLength($event)" (isLoadingDataEvent)="historyDataFetched($event)" />
+  </si-collapsible-panel>
+
+
+</si-accordion>
+
+<div #dropdown siDropdown
+  dropdownContainer="body"
+  dropdownAlign="end" class="d-none" [dropdownPlacementReference]="dropDownRef">
+  <gms-about-popover siDropdownMenu style="flex: 0 0 auto;" class="popover-body"
+    [clientId]="snapInVm.id" [objectList]="snapInVm.contextObjectList" [excludePopoverContainer]="true" />
+</div>
+
+<div #dropdownMemo siDropdown
+  dropdownContainer="body"
+  dropdownAlign="end"
+  class="d-none" [dropdownPlacementReference]="dropDownRef">
+  <gms-memo-popover style="flex: 0 0 auto;" siDropdownMenu class="popover-body"
+    [clientId]="snapInVm.id"
+    [object]="snapInVm.contextObjectCount === 1 ? snapInVm.contextObjectList[0] : undefined" [isDisabled]="!isMemoEnabled" [excludePopoverContainer]="true"
+    (emptyStateChanged)="onMemoEmptyStateChanged($event)" />
+</div>
+
+<div
+#dropdownEvents
+siDropdown
+dropdownContainer="body"
+dropdownAlign="start"
+dropdownPlacement="start"
+dropdownDirection="start"
+dropdownResponsiveDirection="true"
+class="d-none"
+[dropdownPlacementReference]="dropDownRefEvents"
+>
+
+  <gms-event-content
+  style="flex: 0 0 auto; padding: 8px 12px;"
+  siDropdownMenu
+  dropdownPlacement="start"
+  [nodes]="snapInVm.contextObjectList"
+  (eventsCounterChange)="onEventsCounterChange($event)"
+  (eventsChange)="onEventsChange($event)"
+  (togglePopover)="onPopoverClose($event)"
+  />
+</div>

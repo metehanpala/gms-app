@@ -1,0 +1,21 @@
+.display-fit {
+  display: block;
+  height: 100%;
+}
+
+:host ::ng-deep .expanded {
+  .rpanel-content {
+    height: 100vh;
+  }
+}
+
+:host ::ng-deep .collapsed {
+  .rpanel-content {
+    height: initial;
+    overflow-y: hidden;
+  }
+}
+
+:host ::ng-deep a[aria-label="ValidationIconMenuItem"] {
+  pointer-events: none;
+}

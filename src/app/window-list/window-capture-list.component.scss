@@ -1,0 +1,27 @@
+.main-content {
+  max-height: 400px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.video-manager {
+  max-width: 200px;
+  max-height: 133px;
+}
+
+.thumbnail-manager {
+  max-width: 200px;
+  max-height: 133px;
+}
+
+.video-label {
+  width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.video-button {
+  width: 210px;
+  height: 140px;
+}

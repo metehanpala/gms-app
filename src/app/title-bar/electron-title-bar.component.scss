@@ -1,0 +1,55 @@
+@use '@simpl/element-theme/src/styles/variables';
+
+.electron-title-bar-container {
+  height: 36px;
+  width: 100%;
+  background-color: variables.$element-base-1;
+  border-bottom-color: variables.$element-ui-4;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.electron-title-bar {
+  height: 100%;
+  left: env(titlebar-area-x, 0);
+  width: env(titlebar-area-width, 100%);
+  display: flex;
+  align-items: center;
+}
+
+.electron-title-bar-app-name {
+  color: variables.$element-text-secondary;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.electron-title-bar-empty {
+  width: 100%;
+  height: 100%;
+  flex-basis: content;
+  flex-grow: 1;
+}
+
+.electron-title-bar-draggable {
+  -webkit-app-region: drag;
+}
+
+.electron-title-bar-btn {
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  min-height: 24px;
+  font-size: 20px;
+}
+
+.unfocused {
+  color: variables.$element-ui-3 !important;
+}
+
+.electron-title-bar-time {
+  color: variables.$element-text-secondary;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

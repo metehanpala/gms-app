@@ -1,0 +1,41 @@
+import { inject, TestBed, async
+} from "@angular/core/testing";
+
+import { CanActivateHfwPage } from "./canactivate-hfwpage.guard";
+import { RouterTestingModule } from "@angular/router/testing";
+import { AuthenticationServiceBase, MockAuthenticationService } from "@gms-flex/services-common";
+import { PageNotFoundComponent } from "@gms-flex/core";
+
+import { Router } from "@angular/router";
+import { Subject } from "rxjs";
+
+   class RouterStub {
+    public events: Subject<string> = new Subject<string>();
+    public navigate(url: string): string { return url; }
+  }
+
+  ////////  Tests  /////////////
+  describe("CanActivateHfwPage Service", () => {
+
+    beforeEach( async(() => {
+      TestBed.configureTestingModule({
+        declarations: [ PageNotFoundComponent ],
+        imports: [ RouterTestingModule, RouterTestingModule.withRoutes([
+            { path: "example", component: PageNotFoundComponent}
+                 ])
+        ],
+        providers: [CanActivateHfwPage,
+          { provide: AuthenticationServiceBase, useClass: MockAuthenticationService },
+          { provide: Router,      useClass: RouterStub }
+        ]
+      })
+      .compileComponents();
+    }));
+
+    it("should create CanActivateHfwPage Service",
+       inject([CanActivateHfwPage], (canActivateHfwPage: CanActivateHfwPage) => {
+         expect(canActivateHfwPage instanceof CanActivateHfwPage).toBe(true);
+         canActivateHfwPage.canActivate();
+    }));
+
+  });

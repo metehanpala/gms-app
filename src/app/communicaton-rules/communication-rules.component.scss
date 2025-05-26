@@ -1,0 +1,50 @@
+.communication-rules-parent {
+  max-height: 600px;
+}
+
+.steps-container {
+  max-width: 720px;
+  margin: auto;
+  padding-left: 30px;
+}
+
+.steps-container-window {
+  max-width: 730px;
+  margin: auto;
+  padding-left: 20px !important;
+}
+
+.source-window-disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.communication-rules-table {
+  min-height: 185px;
+}
+
+.communication-rules-wizard {
+  height: 430px;
+  margin-bottom: 64px;
+}
+
+.object-filter-type-1 {
+  display: inline-block;
+  width: 48%;
+}
+
+.object-filter-type-2 {
+  width: 48%;
+  float: right;
+}
+
+.window-list {
+  overflow-y: auto;
+  height: 190px;
+}
+
+.communciation-footer {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
