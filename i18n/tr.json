@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Geri",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Change Password Failed",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "Geri",
+    "LOGIN-BUTTON-CANCEL": "İptal",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Sonraki",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "Sifre",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Gizlilik politikası",
+    "TERMS-OF-USE": "Kullanım şartları",
+    "USERNAME-LABEL": "Kullanici Adi"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Settings",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "Hakkında",
+    "account-frame-id": "Account",
+    "events": "Olaylar",
+    "notifconfig-frame-id": "Bildirimler",
+    "system": "Sistem"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Geri",
+      "CANCEL": "İptal",
+      "FILTER": "Filter",
+      "OK": "Tamam"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Mevcut değil",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "Farklı özellik türleri",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Olaylar",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "Ekle",
+    "NO-PROPERTIES": "Özellik No",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "Özellikler",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in New Tab",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Yeni takvim ekle",
+      "ADD_EXCEPTION": "İstisna ekle",
+      "ADD_NEW_CALENDAR_ENTRY": "Yeni takvim girdisi ekle",
+      "ADD_NEW_EXCEPTION": "Yeni istisna ekle",
+      "CALENDAR_REFERENCE": "Takvim referans",
+      "NEW_CALENDAR_ENTRY": "Yeni takvim girdisi",
+      "NEW_EXCEPTION": "Yeni istisna",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "İstisnalar",
+      "SCHEDULE": "Zaman programı"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Takvim girdisini sil?",
+      "DELETE_EXCEPTION_CONFIRMATION": "İstisnayı sil?",
+      "INVALID_CALENDAR": "Takvim referansı geçersiz",
+      "INVALID_DATE": "Tarih geçersiz",
+      "INVALID_DATE_RANGE": "Başlangız tarihi bitiş tarihinden büyük",
+      "INVALID_EXCEPTION_HIDDEN": "Eski İstisnalar Gizli",
+      "INVALID_REFERENCES_HIDDEN": "Geçersiz takvim referansı",
+      "NO_CALENDAR_ENTRIES": "Takvim girdisi yok",
+      "NO_EXCEPTION_ENTRIES": "Herhangi istisna programlanmadı",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "İstisnalar kopyalandı",
+      "SCHEDULE_COPY_SUCCESS": "Zaman programı kopyalandı",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Takvim aralığı oluşturuldu",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Takvim girdisi oluştururken hata oluştu",
+      "CALENDAR_DELETE_ERROR": "Takvim girdisi silinirken hata oluştu",
+      "CALENDAR_SAVE_ERROR": "Takvim girdisi kaydedilirken hata oluştu",
+      "INVALID_EXCEPTION_HIDDEN": "Lütfen desteklenmeyen tüm istisnaları kaldırın",
+      "INVALID_REFERENCES_HIDDEN": "Lütfen tüm geçersiz takvim referanslarını kaldırın",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Kopyalamak istediğin günü seç",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "{{Day}} zamanlamasını tekrarlamak istediğiniz günleri seçin",
+      "SCHEDULE_COPY_ERROR": "Zaman programını kopyalarken hata oluştu",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "İstina kopyalanırken hata oluştu",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "İstisna zamanlamasını tekrarlamak istediğiniz günleri seçin",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "İstisna oluştururken hata oluştu",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Tarih aralığı oluştururken hata oluştu",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Bitiş tarihini seçin",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "İstisna silinirken hata oluştu",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Limit girdi sayısına ulaşıldı",
+      "SCHEDULE_SAVE_ERROR": "Zaman programını kaydederken hata oluştu",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "İstisna kaydedilirken hata oluştu",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Seçenekler kaydedilirken hata oluştu",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Veri alınırken bilinmeyen bir hata oluştu",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

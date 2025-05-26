@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "返回",
+    "CHANGE": "變更",
+    "CHANGE_FAILED": "更改密碼失敗",
+    "CHANGE_PASSWORD": "更改密碼",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "確認密碼",
+    "CONNECTION": "連線中...",
+    "COOKIE-NOTICE": "Cookie注意事項",
+    "CORPORATE-INFO": "公司信息",
+    "CURRENT_PASSWORD": "目前密碼",
+    "LOGIN-BUTTON-BACK": "返回",
+    "LOGIN-BUTTON-CANCEL": "取消",
+    "LOGIN-BUTTON-LOGIN": "登錄",
+    "LOGIN-BUTTON-NEXT": "下一個",
+    "NEW_PASSWORD": "新密碼",
+    "PASSWORD-LABEL": "密碼",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "隱私政策",
+    "TERMS-OF-USE": "使用期限",
+    "USERNAME-LABEL": "使用者名稱"
+  },
+  "NAVBAR": {
+    "Account": "帳號",
+    "Notification": "通知",
+    "Printer-Settings": "印表機設定",
+    "Settings": "設定",
+    "Tree-View": "三瀏覽",
+    "Views": "瀏覽",
+    "about-frame-id": "關於",
+    "account-frame-id": "帳號",
+    "events": "事件",
+    "notifconfig-frame-id": "通知",
+    "system": "系統"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "選擇操作",
+      "FILTER_NO_RESULTS": "沒有找到匹配的物件",
+      "MODAL_DANGER_TEXT_PROCEED": "只有當您確定想這樣做時才繼續。",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "您將要釋放生命安全選項！",
+      "MODAL_DANGER_TITLE": "生命安全"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "返回",
+      "CANCEL": "取消",
+      "FILTER": "篩選器",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "不存在",
+    "ADVANCED-SWITCH-LABEL": "進階",
+    "BASIC-SWITCH-LABEL": "基本",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "命令執行失敗",
+    "COMMAND-ERROR-TITLE": "命令錯誤",
+    "DIFFERENT-PROPERTY-TYPES": "不同的屬性型態",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "事件",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "在主窗格中",
+    "NEW-ITEM-IN-SECONDARY": "在輔助窗格中",
+    "NEW-ITEM-MENU": "新增",
+    "NO-PROPERTIES": "沒有屬性",
+    "NO-RELATED-ITEMS": "埠相關項目",
+    "PROPERTIES": "屬性",
+    "SAVE-ERROR-TITLE": "儲存備忘錄失敗",
+    "SELECTION-OPEN-IN-NEW-TAB": "開啟新標籤頁",
+    "SELECTION-SEND-TO-PRIMARY": "發送到主窗格",
+    "SELECTION-SEND-TO-SECONDARY": "發送到次窗格"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "移除情境",
+      "DELETE_SCHEDULER": "移除排程",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "移除排程失敗.",
+      "DELETE_SCENE_CONFIRMATION": "請問您確定要移除所選場景嗎？",
+      "DELETE_SCHEDULE_CONFIRMATION": "請問您要刪除“{{scheduleObjectName}}”嗎？",
+      "SAVE_AS_SCENE_FAILURE": "無法將修改儲存到新排程.",
+      "SAVE_SCENE_FAILURE": "修改儲存變更到排程失敗"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "移除排程物件",
+      "ENTER_USER_DEFINED_NAME": "輸入使用者定義名稱",
+      "FAILED_TO_DELETE": "移除失敗",
+      "FAILED_TO_SAVE": "存檔失敗",
+      "SET_CORRECT_NAME": "設定正確名稱"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "新增日曆條目",
+      "ADD_EXCEPTION": "新增例外",
+      "ADD_NEW_CALENDAR_ENTRY": "新增新的日曆條目",
+      "ADD_NEW_EXCEPTION": "新增新的例外",
+      "CALENDAR_REFERENCE": "日曆參考",
+      "NEW_CALENDAR_ENTRY": "沒有日曆條目",
+      "NEW_EXCEPTION": "新的例外",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "例外",
+      "SCHEDULE": "排程"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "重複的條目將不會被新增",
+      "CALENDAR_INVALID_ENTRY": "無效的日曆條目!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "移除這個日曆條目?",
+      "DELETE_EXCEPTION_CONFIRMATION": "移除這個例外?",
+      "INVALID_CALENDAR": "無效的日曆參考",
+      "INVALID_DATE": "無效的日期",
+      "INVALID_DATE_RANGE": "開始日期要大於結束日期",
+      "INVALID_EXCEPTION_HIDDEN": "隱藏剩餘例外",
+      "INVALID_REFERENCES_HIDDEN": "無效的日曆",
+      "NO_CALENDAR_ENTRIES": "沒有日曆條目",
+      "NO_EXCEPTION_ENTRIES": "沒有例外排程",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "複製例外",
+      "SCHEDULE_COPY_SUCCESS": "排程複製",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "建立日期範圍",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "此例外條目被引用了一個無效的日曆，必須在修改其他例外之前移除.警告: 移除此例外條目將會移除其他無效的日曆參考條目.",
+      "SCHEDULE_CALENDAR_REF_INFO": "這個例外引用了一個日曆.不能移除或更改以引用另一個日曆."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "當建立日曆條目時發生錯誤",
+      "CALENDAR_DELETE_ERROR": "當移除日曆條目時發生錯誤",
+      "CALENDAR_SAVE_ERROR": "當儲存日曆條目時發生錯誤",
+      "INVALID_EXCEPTION_HIDDEN": "請移除所有不支援的例外",
+      "INVALID_REFERENCES_HIDDEN": "請移除所有無效的日曆",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "選擇想要複製的日期",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "選擇要重複{{day}}排程日期",
+      "SCHEDULE_COPY_ERROR": "當複製排程時發生錯誤",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "當複製例外時發生錯誤",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "選擇要重複{{day}}排程日期",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "當建立例外時發生錯誤",
+      "SCHEDULE_CREATE_RANGE_ERROR": "當建立日期範圍時發生錯誤",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "選擇結束日期",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "當移除例外時發生錯誤",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "已達到最大條目數",
+      "SCHEDULE_SAVE_ERROR": "當儲存排程時發生錯誤",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "當儲存例外時發生錯誤",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "當儲存選項時發生錯誤",
+      "UNKNOWN_ERROR_FETCHING_DATA": "當擷取資料時發生一個未知錯誤",
+      "UNSUPPORTED_ENTRY_TYPE": "工作日條目類型不支援日曆"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "發送到主窗格",
+  "SELECTION-SEND-TO-SECONDARY": "發送到次窗格",
+  "TITLE_BAR": {
+    "ADVANCED": "進階",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "重新整理",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Späť",
+    "CHANGE": "Zmeniť",
+    "CHANGE_FAILED": "Zlyhala zmena hesla",
+    "CHANGE_PASSWORD": "Zmeniť heslo",
+    "CHANGE_PASSWORD_DESCRIPTION": "Heslo nastavené z výroby sa musí zmeniť",
+    "CONFIRM_PASSWORD": "Potvrdiť heslo",
+    "CONNECTION": "Pripája sa...",
+    "COOKIE-NOTICE": "Upozornenie o Cookies",
+    "CORPORATE-INFO": "Korporátne informácie",
+    "CURRENT_PASSWORD": "Aktuálne heslo",
+    "LOGIN-BUTTON-BACK": "Späť",
+    "LOGIN-BUTTON-CANCEL": "Zrušiť",
+    "LOGIN-BUTTON-LOGIN": "Prihlásiť sa",
+    "LOGIN-BUTTON-NEXT": "Ďalší",
+    "NEW_PASSWORD": "Nové heslo",
+    "PASSWORD-LABEL": "Heslo",
+    "PASSWORD_DIFFERENT": "Heslá sa nezhodujú.",
+    "PASSWORD_EGUAL": "Nové heslo je rovnaké ako staré",
+    "PASSWORD_POLICY": "Zásady hesiel",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "Aspoň jedno malé písmeno [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "špeciálny znak(y)",
+    "PASSWORD_POLICY_UPPER": "Veľké a malé píssmená",
+    "PRIVACY-NOT": "Zásady ochrany osobných údajov",
+    "TERMS-OF-USE": "Podmienky používania",
+    "USERNAME-LABEL": "Užívateľské meno"
+  },
+  "NAVBAR": {
+    "Account": "Účet",
+    "Notification": "Notifikácia",
+    "Printer-Settings": "Natavenia-tlače",
+    "Settings": "Nastavenia",
+    "Tree-View": "Stromový-náhľad",
+    "Views": "Náhĺady",
+    "about-frame-id": "O programe",
+    "account-frame-id": "Účet",
+    "events": "Udalosti",
+    "notifconfig-frame-id": "Notifikácie",
+    "system": "Systém"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Zvoľte pre prevádzku",
+      "FILTER_NO_RESULTS": "Nenašli sa žiadne zodpovedajúce objekty",
+      "MODAL_DANGER_TEXT_PROCEED": "Pokračujte, iba ak ste si istí, že to chcete urobiť.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Chystáte sa uvoľniť life safety operácie!",
+      "MODAL_DANGER_TITLE": "Prioritná bezpečnosť"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Späť",
+      "CANCEL": "Zrušiť",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Neprítomný",
+    "ADVANCED-SWITCH-LABEL": "Pokročilý",
+    "BASIC-SWITCH-LABEL": "Základný",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Vykonanie príkazu zlyhalo",
+    "COMMAND-ERROR-TITLE": "Chyba príkazu",
+    "DIFFERENT-PROPERTY-TYPES": "Rôzne typy vlastností",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Udalosti",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Zdroj udalosti",
+    "NEW-ITEM-IN-PRIMARY": "na Primárnom paneli",
+    "NEW-ITEM-IN-SECONDARY": "na Sekundárnom paneli",
+    "NEW-ITEM-MENU": "Pridať",
+    "NO-PROPERTIES": "Žiadne vlastnosti",
+    "NO-RELATED-ITEMS": "Žiadne súvisiace položky",
+    "PROPERTIES": "Vlastnosti",
+    "SAVE-ERROR-TITLE": "Uloženie poznámky zlyhalo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Otvoriť v novej záložke",
+    "SELECTION-SEND-TO-PRIMARY": "Poslať na primárny panel",
+    "SELECTION-SEND-TO-SECONDARY": "Poslať na sekundárny panel"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Odstrániť scénu",
+      "DELETE_SCHEDULER": "Odstrániť plánovač",
+      "UNSAVED_SCHEDULE": "Neuložený rozvrh"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Vymazanie kalendára zlyhalo.",
+      "DELETE_SCENE_CONFIRMATION": "Naozaj chcete odstrániť vybratú scénu?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Chceš vymazať \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Uloženie úpravy do nového plánu zlyhalo.",
+      "SAVE_SCENE_FAILURE": "Nepodarilo sa uložiť úpravu plánu."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Odstrániť objekt kalendára",
+      "ENTER_USER_DEFINED_NAME": "Zadajte názov definovaný používateľom",
+      "FAILED_TO_DELETE": "Vymazanie zlyhalo",
+      "FAILED_TO_SAVE": "Okladanie zlyhalo",
+      "SET_CORRECT_NAME": "Nastavte správny názov"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Výstraha",
+      "ADD_CALENDAR_ENTRY": "Pridať záznam v kalendári",
+      "ADD_EXCEPTION": "Pridať výnimku",
+      "ADD_NEW_CALENDAR_ENTRY": "Pridať nový záznam v kalendári",
+      "ADD_NEW_EXCEPTION": "Pridať novú výnimku",
+      "CALENDAR_REFERENCE": "Odkaz na kalendár",
+      "NEW_CALENDAR_ENTRY": "Nový záznam v kalendári",
+      "NEW_EXCEPTION": "Nová výnimka",
+      "UNSAVED_CALENDAR": "Neuložený kalendár"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Výnimky",
+      "SCHEDULE": "Rozvrh"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Prebieha činnosť, nie je možné navigovať.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicitné položky nebudú pridané",
+      "CALENDAR_INVALID_ENTRY": "Neplatný vstup kalendára!",
+      "DELETE_CALENDAR_CONFIRMATION": "Chceš vymazať \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Chcete zmazať tento záznam v kalendári?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Zmazať túto výnimku?",
+      "INVALID_CALENDAR": "Odkaz v kalendári je neplatný",
+      "INVALID_DATE": "Dátum je neplatný",
+      "INVALID_DATE_RANGE": "Dátum začiatku je neskôr ako dátum konca",
+      "INVALID_EXCEPTION_HIDDEN": "Zastaralé výnimky schovať",
+      "INVALID_REFERENCES_HIDDEN": "Neplatné odkazy kalendára",
+      "NO_CALENDAR_ENTRIES": "Žiadne záznamy v kalendári",
+      "NO_EXCEPTION_ENTRIES": "Žiadne naplánované výnimky",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Výnimka skopírovaná",
+      "SCHEDULE_COPY_SUCCESS": "Rozvrh skopírovaný",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Rozsah dátumu bol vytvorený",
+      "UNSAVED_CALENDAR_MESSAGE": "Pridajte záznamy a uložte kalendár pre ďalšie operácie."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Táto položka výnimky sa odkazuje na neplatný kalendár a pred úpravou iných výnimiek sa musí odstrániť.Výstraha:Vymazanie tohto záznamu o výnimke povedie k vymazaniu všetkých ostatných neplatných záznamov v kalendári.",
+      "SCHEDULE_CALENDAR_REF_INFO": "Táto výnimka odkazuje na kalendár.Nemožno ho odstrániť ani zmeniť, aby odkazoval na iný kalendár."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Vyskytla sa chyba počas vytvárania záznamu v kalendári",
+      "CALENDAR_DELETE_ERROR": "Vyskytla sa chyba počas mazania záznamu v kalendári",
+      "CALENDAR_SAVE_ERROR": "Vyskytla sa chyba počas ukladania záznamu v kalendári",
+      "INVALID_EXCEPTION_HIDDEN": "Prosím zmažte všetky nepodporované výnimky",
+      "INVALID_REFERENCES_HIDDEN": "Prosím zmažte všetky neplatné okazy na kalendár",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Zvoľte deň, ktorý chcete kopírovať",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Zvoľte dni pre ktoré chcete zopakovať {{day}} rozvrh",
+      "SCHEDULE_COPY_ERROR": "Vyskytla sa chyba počas kopírovania rozvrhu",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Vyskytla sa chyba počas kopírovania výnimky",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Zvoľte dni pre ktoré chcete zopakovať výnimku rozvrhu",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Vyskytla sa chyba počas vytvárania výnimky",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Vyskytla sa chyba počas vytvárania rozsahu dátumu",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Nastavte dátum konca",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Vyskytla sa chyba počas mazania výnimky",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Maximálny počet záznamov bol dosiahnutý",
+      "SCHEDULE_SAVE_ERROR": "Vyskytla sa chyba počas ukladania rozvrhu",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Vyskytla sa chyba počas ukladania výnimky",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Vyskytla sa chyba ukladania nastavení",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Vyskytla sa neznáma chyba počas načítania dát",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type týždeňday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Poslať na primárny panel",
+  "SELECTION-SEND-TO-SECONDARY": "Poslať na sekundárny panel",
+  "TITLE_BAR": {
+    "ADVANCED": "Pokročilý",
+    "DELETE_SECURITY_SETTINGS": "Odstráňte nastavenia zabezpečenia",
+    "EDIT_ENDPOINT_ADDRESS": "Upravte adresu koncového bodu",
+    "REFRESH": "Obnoviť",
+    "RESET_ZOOM": "Obnoviť priblíženie",
+    "ZOOM_IN": "Priblížiť",
+    "ZOOM_OUT": "Oddialiť"
+  }
+}

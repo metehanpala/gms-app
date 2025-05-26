@@ -1,0 +1,199 @@
+{
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "关闭前请保存或者放弃所有未保存数据",
+    "CLOSE_APP_MODAL_TITLE": "关闭应用",
+    "LOG_OUT_MODAL_MSG": "注销前请保存或者放弃所有未保存数据",
+    "LOG_OUT_MODAL_TITLE": "注销",
+    "RESET_LAYOUT_MODAL_MSG": "重置前请保存或者放弃所有未保存数据",
+    "RESET_LAYOUT_MODAL_TITLE": "重置为默认布局",
+    "SEND_TO_WINDOW_DLG_TITLE": "其他窗口显示"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "后退",
+    "CHANGE": "修改",
+    "CHANGE_FAILED": "修改密码失败",
+    "CHANGE_PASSWORD": "更改密码",
+    "CHANGE_PASSWORD_DESCRIPTION": "必须更改默认密码",
+    "CONFIRM_PASSWORD": "确认密码",
+    "CONNECTION": "正在连接…",
+    "COOKIE-NOTICE": "Cookie 通告",
+    "CORPORATE-INFO": "公司信息",
+    "CURRENT_PASSWORD": "当前密码",
+    "LOGIN-BUTTON-BACK": "后退",
+    "LOGIN-BUTTON-CANCEL": "取消",
+    "LOGIN-BUTTON-LOGIN": "登录",
+    "LOGIN-BUTTON-NEXT": "下一个",
+    "NEW_PASSWORD": "新密码",
+    "PASSWORD-LABEL": "密码",
+    "PASSWORD_DIFFERENT": "密码不一致",
+    "PASSWORD_EGUAL": "新密码已使用",
+    "PASSWORD_POLICY": "密码规则",
+    "PASSWORD_POLICY_ADD_REQ": "密码必须遵守以下规则：",
+    "PASSWORD_POLICY_DIGIT": "最少1个字节",
+    "PASSWORD_POLICY_LOWER": "至少有一个小写字母",
+    "PASSWORD_POLICY_MINLENGTH": "密码必须包含最少 {{minLength}} 个字符",
+    "PASSWORD_POLICY_SPECIAL": "至少一个特殊字符",
+    "PASSWORD_POLICY_UPPER": "至少一个大写字母",
+    "PRIVACY-NOT": "隐私政策",
+    "TERMS-OF-USE": "使用条款",
+    "TERMS-OF-USE-STATEMENT": "同意并登录{{termsOfUseLink}}",
+    "USERNAME-LABEL": "用户名"
+  },
+  "NAVBAR": {
+    "Account": "用户",
+    "Group-View": "组",
+    "Notification": "通告",
+    "Printer-Settings": "打印机设置",
+    "Recipient-View": "收件人",
+    "Settings": "设置",
+    "Template-View": "模板",
+    "Tree-View": "树状视图",
+    "Views": "视图",
+    "about-frame-id": "关于",
+    "account-frame-id": "用户",
+    "events": "事件",
+    "node-map": "设备",
+    "notifconfig-frame-id": "通告",
+    "system": "系统"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "选择操作",
+      "FILTER_NO_RESULTS": "未找到",
+      "MODAL_DANGER_TEXT_PROCEED": "操作请注意",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "您即将释放保护功能",
+      "MODAL_DANGER_TITLE": "生命安全"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "后退",
+      "CANCEL": "取消",
+      "FILTER": "过滤器",
+      "OK": "确定"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "不可用",
+    "ADVANCED-SWITCH-LABEL": "高级",
+    "BASIC-SWITCH-LABEL": "基本",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "命令失败",
+    "COMMAND-ERROR-TITLE": "命令失败",
+    "DIFFERENT-PROPERTY-TYPES": "属性类型不匹配",
+    "ERROR-TEXT": "通讯错误",
+    "EVENT-POPOVER-EVENTS": "事件",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "事件源",
+    "FILTER-PLACEHOLDER": "查找…",
+    "NAVIGATE-TO-LOG-VIEWER": "在日志中打开",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}}显示在主窗格中",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} 显示在辅助窗格中",
+    "NEW-ITEM-MENU": "添加",
+    "NO-PROPERTIES": "无属性",
+    "NO-RELATED-ITEMS": "没有相关项目",
+    "PROPERTIES": "属性",
+    "SAVE-ERROR-TITLE": "备忘录保存失败",
+    "SELECTION-OPEN-IN-NEW-TAB": "在新的页面中打开",
+    "SELECTION-SEND-TO-PRIMARY": "发送至主窗口",
+    "SELECTION-SEND-TO-SECONDARY": "发送至辅助窗口"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "取消",
+      "DELETE": "删除",
+      "DELETE_SCENE": "删除场景",
+      "DELETE_SCHEDULER": "删除时间表",
+      "UNSAVED_SCHEDULE": "保存时间表失败"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "删除时间表失败",
+      "DELETE_SCENE_CONFIRMATION": "确定要删除 {{sceneName}} 场景？",
+      "DELETE_SCHEDULE_CONFIRMATION": "是否删除{{scheduleObjectName}}？",
+      "SAVE_AS_SCENE_FAILURE": "保存时间表失败",
+      "SAVE_SCENE_FAILURE": "保存时间表失败"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "删除时间表",
+      "ENTER_USER_DEFINED_NAME": "输入用户定义名称",
+      "FAILED_TO_DELETE": "删除失败",
+      "FAILED_TO_SAVE": "保存失败",
+      "SET_CORRECT_NAME": "输入名称"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "警告",
+      "ADD_CALENDAR_ENTRY": "添加日历条目",
+      "ADD_EXCEPTION": "<新的例外>",
+      "ADD_NEW_CALENDAR_ENTRY": "添加新的日历条目",
+      "ADD_NEW_EXCEPTION": "<新的例外>",
+      "CALENDAR_REFERENCE": "日历参考",
+      "NEW_CALENDAR_ENTRY": "<新的日历条目>",
+      "NEW_EXCEPTION": "<新的例外>",
+      "UNSAVED_CALENDAR": "日历未保存"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "例外",
+      "SCHEDULE": "日程表"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "无法离开页面，请先保存日程表",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "忽略重复的条目",
+      "CALENDAR_INVALID_ENTRY": "无效的日历条目",
+      "DELETE_CALENDAR_CONFIRMATION": "您是否要删除 \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "是否删除该日历条目？",
+      "DELETE_EXCEPTION_CONFIRMATION": "是否删除该例外？",
+      "INVALID_CALENDAR": "无效的日历参考",
+      "INVALID_DATE": "日期不可用",
+      "INVALID_DATE_RANGE": "开始日期晚于结束日期",
+      "INVALID_EXCEPTION_HIDDEN": "隐藏遗留的例外",
+      "INVALID_REFERENCES_HIDDEN": "无效的日历参考",
+      "NO_CALENDAR_ENTRIES": "没有日历条目",
+      "NO_EXCEPTION_ENTRIES": "没有例外",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "复制的例外",
+      "SCHEDULE_COPY_SUCCESS": "复制的日程表",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "例外的日期范围已保存",
+      "UNSAVED_CALENDAR_MESSAGE": "离开页面前请先保存日历"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "该例外引用了无效的日历且必须删除，删除该例外将会同时删除其他所有的无效日历引用",
+      "SCHEDULE_CALENDAR_REF_INFO": "日历参考为只读模式"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "保存日历条目失败",
+      "CALENDAR_DELETE_ERROR": "删除日历条目失败",
+      "CALENDAR_SAVE_ERROR": "保存日历条目失败",
+      "INVALID_EXCEPTION_HIDDEN": "删除不支持的例外",
+      "INVALID_REFERENCES_HIDDEN": "删除无效的日历参考",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "请选择你想要复制该日程的日期",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "选择你想要复制该{{day}}日程的日期",
+      "SCHEDULE_COPY_ERROR": "复制日程表失败",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "复制例外失败",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "请选择你想要复制该例外日程的日期",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "创建例外失败",
+      "SCHEDULE_CREATE_RANGE_ERROR": "创建日期范围失败",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "选择结束日期",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "删除例外失败",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "已达到最大条目数",
+      "SCHEDULE_SAVE_ERROR": "保存日程表失败",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "保存例外失败",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "保存设置失败",
+      "UNKNOWN_ERROR_FETCHING_DATA": "获取数据失败",
+      "UNSUPPORTED_ENTRY_TYPE": "工作日条目类型不支持该日历"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "在新的页面中打开",
+  "SELECTION-SEND-TO-PRIMARY": "主窗口显示",
+  "SELECTION-SEND-TO-SECONDARY": "辅助窗口显示",
+  "TITLE_BAR": {
+    "ADVANCED": "高级",
+    "DELETE_SECURITY_SETTINGS": "清空安全设置",
+    "EDIT_ENDPOINT_ADDRESS": "编辑端点地址",
+    "EMPTY_CACHE_REFRESH": "清空缓存并刷新",
+    "GO_BACK": "后退",
+    "GO_FORWARD": "下一页",
+    "NAVIGATE": "导航栏",
+    "REFRESH": "刷新",
+    "RESET_ZOOM": "缩放重置",
+    "VIEW": "查看",
+    "ZOOM_IN": "放大",
+    "ZOOM_OUT": "缩小"
+  }
+}

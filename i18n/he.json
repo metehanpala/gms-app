@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "חזרה",
+    "CHANGE": "שנה",
+    "CHANGE_FAILED": "שינוי סיסמה נכשל",
+    "CHANGE_PASSWORD": "שנה סיסמה",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "אשר סיסמה",
+    "CONNECTION": "מתחבר...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "מידע אירגוני",
+    "CURRENT_PASSWORD": "סיסמה נוכחית",
+    "LOGIN-BUTTON-BACK": "חזרה",
+    "LOGIN-BUTTON-CANCEL": "בטל",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "יצירת חריגה חדשה נכשלה.",
+    "NEW_PASSWORD": "סיסמה חדשה",
+    "PASSWORD-LABEL": "סיסמה",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "מדיניות הפרטיות",
+    "TERMS-OF-USE": "תנאי שימוש",
+    "USERNAME-LABEL": "שם משתמש"
+  },
+  "NAVBAR": {
+    "Account": "חשבון",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "הגדרות",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "אודות",
+    "account-frame-id": "חשבון",
+    "events": "אירועים",
+    "notifconfig-frame-id": "הודעות",
+    "system": "מערכת"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "חזרה",
+      "CANCEL": "בטל",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "לא מוצג",
+    "ADVANCED-SWITCH-LABEL": "מתקדם",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "סוגי מאפיינים שונים",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "אירועים",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "הוספה",
+    "NO-PROPERTIES": "ללא מאפיינים",
+    "NO-RELATED-ITEMS": "אין פריטים קשורים",
+    "PROPERTIES": "תכונות",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "פתח בלשונית חדשה",
+    "SELECTION-SEND-TO-PRIMARY": "שלח למסך הראשי",
+    "SELECTION-SEND-TO-SECONDARY": "שלח למסך המשני"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "הוסף כניסת לוח שנה",
+      "ADD_EXCEPTION": "הוסף חריגה",
+      "ADD_NEW_CALENDAR_ENTRY": "הוסף כניסה לוח שנה חדשה",
+      "ADD_NEW_EXCEPTION": "הוסף חריגה חדשה",
+      "CALENDAR_REFERENCE": "הפנייה ללוח שנה",
+      "NEW_CALENDAR_ENTRY": "כניסת לוח שנה חדשה",
+      "NEW_EXCEPTION": "חריגה חדשה",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "חריגות",
+      "SCHEDULE": "תזמון"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "מחק ערך לוח שנה זה?",
+      "DELETE_EXCEPTION_CONFIRMATION": "מחיקת חריגה זו?",
+      "INVALID_CALENDAR": "שיוך ללוח שנה אינו חוקי",
+      "INVALID_DATE": "תאריך זה שגוי",
+      "INVALID_DATE_RANGE": "בחר תאריך גבוה מתאריך הסוף",
+      "INVALID_EXCEPTION_HIDDEN": "חריגים מדור קודם מוסתרים",
+      "INVALID_REFERENCES_HIDDEN": "הפניות לא ידועות ליומן",
+      "NO_CALENDAR_ENTRIES": "אין רשומות בלוח השנה",
+      "NO_EXCEPTION_ENTRIES": "לא נקבעו חריגים",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "חריג הועתק",
+      "SCHEDULE_COPY_SUCCESS": ",תזמון הועתק",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "טווח תאריך נוצר",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "שגיאה בעת יצירת רשומת לוח השנה",
+      "CALENDAR_DELETE_ERROR": "שגיאה בעת מחיקת רשומת היומן",
+      "CALENDAR_SAVE_ERROR": "שגיאה בעת שמירת רשומת היומן",
+      "INVALID_EXCEPTION_HIDDEN": "הסר את כל החריגים שלא נתמכים",
+      "INVALID_REFERENCES_HIDDEN": "הסר את כל הפניות הלא חוקיות של לוח השנה",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "בחר את היום שברצונך להעתיק",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "בחר את הימים שבהם ברצונך לחזור על לוח הזמנים {{יום}}",
+      "SCHEDULE_COPY_ERROR": "שגיאה בעת העתקת לוח הזמנים",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "שגיאה בעת העתקת חריגות",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "בחר את הימים שבהם ברצונך לחזור על לוח הזמנים של החריגות",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "שגיאה בעת יצירת חריגה",
+      "SCHEDULE_CREATE_RANGE_ERROR": "שגיאה בעת יצירת טווח תאריכים",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "בחר תאריך סיום",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "שגיאה בעת מחיקת חריגה",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "מספר הערכים המרבי הושג",
+      "SCHEDULE_SAVE_ERROR": "שגיאה בעת שמירת לוח הזמנים",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "שגיאה בעת שמירת חריגה",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "שגיאה בעת שמירת אפשרויות",
+      "UNKNOWN_ERROR_FETCHING_DATA": "אירעה שגיאה לא ידועה בעת השגת נתונים",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "שלח למסך הראשי",
+  "SELECTION-SEND-TO-SECONDARY": "שלח למסך המשני",
+  "TITLE_BAR": {
+    "ADVANCED": "מתקדם",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "ריענון",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Précédent",
+    "CHANGE": "Modifier",
+    "CHANGE_FAILED": "Échec de la modification du mot de passe",
+    "CHANGE_PASSWORD": "Modifier le mot de passe",
+    "CHANGE_PASSWORD_DESCRIPTION": "Le mot de passe défini en usine doit être modifié",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "CONNECTION": "Connexion en cours...",
+    "COOKIE-NOTICE": "Avis de témoin",
+    "CORPORATE-INFO": "Informations sur l'entreprise",
+    "CURRENT_PASSWORD": "Mot de passe actuel",
+    "LOGIN-BUTTON-BACK": "Précédent",
+    "LOGIN-BUTTON-CANCEL": "Annuler",
+    "LOGIN-BUTTON-LOGIN": "Connexion",
+    "LOGIN-BUTTON-NEXT": "Suivant",
+    "NEW_PASSWORD": "Nouveau mot de passe",
+    "PASSWORD-LABEL": "Mot de passe",
+    "PASSWORD_DIFFERENT": "Le nouveau mot de passe est différent du mot de passe confirmé",
+    "PASSWORD_EGUAL": "Le nouveau mot de passe est le même que l'ancien",
+    "PASSWORD_POLICY": "Stratégie de mot de passe",
+    "PASSWORD_POLICY_DIGIT": "chiffre(s)",
+    "PASSWORD_POLICY_LOWER": "Au moins une lettre minuscule [a-z].",
+    "PASSWORD_POLICY_SPECIAL": "caractère(s) spécial(aux)",
+    "PASSWORD_POLICY_UPPER": "lettres majuscules et minuscules",
+    "PRIVACY-NOT": "Politique en matière de confidentialité",
+    "TERMS-OF-USE": "Conditions d'utilisation",
+    "USERNAME-LABEL": "Nom utilisateur"
+  },
+  "NAVBAR": {
+    "Account": "Compte",
+    "Notification": "Notification",
+    "Printer-Settings": "Réglages de l'imprimante",
+    "Settings": "Paramètres",
+    "Tree-View": "Vue Arborescence",
+    "Views": "Vues",
+    "about-frame-id": "À propos de",
+    "account-frame-id": "Compte",
+    "events": "Événements",
+    "notifconfig-frame-id": "Notifications",
+    "system": "Système"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Sélectionner pour utiliser",
+      "FILTER_NO_RESULTS": "Aucun objet correspondant trouvé",
+      "MODAL_DANGER_TEXT_PROCEED": "Ne continuez que si vous voulez vraiment le faire.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Vous êtes sur le point de libérer les opérations de sécurité des personnes!",
+      "MODAL_DANGER_TITLE": "Sécurité des personnes"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Précédent",
+      "CANCEL": "Annuler",
+      "FILTER": "Filtre",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Absent",
+    "ADVANCED-SWITCH-LABEL": "Avancé",
+    "BASIC-SWITCH-LABEL": "De base",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Échec de l’exécution de la commande",
+    "COMMAND-ERROR-TITLE": "Erreur de commande",
+    "DIFFERENT-PROPERTY-TYPES": "Différents types de propriété",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Événements",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Source événement",
+    "NEW-ITEM-IN-PRIMARY": "dans le volet principal",
+    "NEW-ITEM-IN-SECONDARY": "dans le volet secondaire",
+    "NEW-ITEM-MENU": "Ajouter",
+    "NO-PROPERTIES": "Aucune propriété",
+    "NO-RELATED-ITEMS": "Aucun élément associé",
+    "PROPERTIES": "Propriétés",
+    "SAVE-ERROR-TITLE": "Impossible d'enregistrer le mémo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Ouvrir dans un nouvel onglet",
+    "SELECTION-SEND-TO-PRIMARY": "Placer dans le volet principal",
+    "SELECTION-SEND-TO-SECONDARY": "Placer dans le volet secondaire"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Supprimer la scène",
+      "DELETE_SCHEDULER": "Supprimer le programme horaire",
+      "UNSAVED_SCHEDULE": "Programme horaire non enregistré"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Impossible de supprimer le programme horaire.",
+      "DELETE_SCENE_CONFIRMATION": "Voulez-vous vraiment supprimer la scène sélectionnée?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Voulez-vous supprimer \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Impossible d'enregistrer la modification au nouveau programme horaire.",
+      "SAVE_SCENE_FAILURE": "Impossible d'enregistrer la modification au programme horaire."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Supprimer l'objet de programme horaire",
+      "ENTER_USER_DEFINED_NAME": "Entrez un nom défini par l'utilisateur",
+      "FAILED_TO_DELETE": "Impossible de supprimer",
+      "FAILED_TO_SAVE": "Impossible d'enregistrer",
+      "SET_CORRECT_NAME": "Définir le nom correct"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Avertissement",
+      "ADD_CALENDAR_ENTRY": "Ajouter entrée de calendrier",
+      "ADD_EXCEPTION": "Ajouter exception",
+      "ADD_NEW_CALENDAR_ENTRY": "Ajouter nouvelle entrée de calendrier",
+      "ADD_NEW_EXCEPTION": "Ajouter nouvelle exception",
+      "CALENDAR_REFERENCE": "Référence de calendrier",
+      "NEW_CALENDAR_ENTRY": "Nouvelle entrée de calendrier",
+      "NEW_EXCEPTION": "Nouvelle exception",
+      "UNSAVED_CALENDAR": "Calendrier non enregistré"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptions",
+      "SCHEDULE": "Programme horaire"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activité en cours; impossible de naviguer.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Les entrées en double ne seront pas ajoutées",
+      "CALENDAR_INVALID_ENTRY": "Entrée de calendrier non valide!",
+      "DELETE_CALENDAR_CONFIRMATION": "Voulez-vous supprimer \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Supprimer cette entrée de calendrier?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Supprimer cette exception?",
+      "INVALID_CALENDAR": "Référence de calendrier non valide",
+      "INVALID_DATE": "Date non valide",
+      "INVALID_DATE_RANGE": "La date de début est ultérieure à la date de fin",
+      "INVALID_EXCEPTION_HIDDEN": "Anciennes exceptions masquées",
+      "INVALID_REFERENCES_HIDDEN": "Références de calendrier non valides",
+      "NO_CALENDAR_ENTRIES": "Aucune entrée de calendrier",
+      "NO_EXCEPTION_ENTRIES": "Aucune exception prévue",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exception copiée",
+      "SCHEDULE_COPY_SUCCESS": "Programme horaire copié",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Plage de dates créée",
+      "UNSAVED_CALENDAR_MESSAGE": "Ajouter des entrées et enregistrer le calendrier pour d'autres opérations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Cette entrée d'exception est référencée à un calendrier non valide et doit être supprimée avant de modifier les autres exceptions.Avertissement :La suppression de cette exception entraînera la suppression de toutes les autres entrées de référence de calendrier non valides.",
+      "SCHEDULE_CALENDAR_REF_INFO": "Cette exception fait référence à un calendrier.Il ne peut pas être supprimé ou modifié pour faire référence à un autre calendrier."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Erreur pendant la création de l'entrée de calendrier",
+      "CALENDAR_DELETE_ERROR": "Erreur pendant la suppression de l'entrée de calendrier",
+      "CALENDAR_SAVE_ERROR": "Erreur pendant l'enregistrement de l'entrée de calendrier",
+      "INVALID_EXCEPTION_HIDDEN": "Veuillez supprimer toutes les exceptions non prises en charge",
+      "INVALID_REFERENCES_HIDDEN": "Veuillez supprimer toutes les références de calendrier non valides.",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Sélectionnez le jour que vous voulez copier",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Sélectionnez les jours pour lesquels vous voulez répéter le programme horaire de {{jour}}",
+      "SCHEDULE_COPY_ERROR": "Erreur pendant la copie du programme horaire",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Erreur pendant la copie de l'exception",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Sélectionnez les jours pour lesquels vous voulez répéter le programme horaire d'exception",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Erreur pendant la création de l'exception",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Erreur pendant la création de la plage de dates",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Sélectionnez la date de fin",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Erreur pendant la suppression de l'exception",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Nombre maximal d'entrées atteint.",
+      "SCHEDULE_SAVE_ERROR": "Erreur pendant l'enregistrement du programme horaire",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Erreur pendant l'enregistrement de l'exception",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Erreur pendant l'enregistrement des options",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Une erreur inconnue s'est produite pendant la récupération des données",
+      "UNSUPPORTED_ENTRY_TYPE": "Le type d'entrée Jour de la semaine n'est pas pris en charge pour le calendrier"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Placer dans le volet principal",
+  "SELECTION-SEND-TO-SECONDARY": "Placer dans le volet secondaire",
+  "TITLE_BAR": {
+    "ADVANCED": "Avancé",
+    "DELETE_SECURITY_SETTINGS": "Supprimer les paramètres de sécurité",
+    "EDIT_ENDPOINT_ADDRESS": "Modifier l'adresse du point de terminaison",
+    "REFRESH": "Actualiser",
+    "RESET_ZOOM": "Réinitialiser le zoom",
+    "ZOOM_IN": "Zoom avant",
+    "ZOOM_OUT": "Zoom arrière"
+  }
+}

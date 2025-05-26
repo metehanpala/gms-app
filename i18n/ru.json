@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Назад",
+    "CHANGE": "Изменить",
+    "CHANGE_FAILED": "Не удалось изменить пароль",
+    "CHANGE_PASSWORD": "Изменить пароль",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Подтвердите пароль",
+    "CONNECTION": "Подключение",
+    "COOKIE-NOTICE": "Уведомление о Cookie",
+    "CORPORATE-INFO": "Корпоративная информация",
+    "CURRENT_PASSWORD": "Текущий пароль",
+    "LOGIN-BUTTON-BACK": "Назад",
+    "LOGIN-BUTTON-CANCEL": "Отмена",
+    "LOGIN-BUTTON-LOGIN": "Вход",
+    "LOGIN-BUTTON-NEXT": "Следующий",
+    "NEW_PASSWORD": "Новый пароль",
+    "PASSWORD-LABEL": "Пароль",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Политика кофиденциальности",
+    "TERMS-OF-USE": "Условия использования",
+    "USERNAME-LABEL": "Имя пользователя"
+  },
+  "NAVBAR": {
+    "Account": "Учетная запись",
+    "Notification": "Уведомление",
+    "Printer-Settings": "Настройки принтера",
+    "Settings": "Настройки",
+    "Tree-View": "Иерархический вид",
+    "Views": "Виды",
+    "about-frame-id": "Сведения",
+    "account-frame-id": "Учетная запись",
+    "events": "События",
+    "notifconfig-frame-id": "Уведомления",
+    "system": "Система"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Выбрать",
+      "FILTER_NO_RESULTS": "Совпадающих объектов не найдено",
+      "MODAL_DANGER_TEXT_PROCEED": "Выполняйте только если уверены, что это необходимо.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Вы собираетесь запустить функции безопасности жизни!",
+      "MODAL_DANGER_TITLE": "Угроза жизни"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Назад",
+      "CANCEL": "Отмена",
+      "FILTER": "Фильтр",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Отсутствует",
+    "ADVANCED-SWITCH-LABEL": "Дополнительно",
+    "BASIC-SWITCH-LABEL": "Основной",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Ошибка выполнения команды",
+    "COMMAND-ERROR-TITLE": "Ошибка команды",
+    "DIFFERENT-PROPERTY-TYPES": "Разный тип свойств",
+    "ERROR-TEXT": "#Ошибка",
+    "EVENT-POPOVER-EVENTS": "События",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "в Основной панели",
+    "NEW-ITEM-IN-SECONDARY": "во Вспомогательной панели",
+    "NEW-ITEM-MENU": "Добавить",
+    "NO-PROPERTIES": "Нет свойств",
+    "NO-RELATED-ITEMS": "Связанные элементы отсутствуют",
+    "PROPERTIES": "Свойства",
+    "SAVE-ERROR-TITLE": "Не удалось сохранить заметку",
+    "SELECTION-OPEN-IN-NEW-TAB": "Открыть в новой вкладке",
+    "SELECTION-SEND-TO-PRIMARY": "Отправить на основную панель",
+    "SELECTION-SEND-TO-SECONDARY": "Отправить на вспомогательную панель"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Удалить сцену",
+      "DELETE_SCHEDULER": "Удалить расписание",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Не удалось создать расписание",
+      "DELETE_SCENE_CONFIRMATION": "Вы действительно желаете удалить выбранную сцену?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Желаете удалить \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Не удалось сохранить изменение нового расписания.",
+      "SAVE_SCENE_FAILURE": "Не удалось сохранить изменение расписания."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Удалить расписание",
+      "ENTER_USER_DEFINED_NAME": "Введите заданное пользователем имя",
+      "FAILED_TO_DELETE": "Не удалось удалить",
+      "FAILED_TO_SAVE": "Не удалось сохранить",
+      "SET_CORRECT_NAME": "Установить корректное время"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Добавить запись календаря",
+      "ADD_EXCEPTION": "Добавить исключение",
+      "ADD_NEW_CALENDAR_ENTRY": "Добавить новую запись календаря",
+      "ADD_NEW_EXCEPTION": "Добавить новое исключение",
+      "CALENDAR_REFERENCE": "Ссылка на календарь",
+      "NEW_CALENDAR_ENTRY": "Новая запись календаря",
+      "NEW_EXCEPTION": "Новое исключение",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Исключения",
+      "SCHEDULE": "Расписание"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Повторяющиеся записи не будут добавлены",
+      "CALENDAR_INVALID_ENTRY": "Недопустимая запись календаря!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Удлить данную запись календаря?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Удалить данное исключение?",
+      "INVALID_CALENDAR": "Некорректная ссылка на календарь",
+      "INVALID_DATE": "Некорректная дата",
+      "INVALID_DATE_RANGE": "Начальная дата позже конечной",
+      "INVALID_EXCEPTION_HIDDEN": "Истекшие исключения скрыты",
+      "INVALID_REFERENCES_HIDDEN": "Некорректная ссылка на календарь",
+      "NO_CALENDAR_ENTRIES": "Календарь пуст",
+      "NO_EXCEPTION_ENTRIES": "Нет исключений",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Исключение скопировано",
+      "SCHEDULE_COPY_SUCCESS": "Расписание скопировано",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Диапазон дат создан",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Данная запись исключения ссылалась на недопустимый календарь и должна быть удалена до удаления других исключений.Предупреждение:Удаление этой записи исключения приведет к удалению всех других недопустимых ссылок на календарь.",
+      "SCHEDULE_CALENDAR_REF_INFO": "Данное исключение ссылается на календарь. Не допускается удаление или изменение ссылки на другой календарь."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Ошибка создания записи календаря",
+      "CALENDAR_DELETE_ERROR": "Ошибка удаления записи календаря",
+      "CALENDAR_SAVE_ERROR": "Ошибка сохранения записи календаря",
+      "INVALID_EXCEPTION_HIDDEN": "Пожалуйста, удалите все неподдерживаемые исключения",
+      "INVALID_REFERENCES_HIDDEN": "Пожалуйста, удалите все некорректные ссылки календаря",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Выберите день для копирования",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Выберите дни для повторения {{day}} расписания исключений",
+      "SCHEDULE_COPY_ERROR": "Ошибка копирования расписания",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Ошибка копирования исключения",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Выберите дни для повторения расписания исключений",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Ошибка создания исключения",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Ошибка создания диапазона дат",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Выберите конечную дату",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Ошибка удаления исключения",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Достигнуто максимальное количество записей",
+      "SCHEDULE_SAVE_ERROR": "Ошибка сохранения расписания",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Ошибка сохранения исключения",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Ошибка сохранения опций",
+      "UNKNOWN_ERROR_FETCHING_DATA": "При извлечении данных произошла неизвестная ошибка",
+      "UNSUPPORTED_ENTRY_TYPE": "Тип записи будни не поддерживается для календаря"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Отправить на основную панель",
+  "SELECTION-SEND-TO-SECONDARY": "Отправить на вспомогательную панель",
+  "TITLE_BAR": {
+    "ADVANCED": "Дополнительно",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Обновить",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

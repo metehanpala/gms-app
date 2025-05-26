@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "رجوع",
+    "CHANGE": "تغيير",
+    "CHANGE_FAILED": "فشل تغيير كلمة المرور",
+    "CHANGE_PASSWORD": "تغيير كلمة المرور",
+    "CHANGE_PASSWORD_DESCRIPTION": "يجب تغيير كلمة المرور الخاصة بضبط المصنع",
+    "CONFIRM_PASSWORD": "تأكيد كلمة المرور",
+    "CONNECTION": "جارٍ الاتصال...",
+    "COOKIE-NOTICE": "إشعار ملفات تعريف الارتباط",
+    "CORPORATE-INFO": "معلومات الشركة",
+    "CURRENT_PASSWORD": "كلمة المرور الحالية",
+    "LOGIN-BUTTON-BACK": "رجوع",
+    "LOGIN-BUTTON-CANCEL": "إلغاء",
+    "LOGIN-BUTTON-LOGIN": "تسجيل الدخول",
+    "LOGIN-BUTTON-NEXT": "التالي",
+    "NEW_PASSWORD": "كلمة مرور جديدة",
+    "PASSWORD-LABEL": "كلمة المرور",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "سياسة كلمة المرور",
+    "PASSWORD_POLICY_DIGIT": "الأرقام",
+    "PASSWORD_POLICY_LOWER": "حرف واحد صغير على الأقل [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "الأحرف المميزة",
+    "PASSWORD_POLICY_UPPER": "أحرف كبيرة وصغيرة",
+    "PRIVACY-NOT": "سياسة الخصوصية",
+    "TERMS-OF-USE": "شروط الاستخدام",
+    "USERNAME-LABEL": "اسم المستخدم"
+  },
+  "NAVBAR": {
+    "Account": "الحساب",
+    "Notification": "إشعار",
+    "Printer-Settings": "إعدادات الطابعة",
+    "Settings": "الإعدادات",
+    "Tree-View": "طريقة عرض الشجرة",
+    "Views": "طرق العرض",
+    "about-frame-id": "حول",
+    "account-frame-id": "الحساب",
+    "events": "أحداث",
+    "notifconfig-frame-id": "الإشعارات",
+    "system": "النظام"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "اختر العنصر المراد تشغيله",
+      "FILTER_NO_RESULTS": "عدم العثور على كائنات مطابقة",
+      "MODAL_DANGER_TEXT_PROCEED": "المواصلة إذا كنت متأكداً أنك تود ذلك فقط.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "أنت على وشك إطلاق وظائف سلامة العمر!",
+      "MODAL_DANGER_TITLE": "سلامة العمر"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "رجوع",
+      "CANCEL": "إلغاء",
+      "FILTER": "تصفية",
+      "OK": "حسنًا"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "غير موجود",
+    "ADVANCED-SWITCH-LABEL": "متقدم",
+    "BASIC-SWITCH-LABEL": "أساسي",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "فشل تنفيذ الأمر",
+    "COMMAND-ERROR-TITLE": "خطأ بالأمر",
+    "DIFFERENT-PROPERTY-TYPES": "أنواع الملكية المختلفة",
+    "ERROR-TEXT": "COM",
+    "EVENT-POPOVER-EVENTS": "أحداث",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "مصدر الحدث ",
+    "NEW-ITEM-IN-PRIMARY": "في الجزء الأساسي",
+    "NEW-ITEM-IN-SECONDARY": "في الجزء الثانوي",
+    "NEW-ITEM-MENU": "أضف",
+    "NO-PROPERTIES": "لا يوجد خصائص",
+    "NO-RELATED-ITEMS": "لا توجد عناصر مرتبطة",
+    "PROPERTIES": "الخصائص",
+    "SAVE-ERROR-TITLE": "فشل حفظ المذكرة",
+    "SELECTION-OPEN-IN-NEW-TAB": "فتح في علامة تبويب جديدة",
+    "SELECTION-SEND-TO-PRIMARY": "إرسال إلى الجزء الأساسي",
+    "SELECTION-SEND-TO-SECONDARY": "إرسال إلى الجزء الثانوي"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "حذف المشهد",
+      "DELETE_SCHEDULER": "حذف المجدول",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "فشل حذف الجدول.",
+      "DELETE_SCENE_CONFIRMATION": "هل أنت متأكد من أنك تريد حذف المشهد المختار؟",
+      "DELETE_SCHEDULE_CONFIRMATION": "هل تريد حذف }}\"اسم كائن الجدول\"{{",
+      "SAVE_AS_SCENE_FAILURE": "فشل حفظ التعديل الذي أُجري على الجدول الجديد.",
+      "SAVE_SCENE_FAILURE": "فشل حفظ التعديل الذي أُجري على الجدول."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "حذف كائن الجدول ",
+      "ENTER_USER_DEFINED_NAME": "أدخل اسم المستخدم المحدد",
+      "FAILED_TO_DELETE": "فشل الحذف",
+      "FAILED_TO_SAVE": "فشل الحفظ",
+      "SET_CORRECT_NAME": "حدد الاسم الصحيح"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "تحذير",
+      "ADD_CALENDAR_ENTRY": "إضافة إدخالات التقويم",
+      "ADD_EXCEPTION": "إضافة استثناء",
+      "ADD_NEW_CALENDAR_ENTRY": "إضافة إدخالات تقويمية جديدة",
+      "ADD_NEW_EXCEPTION": "إضافة استثناء جديد",
+      "CALENDAR_REFERENCE": "مرجع التقويم",
+      "NEW_CALENDAR_ENTRY": "إدخال تقويم جديد",
+      "NEW_EXCEPTION": "استثناء جديد",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "الاستثناءات",
+      "SCHEDULE": "الجدول الزمني"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "لن تُضاف الإدخالات المكررة",
+      "CALENDAR_INVALID_ENTRY": "إدخال التقويم غير صالح!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "هل تريد حذف إدخال التقويم هذا؟",
+      "DELETE_EXCEPTION_CONFIRMATION": "هل تريد حذف هذا الاستثناء؟",
+      "INVALID_CALENDAR": "مرجع التقويم غير صالح",
+      "INVALID_DATE": "التاريخ غير صالح",
+      "INVALID_DATE_RANGE": "تاريخ البدء أكبر من تاريخ الانتهاء",
+      "INVALID_EXCEPTION_HIDDEN": "استثناءات قديمة مخفية",
+      "INVALID_REFERENCES_HIDDEN": "مراجع تقويم غير صالحة",
+      "NO_CALENDAR_ENTRIES": "لا يوجد إدخالات تقويمية",
+      "NO_EXCEPTION_ENTRIES": "لا يوحد استثناءات مقررة",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "تم نسخ الاستثناء",
+      "SCHEDULE_COPY_SUCCESS": "تم نسخ الجدول الزمني",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "تم إنشاء نطاق التاريخ",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "يشير هذا الإدخال الاستثنائي إلى وجود تقويم غير صالح ويجب حذفه قبل تعديل الاستثناءات الأخرى.تحذير:سيؤدي حذف هذا الإدخال الاستثنائي إلى حذف جميع إدخالات مراجع التقويم الأخرى غير الصالحة.",
+      "SCHEDULE_CALENDAR_REF_INFO": " يشير هذا الاستثناءإلى التقويم.لا يمكن حذفه أو تغييره للإشارة إلى تقويم آخر."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "حدث خطأ أثناء إنشاء إدخال التقويم",
+      "CALENDAR_DELETE_ERROR": "حدث خطأ أثناء حذف إدخال التقويم",
+      "CALENDAR_SAVE_ERROR": "حدث خطأ أثناء حفظ إدخال التقويم",
+      "INVALID_EXCEPTION_HIDDEN": "الرجاء إزالة جميع الاستثناءات غير المدعومة",
+      "INVALID_REFERENCES_HIDDEN": "يُرجى إزالة جميع مراجع التقويم غير الصالحة",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "حدد اليوم الذي تريد نسخه",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "حدد الأيام التي تريد تكرار جدول {{يوم}} فيها",
+      "SCHEDULE_COPY_ERROR": "حدث خطأ أثناء نسخ الجدول الزمني",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "حدث خطأ أثناء نسخ الاستثناء",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "حدد الأيام التي تريد تكرار جدول الاستثناءات فيها",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "حدث خطأ أثناء إنشاء الاستثناء",
+      "SCHEDULE_CREATE_RANGE_ERROR": "حدث خطأ أثناء إنشاء النطاق الزمني",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "حدد تاريخ الانتهاء",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "حدث خطأ أثناء حذف الاستثناء",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "تم الوصول إلى الحد الأقصى لعدد الإدخالات",
+      "SCHEDULE_SAVE_ERROR": "حدث خطأ أثناء حفظ الجدول الزمني",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "حدث خطأ أثناء حفظ الاستثناء",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "حدث خطأ أثناء حفظ الاختيارات",
+      "UNKNOWN_ERROR_FETCHING_DATA": "حدث خطأ غير معروف أثناء تحضير البيانات",
+      "UNSUPPORTED_ENTRY_TYPE": "التقويم لا يدعم نوع الإدخال الخاص بأيام الأسبوع"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "إرسال إلى الجزء الأساسي",
+  "SELECTION-SEND-TO-SECONDARY": "إرسال إلى الجزء الثانوي",
+  "TITLE_BAR": {
+    "ADVANCED": "متقدم",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "تحديث",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

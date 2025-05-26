@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Afbryd",
+      "HEADING": "Slet widget",
+      "MESSAGE": "Slet widget?",
+      "REMOVE": "Slet"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Afbryd",
+        "DISCARD": "Kassér",
+        "HEADING": "Ugemt widget data",
+        "MESSAGE": "Kassér ændringer?",
+        "SAVE": "Gem"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Afbryd",
+        "DISCARD": "Kassér",
+        "HEADING": "Ugemt widget data",
+        "MESSAGE": "Kassér ændringer?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Gem eller kasser ugemte data i alle åbne vinduer før du lukker",
+    "CLOSE_APP_MODAL_TITLE": "Luk applikation",
+    "LOG_OUT_MODAL_MSG": "Gem og kasser ugemte data i alle åbne vinduer før du logger ud",
+    "LOG_OUT_MODAL_TITLE": "Log ud",
+    "RESET_LAYOUT_MODAL_MSG": "Gem eller kasser ugemte data i alle åbne vinduer før du nulstiller",
+    "RESET_LAYOUT_MODAL_TITLE": "Nulstil til default layout",
+    "SEND_TO_WINDOW_DLG_TITLE": "Send til andet vindue"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Tilbage",
+    "CHANGE": "Ændr",
+    "CHANGE_FAILED": "Kunne ikke ændre kodeord",
+    "CHANGE_PASSWORD": "Skift kodeord",
+    "CHANGE_PASSWORD_DESCRIPTION": "Default adgangskode skal ændres",
+    "CONFIRM_PASSWORD": "Bekræft kodeord",
+    "CONNECTION": "Tilslutter …",
+    "COOKIE-NOTICE": "Cookie-bemærkning",
+    "CORPORATE-INFO": "Firmainformation",
+    "CURRENT_PASSWORD": "Nuværende kodeord",
+    "LOGIN-BUTTON-BACK": "Tilbage",
+    "LOGIN-BUTTON-CANCEL": "Afbryd",
+    "LOGIN-BUTTON-LOGIN": "Log på",
+    "LOGIN-BUTTON-NEXT": "Næste",
+    "NEW_PASSWORD": "Nyt kodeord",
+    "PASSWORD-LABEL": "Adgangskode",
+    "PASSWORD_DIFFERENT": "Kodeordsbekræftelse stemmer ikke overens",
+    "PASSWORD_EGUAL": "Nyt kodeord benyttes allerede",
+    "PASSWORD_POLICY": "Adgangskodepolitik",
+    "PASSWORD_POLICY_ADD_REQ": "Kodeord skal overholde:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 ciffer",
+    "PASSWORD_POLICY_LOWER": "Mindst et lille bogstav",
+    "PASSWORD_POLICY_MINLENGTH": "Kodeord skal bestå af {{minLength}} tegn",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 specialtegn",
+    "PASSWORD_POLICY_UPPER": "Min 1. stort bogstav",
+    "PRIVACY-NOT": "Fortrolighedspolitik",
+    "TERMS-OF-USE": "Brugsbetingelser",
+    "TERMS-OF-USE-STATEMENT": "Log på betyder, du er enig med {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Brugernavn"
+  },
+  "NAVBAR": {
+    "Account": "Konto",
+    "Group-View": "Grupper",
+    "Notification": "Notifikation",
+    "Printer-Settings": "Printerindstillinger",
+    "Recipient-View": "Modtagere",
+    "Settings": "Indstilinger",
+    "Template-View": "Skabeloner",
+    "Tree-View": "Hierarkier",
+    "Views": "Visninger",
+    "about-frame-id": "Om",
+    "account-frame-id": "Konto",
+    "events": "Hændelser",
+    "node-map": "Enheder",
+    "notifconfig-frame-id": "Meddelelser",
+    "system": "System",
+    "tasks": "Opgaver"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Vælg for at operere",
+      "FILTER_NO_RESULTS": "Intet fundet",
+      "MODAL_DANGER_TEXT_PROCEED": "Fortsæt med forsigtighed",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Du er ved at frigive beskyttelsesfunktioner",
+      "MODAL_DANGER_TITLE": "Personsikkerhed"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Tilbage",
+      "CANCEL": "Afbryd",
+      "FILTER": "Filtrer",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Ikke tilgængelig",
+    "ADVANCED-SWITCH-LABEL": "Avanceret",
+    "BASIC-SWITCH-LABEL": "Basal",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Kunne ikke kommandere",
+    "COMMAND-ERROR-TITLE": "Kunne ikke afgive kommando",
+    "DIFFERENT-PROPERTY-TYPES": "Egenskabstype passer ikke",
+    "ERROR-TEXT": "Kommunikationsfejl",
+    "EVENT-POPOVER-EVENTS": "Hændelser",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Hændelseskilde",
+    "FILTER-PLACEHOLDER": "Søg…",
+    "NAVIGATE-TO-LOG-VIEWER": "Åben i log visning",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} i primær rude",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} i sekundær rude",
+    "NEW-ITEM-MENU": "Tilføj",
+    "NEW-ITEM-MOBILE": "Opret {{itemLabel}}",
+    "NO-PROPERTIES": "Ingen egenskaber",
+    "NO-RELATED-ITEMS": "Ingen relaterede genstande",
+    "PROPERTIES": "Egenskaber",
+    "SAVE-ERROR-TITLE": "Kunne ikke gemme memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Åbn i ny fane",
+    "SELECTION-SEND-TO-MOBILE": "Åben",
+    "SELECTION-SEND-TO-PRIMARY": "Send til primær rude",
+    "SELECTION-SEND-TO-SECONDARY": "Send til sekundær rude"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Tilføj regel",
+    "CLOSE_WINDOW_BTN": "Luk",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Definer kriterium",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Afbryd",
+    "DELETE_RULE_DLG_MSG": "Slet valgte regel?",
+    "DELETE_RULE_DLG_TITLE": "Slet visningsregel",
+    "EDIT_COMMUNICATION_RULES": "Rediger visningsregler",
+    "EMPTY_TABLE_MSG": "Intet at vise",
+    "OBJ_FILTER_DEFINED": "Resultat",
+    "SAVE_RULE_STEP_TITLE": "Gem displayregel",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Gem regel",
+    "SELECT_ANY_WIN_OPTION": "Et hvilket som helst vindue",
+    "SELECT_FILTER_TYPE_ERROR": "Kriteriumstype ikke tilgængelig for det valgte objekt",
+    "SELECT_OBJ_DLG_TITLE": "Vælg objekt",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Type af kriterium",
+    "SELECT_OBJ_LBL": "Objekt",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Valgte objekt ikke tilgængeligt",
+    "SELECT_OBJ_PLACEHOLDER": "Vælg objekt",
+    "SELECT_SINGLE_WIN_OPTION": "Specifikt vindue",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Kildevindue",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Målvindue",
+    "SELECT_WIN_ERROR": "Valg af vindue påkrævet",
+    "TABLE_COL_FILTER": "Kriterium",
+    "TABLE_COL_SOURCE_WIN": "Kildevindue",
+    "TABLE_COL_TARGET_WIN": "Målvindue",
+    "TABLE_FILTER_ERROR": "Kriterium ikke defineret",
+    "TABLE_WIN_ANY_SELECTED": "Et hvilket som helst vindue",
+    "TABLE_WIN_ERROR": "Ikke tilgængelig",
+    "WINDOW_TITLE": "Vis regler",
+    "WIZARD_BACK_TEXT": "Tilbage",
+    "WIZARD_NEXT_TEXT": "Næste",
+    "WIZARD_SAVE_TEXT": "Gem"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Afbryd",
+      "DELETE": "Slet",
+      "DELETE_SCENE": "Slet scene",
+      "DELETE_SCHEDULER": "Slet planlægger",
+      "UNSAVED_SCHEDULE": "Kunne ikke gemme tidsplanlægger"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Kunne ikke slette tidsplan",
+      "DELETE_SCENE_CONFIRMATION": "Slet {{sceneName}} scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Slet \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Kunne ikke gemme tidsplan",
+      "SAVE_SCENE_FAILURE": "Kunne ikke gemme tidsplan"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Slet tidsplan",
+      "ENTER_USER_DEFINED_NAME": "Indtast brugerdefineret navn",
+      "FAILED_TO_DELETE": "Kunne ikke slette",
+      "FAILED_TO_SAVE": "Kunne ikke gemme",
+      "SET_CORRECT_NAME": "Indtast navn"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Gemmer tidsplaner…",
+      "ADD_CALENDAR_ENTRY": "Tilføj kalenderindtastning",
+      "ADD_EXCEPTION": "<ny undtagelse>",
+      "ADD_NEW_CALENDAR_ENTRY": "Tilføj kalenderindtastning",
+      "ADD_NEW_EXCEPTION": "<ny undtagelse>",
+      "CALENDAR_REFERENCE": "Kalenderreference",
+      "NEW_CALENDAR_ENTRY": "<ny kalenderindtastning>",
+      "NEW_EXCEPTION": "<ny undtagelse>",
+      "UNSAVED_CALENDAR": "Ikke gemt kalender"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Undtagelser",
+      "SCHEDULE": "Tidsplan"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Kan ikke forlade side. Vent til planlægger er gemt",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Kopier ignoreret",
+      "CALENDAR_INVALID_ENTRY": "Ugyldig kalender indtastning",
+      "DELETE_CALENDAR_CONFIRMATION": "Slet \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Slet kalenderindtastning?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Slet undtagelse?",
+      "INVALID_CALENDAR": "Ugyldig kalenderreference",
+      "INVALID_DATE": "Ugyldig dato",
+      "INVALID_DATE_RANGE": "Startdato efter slut dato",
+      "INVALID_EXCEPTION_HIDDEN": "Legacy undtagelser skjulte",
+      "INVALID_REFERENCES_HIDDEN": "Ugyldig kalenderreferencer",
+      "NO_CALENDAR_ENTRIES": "Ingen kalenderindtastninger",
+      "NO_EXCEPTION_ENTRIES": "Ingen undtagelser",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Undtagelse kopieret",
+      "SCHEDULE_COPY_SUCCESS": "Tidsplan kopieret",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Datointerval undtagelse gemt",
+      "UNSAVED_CALENDAR_MESSAGE": "Gem kalender, før du forlader siden"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Undtagelsesreferencer ugyldig kalender og skal slettes. Sletning gælder også andre ugyldige kalenderreferencer",
+      "SCHEDULE_CALENDAR_REF_INFO": "Kalenderreference er skrivebeskyttet"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Kunne ikke gemme kalenderindtastning",
+      "CALENDAR_DELETE_ERROR": "Kunne ikke slette kalenderindtastning",
+      "CALENDAR_SAVE_ERROR": "Kunne ikke gemme kalenderindtastning",
+      "INVALID_EXCEPTION_HIDDEN": "Fjern ikke-understøttede undtagelser",
+      "INVALID_REFERENCES_HIDDEN": "Fjern ugyldige kalenderreferencer",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Vælg den dag, hvis tidsplan, der skal kopieres",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Vælg de dage, du vil indsætte {{day}} tidsplan",
+      "SCHEDULE_COPY_ERROR": "Kunne ikke kopiere tidsplan",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Kunne ikke kopiere undtagelse",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Vælg de dage, du vil indsætte undtagelsestidsplan",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Kunne ikke gemme undtagelse",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Kunne ikke gemme datointerval",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Vælg slutdato",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Kunne ikke slette undtagelse",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Maks. antal indtastninger nået",
+      "SCHEDULE_SAVE_ERROR": "Kunne ikke gemme tidsplan",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Kunne ikke gemme undtagelse",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Kunne ikke gemme indstillinger",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Kunne ikke hente data",
+      "UNSUPPORTED_ENTRY_TYPE": "Ugedag indtastningstype er ikke understøttet for kalender"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Åbn i nyt vindue",
+  "SELECTION-SEND": "Åben",
+  "SELECTION-SEND-TO-PRIMARY": "Send til primær rude",
+  "SELECTION-SEND-TO-SECONDARY": "Send til sekundær rude",
+  "TITLE_BAR": {
+    "ADVANCED": "Avanceret",
+    "DELETE_SECURITY_SETTINGS": "Ryd sikkerhedsindstillinger",
+    "EDIT_ENDPOINT_ADDRESS": "Rediger slutpunktsadresse",
+    "EMPTY_CACHE_REFRESH": "Tom cache og opdater",
+    "GO_BACK": "Tilbage",
+    "GO_FORWARD": "Fremad",
+    "NAVIGATE": "Navigation",
+    "REFRESH": "Opdater",
+    "RESET_ZOOM": "Nulstil zoom",
+    "VIEW": "Vis",
+    "ZOOM_IN": "Zoom ind",
+    "ZOOM_OUT": "Zoom ud"
+  }
+}

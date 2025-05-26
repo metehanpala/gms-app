@@ -1,0 +1,267 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Cancel",
+      "HEADING": "Delete widget",
+      "MESSAGE": "Delete widget?",
+      "REMOVE": "Delete"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Cancel",
+        "DISCARD": "Discard",
+        "HEADING": "Unsaved widget data",
+        "MESSAGE": "Discard changes?",
+        "SAVE": "Save"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Cancel",
+        "DISCARD": "Discard",
+        "HEADING": "Unsaved widget data",
+        "MESSAGE": "Discard changes?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Save or discard unsaved data in all open windows prior to closing",
+    "CLOSE_APP_MODAL_TITLE": "Close application",
+    "LOG_OUT_MODAL_MSG": "Save or discard unsaved data in all open windows prior to logging out",
+    "LOG_OUT_MODAL_TITLE": "Log out",
+    "RESET_LAYOUT_MODAL_MSG": "Save or discard unsaved data in all open windows prior to reset",
+    "RESET_LAYOUT_MODAL_TITLE": "Reset to default layout",
+    "SEND_TO_WINDOW_DLG_TITLE": "Send to other window"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Back",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Failed to change password",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Default password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting…",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "Back",
+    "LOGIN-BUTTON-CANCEL": "Cancel",
+    "LOGIN-BUTTON-LOGIN": "Log in",
+    "LOGIN-BUTTON-NEXT": "Next",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "Password",
+    "PASSWORD_DIFFERENT": "Password confirmation does not match",
+    "PASSWORD_EGUAL": "New password already used",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_ADD_REQ": "Password must comply with:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 digit",
+    "PASSWORD_POLICY_LOWER": "Min. 1 lowercase letter",
+    "PASSWORD_POLICY_MINLENGTH": "Password must consist of min. {{minLength}} characters",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 special character",
+    "PASSWORD_POLICY_UPPER": "Min. 1 uppercase letter",
+    "PRIVACY-NOT": "Privacy Notice",
+    "TERMS-OF-USE": "Terms of Use",
+    "TERMS-OF-USE-STATEMENT": "Log in means you agree with the {{termsOfUseLink}}",
+    "USERNAME-LABEL": "User name"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Group-View": "Groups",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer settings",
+    "Recipient-View": "Recipients",
+    "Settings": "Settings",
+    "Template-View": "Templates",
+    "Tree-View": "Hierarchies",
+    "Views": "Views",
+    "about-frame-id": "About",
+    "account-frame-id": "Account",
+    "events": "Events",
+    "node-map": "Devices",
+    "notifconfig-frame-id": "Notifications",
+    "system": "System",
+    "tasks": "Tasks"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "Nothing found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed with caution",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release protection functions",
+      "MODAL_DANGER_TITLE": "Life safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Back",
+      "CANCEL": "Cancel",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "OBJECT_FILTER_INSTANCE_TYPES": {
+    "ONLY_CHILDREN": "Children only",
+    "ONLY_INSTANCE": "Instance only",
+    "ONLY_RECURSIVE_CHILDREN": "Recursive children only"
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Not available",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Failed to command",
+    "COMMAND-ERROR-TITLE": "Failed to command",
+    "DIFFERENT-PROPERTY-TYPES": "Property type mismatch",
+    "ERROR-TEXT": "Communication error",
+    "EVENT-POPOVER-EVENTS": "Events",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "FILTER-PLACEHOLDER": "Search…",
+    "NAVIGATE-TO-LOG-VIEWER": "Open in log view",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} in primary pane",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} in secondary pane",
+    "NEW-ITEM-MENU": "Add",
+    "NEW-ITEM-MOBILE": "Create {{itemLabel}}",
+    "NO-PROPERTIES": "No properties",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "Properties",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in new tab",
+    "SELECTION-SEND-TO-MOBILE": "Open",
+    "SELECTION-SEND-TO-PRIMARY": "Send to primary pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to secondary pane"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Add rule",
+    "CLOSE_WINDOW_BTN": "Close",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Define criteria",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Cancel",
+    "DELETE_RULE_DLG_MSG": "Delete selected rule?",
+    "DELETE_RULE_DLG_TITLE": "Delete display rule",
+    "EDIT_COMMUNICATION_RULES": "Edit display rules",
+    "EMPTY_TABLE_MSG": "Nothing to display",
+    "OBJ_FILTER_DEFINED": "Result",
+    "SAVE_RULE_STEP_TITLE": "Save display rule",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Save rule",
+    "SELECT_ANY_WIN_OPTION": "Any window",
+    "SELECT_FILTER_TYPE_ERROR": "Type of criterion not available for selected object",
+    "SELECT_OBJ_DLG_TITLE": "Select object",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Type of criterion",
+    "SELECT_OBJ_LBL": "Object",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Selected object not available",
+    "SELECT_OBJ_PLACEHOLDER": "Select object",
+    "SELECT_SINGLE_WIN_OPTION": "Specific window",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Source window",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Target window",
+    "SELECT_WIN_ERROR": "Window selection required",
+    "TABLE_COL_FILTER": "Criteria",
+    "TABLE_COL_SOURCE_WIN": "Source window",
+    "TABLE_COL_TARGET_WIN": "Target window",
+    "TABLE_FILTER_ERROR": "Criteria not defined",
+    "TABLE_WIN_ANY_SELECTED": "Any window",
+    "TABLE_WIN_ERROR": "Not available",
+    "WINDOW_TITLE": "Display rules",
+    "WIZARD_BACK_TEXT": "Back",
+    "WIZARD_NEXT_TEXT": "Next",
+    "WIZARD_SAVE_TEXT": "Save"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Cancel",
+      "DELETE": "Delete",
+      "DELETE_SCENE": "Delete scene",
+      "DELETE_SCHEDULER": "Delete scheduler",
+      "UNSAVED_SCHEDULE": "Failed to save scheduler"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule",
+      "DELETE_SCENE_CONFIRMATION": "Delete {{sceneName}} scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Delete {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save schedule",
+      "SAVE_SCENE_FAILURE": "Failed to save schedule"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete scheduler",
+      "ENTER_USER_DEFINED_NAME": "Enter custom name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Enter name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Saving schedules…",
+      "ADD_CALENDAR_ENTRY": "Add calendar entry",
+      "ADD_EXCEPTION": "<new exception>",
+      "ADD_NEW_CALENDAR_ENTRY": "Add calendar entry",
+      "ADD_NEW_EXCEPTION": "<new exception>",
+      "CALENDAR_REFERENCE": "Calendar reference",
+      "NEW_CALENDAR_ENTRY": "<new calendar entry>",
+      "NEW_EXCEPTION": "<new exception>",
+      "UNSAVED_CALENDAR": "Unsaved calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptions",
+      "SCHEDULE": "Schedule"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Cannot leave page. Wait until scheduler is saved",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicates ignored",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry",
+      "DELETE_CALENDAR_CONFIRMATION": "Delete {{CalendarObjectName}}?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Delete calendar entry?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Delete exception?",
+      "INVALID_CALENDAR": "Invalid calendar reference",
+      "INVALID_DATE": "Invalid date",
+      "INVALID_DATE_RANGE": "Start date after end date",
+      "INVALID_EXCEPTION_HIDDEN": "Legacy exceptions hidden",
+      "INVALID_REFERENCES_HIDDEN": "Invalid calendar references",
+      "NO_CALENDAR_ENTRIES": "No calendar entries",
+      "NO_EXCEPTION_ENTRIES": "No exceptions",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exception copied",
+      "SCHEDULE_COPY_SUCCESS": "Schedule copied",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Date range exception saved",
+      "UNSAVED_CALENDAR_MESSAGE": "Save calendar before leaving page"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Exception references invalid calendar and must be deleted. Deletion also applies to all other invalid calendar references",
+      "SCHEDULE_CALENDAR_REF_INFO": "Calendar reference is read-only"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Failed to save calendar entry",
+      "CALENDAR_DELETE_ERROR": "Failed to delete calendar entry",
+      "CALENDAR_SAVE_ERROR": "Failed to save calendar entry",
+      "INVALID_EXCEPTION_HIDDEN": "Remove unsupported exceptions",
+      "INVALID_REFERENCES_HIDDEN": "Remove invalid calendar references",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Select the day to copy its schedule",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Select the days to paste {{day}}'s schedule",
+      "SCHEDULE_COPY_ERROR": "Failed to copy schedule",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Failed to copy exception",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Select the days to paste exception schedule",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Failed to save exception",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Failed to save date range",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Select end date",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Failed to delete exception",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Max. number of entries reached",
+      "SCHEDULE_SAVE_ERROR": "Failed to save schedule",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Failed to save exception",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Failed to save settings",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Failed to retrieve data",
+      "UNSUPPORTED_ENTRY_TYPE": "Weekday entry type not supported for calendar"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Open in new window",
+  "SELECTION-SEND": "Open",
+  "SELECTION-SEND-TO-PRIMARY": "Send to primary pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to secondary pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Clear security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "EMPTY_CACHE_REFRESH": "Empty cache and refresh",
+    "GO_BACK": "Back",
+    "GO_FORWARD": "Forward",
+    "NAVIGATE": "Navigation",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "VIEW": "View",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

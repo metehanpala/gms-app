@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "뒤로",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Change Password Failed",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "뒤로",
+    "LOGIN-BUTTON-CANCEL": "취소",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "다음",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "비밀번호",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "프라이버시 정책",
+    "TERMS-OF-USE": "사용 약관",
+    "USERNAME-LABEL": "사용자 이름"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Settings",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "약",
+    "account-frame-id": "Account",
+    "events": "이벤트 보고서",
+    "notifconfig-frame-id": "알림들",
+    "system": "시스템"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "뒤로",
+      "CANCEL": "취소",
+      "FILTER": "Filter",
+      "OK": "확인"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "현재없음",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "다른 속성 타입",
+    "ERROR-TEXT": "# COM",
+    "EVENT-POPOVER-EVENTS": "이벤트 보고서",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "추가",
+    "NO-PROPERTIES": "속성 없음",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "속성",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in New Tab",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "달력 엔트리 추가",
+      "ADD_EXCEPTION": "예외 추가",
+      "ADD_NEW_CALENDAR_ENTRY": "새로운 달력 엔트리 추가",
+      "ADD_NEW_EXCEPTION": "새로운 예외 추가",
+      "CALENDAR_REFERENCE": "달력 참조",
+      "NEW_CALENDAR_ENTRY": "새로운 달력 엔트리",
+      "NEW_EXCEPTION": "새로운 예외",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "예외",
+      "SCHEDULE": "스케줄"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "달력 엔트리 삭제?",
+      "DELETE_EXCEPTION_CONFIRMATION": "해당 예외 삭제?",
+      "INVALID_CALENDAR": "달력 참조가 무효함",
+      "INVALID_DATE": "날짜가 무효함",
+      "INVALID_DATE_RANGE": "시작 날짜가 종료 날짜보다 큽니다.",
+      "INVALID_EXCEPTION_HIDDEN": "전용 예외 숨김",
+      "INVALID_REFERENCES_HIDDEN": "무효한 달력 참조들",
+      "NO_CALENDAR_ENTRIES": "달력 엔트리 없음",
+      "NO_EXCEPTION_ENTRIES": "예외 스케줄 없음",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "예외 복사됨",
+      "SCHEDULE_COPY_SUCCESS": "스케줄 복사됨",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "날짜 범위 생성됨",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "달력 엔트리 생성중 에러",
+      "CALENDAR_DELETE_ERROR": "달력 엔트리 삭제중 에러",
+      "CALENDAR_SAVE_ERROR": "달력 엔트리 저장중 에러",
+      "INVALID_EXCEPTION_HIDDEN": "모든 지원 안되는 예외를 제거하세요",
+      "INVALID_REFERENCES_HIDDEN": "모든 무효한 달력 참조를 제거하세요",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "복사하려는 날짜 선택",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "반복하려는 스케줄 일정 선택 {{day}} 스케줄",
+      "SCHEDULE_COPY_ERROR": "스케줄 복사중 에러",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "예외 복사중 에러",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "반복하려는 예외 스케줄 일정 선택",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "예외 생성중 에러",
+      "SCHEDULE_CREATE_RANGE_ERROR": "날짜 범위 생성중 에러",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "종료 날짜 선택",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "예외 삭제중 에러",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "최대 엔트리 수량 도달",
+      "SCHEDULE_SAVE_ERROR": "스케줄 저장중 에러",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "예외 저장중 에러",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "옵션 저장중 에러",
+      "UNKNOWN_ERROR_FETCHING_DATA": "데이터 패칭중 알 수 없는 에러 발생",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

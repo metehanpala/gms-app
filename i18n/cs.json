@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Zpět",
+    "CHANGE": "Změna",
+    "CHANGE_FAILED": "Změna hesla se nezdařila",
+    "CHANGE_PASSWORD": "Změnit heslo",
+    "CHANGE_PASSWORD_DESCRIPTION": "Heslo nastavené z výroby musí být změněno",
+    "CONFIRM_PASSWORD": "Potvrďte heslo",
+    "CONNECTION": "Připojování...",
+    "COOKIE-NOTICE": "Cookie Oznámení",
+    "CORPORATE-INFO": "Informace o společnosti",
+    "CURRENT_PASSWORD": "Aktuální heslo",
+    "LOGIN-BUTTON-BACK": "Zpět",
+    "LOGIN-BUTTON-CANCEL": "Zrušit",
+    "LOGIN-BUTTON-LOGIN": "Přihlásit se",
+    "LOGIN-BUTTON-NEXT": "Další",
+    "NEW_PASSWORD": "Nové heslo",
+    "PASSWORD-LABEL": "Heslo",
+    "PASSWORD_DIFFERENT": "Nové heslo se liší od hesla pro potvrzení",
+    "PASSWORD_EGUAL": "Nové heslo je stejné jako staré",
+    "PASSWORD_POLICY": "Zásady hesel",
+    "PASSWORD_POLICY_DIGIT": "číslice",
+    "PASSWORD_POLICY_LOWER": "Alespoň jedno malé písmeno [az]",
+    "PASSWORD_POLICY_SPECIAL": "speciální znak(y)",
+    "PASSWORD_POLICY_UPPER": "velká a malá písmena",
+    "PRIVACY-NOT": "Zásady ochrany osobních údajů",
+    "TERMS-OF-USE": "Podmínky použití",
+    "USERNAME-LABEL": "Uživatel"
+  },
+  "NAVBAR": {
+    "Account": "Účet",
+    "Notification": "Oznámení",
+    "Printer-Settings": "Nastavení tiskárny",
+    "Settings": "Nastavení",
+    "Tree-View": "Pohled na strom",
+    "Views": "Pohledy",
+    "about-frame-id": "O",
+    "account-frame-id": "Účet",
+    "events": "Události",
+    "notifconfig-frame-id": "Oznámení",
+    "system": "Systém"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Vyberte pro provoz",
+      "FILTER_NO_RESULTS": "Nebyly nalezeny žádné odpovídající objekty",
+      "MODAL_DANGER_TEXT_PROCEED": "Pokračujte, pouze pokud jste si jisti, že to chcete udělat.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Chystáte se uvolnit operace bezpečnosti života!",
+      "MODAL_DANGER_TITLE": "Životní bezpečnost"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Zpět",
+      "CANCEL": "Zrušit",
+      "FILTER": "Filtr",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Není přítomen",
+    "ADVANCED-SWITCH-LABEL": "Pokročilý",
+    "BASIC-SWITCH-LABEL": "Základní",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Provedení příkazu se nezdařilo",
+    "COMMAND-ERROR-TITLE": "Chyba příkazu",
+    "DIFFERENT-PROPERTY-TYPES": "Různé typy vlastnictví",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Události",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Zdroj události",
+    "NEW-ITEM-IN-PRIMARY": "v primárním podokně",
+    "NEW-ITEM-IN-SECONDARY": "v sekundárním podokně",
+    "NEW-ITEM-MENU": "Přidat",
+    "NO-PROPERTIES": "Žádné vlastnosti",
+    "NO-RELATED-ITEMS": "Žádné související položky",
+    "PROPERTIES": "Vlastnosti",
+    "SAVE-ERROR-TITLE": "Uložení poznámky se nezdařilo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Otevřít v nové kartě",
+    "SELECTION-SEND-TO-PRIMARY": "Poslat na primární panel",
+    "SELECTION-SEND-TO-SECONDARY": "Poslat na sekundární panel"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Odstranit scénu",
+      "DELETE_SCHEDULER": "Odstranit plánovač",
+      "UNSAVED_SCHEDULE": "Neuložený rozvrh"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Plán se nepodařilo smazat.",
+      "DELETE_SCENE_CONFIRMATION": "Opravdu chcete vybranou scénu smazat?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Chcete smazat „{{scheduleObjectName}}“?",
+      "SAVE_AS_SCENE_FAILURE": "Úpravu se nepodařilo uložit do nového plánu.",
+      "SAVE_SCENE_FAILURE": "Úpravu plánu se nepodařilo uložit."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Odstranit objekt plánu",
+      "ENTER_USER_DEFINED_NAME": "Zadejte jméno definované uživatelem",
+      "FAILED_TO_DELETE": "Smazání se nezdařilo",
+      "FAILED_TO_SAVE": "Uložení se nezdařilo",
+      "SET_CORRECT_NAME": "Nastavte správné jméno"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Varování",
+      "ADD_CALENDAR_ENTRY": "Přidat záznam do kalendáře",
+      "ADD_EXCEPTION": "Přidat výjimku",
+      "ADD_NEW_CALENDAR_ENTRY": "Přidat nový záznam v kalendáři",
+      "ADD_NEW_EXCEPTION": "Přidat novou výjimku",
+      "CALENDAR_REFERENCE": "Odkaz na kalendář",
+      "NEW_CALENDAR_ENTRY": "Nový záznam kalendáře",
+      "NEW_EXCEPTION": "Nová výjimka",
+      "UNSAVED_CALENDAR": "Neuložený kalendář"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Výjimky",
+      "SCHEDULE": "Plán"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Probíhá činnost, nelze navigovat.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicitní položky nebudou přidány",
+      "CALENDAR_INVALID_ENTRY": "Neplatný záznam v kalendáři!",
+      "DELETE_CALENDAR_CONFIRMATION": "Chcete smazat \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Odstranit tuto položku kalendáře?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Odstranit tuto výjimku?",
+      "INVALID_CALENDAR": "Referenční kalendář je neplatná",
+      "INVALID_DATE": "Datum je neplatné",
+      "INVALID_DATE_RANGE": "Datum zahájení je vyšší než koncové datum",
+      "INVALID_EXCEPTION_HIDDEN": "Starší Výjimky Skryté",
+      "INVALID_REFERENCES_HIDDEN": "Neplatné Kalendář Reference",
+      "NO_CALENDAR_ENTRIES": "Žádné záznamy v kalendáři",
+      "NO_EXCEPTION_ENTRIES": "Výjimky nenaplánované",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Výjimka zkopírována",
+      "SCHEDULE_COPY_SUCCESS": "Rozvrh zkopírován",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Časové období vytvořil",
+      "UNSAVED_CALENDAR_MESSAGE": "Přidejte záznamy a uložte kalendář pro další operace."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Na tuto položku výjimky se odkazuje na neplatný kalendář a před změnou dalších výjimek ji musíte odstranit. Varování: Smazání této položky výjimky povede k vymazání všech ostatních neplatných referenčních záznamů kalendáře.",
+      "SCHEDULE_CALENDAR_REF_INFO": "Tato výjimka odkazuje na kalendář. Nelze jej odstranit ani změnit tak, aby odkazoval na jiný kalendář."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Chyba při vytváření záznam kalendáře",
+      "CALENDAR_DELETE_ERROR": "Chyba při mazání záznam kalendáře",
+      "CALENDAR_SAVE_ERROR": "Chyba při vstupu úspora kalendář",
+      "INVALID_EXCEPTION_HIDDEN": "Prosím, odstraňte všechny nepodporované výjimky",
+      "INVALID_REFERENCES_HIDDEN": "Prosím, odstraňte všechny neplatné odkazy z kalendáře",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Vyberte den, který chcete zKopírovat",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Vyberte dny, ve kterých chcete zopakovat {{den}} rozvrh",
+      "SCHEDULE_COPY_ERROR": "Chyba při kopírování plán",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Chyba při kopírování výjimka",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Vyberte dny, ve kterých chcete opakovat plán výjimky",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Chyba při vytváření výjimku",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Chyba při časové období vytváření",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Vyberte datum ukončení",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Chyba při mazání výjimka",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Bylo dosaženo maximálního počtu přihlášek",
+      "SCHEDULE_SAVE_ERROR": "Chyba při plán úspor",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Chyba při výjimka úspory",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Chyba při možnosti ukládání",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Došlo k neznámé chybě při načítání dat",
+      "UNSUPPORTED_ENTRY_TYPE": "Typ vstupu v týdnu není pro kalendář podporován"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Poslat na primární panel",
+  "SELECTION-SEND-TO-SECONDARY": "Poslat na sekundární panel",
+  "TITLE_BAR": {
+    "ADVANCED": "Pokročilý",
+    "DELETE_SECURITY_SETTINGS": "Smazat nastavení zabezpečení",
+    "EDIT_ENDPOINT_ADDRESS": "Upravit adresu koncového bodu",
+    "REFRESH": "Obnovit",
+    "RESET_ZOOM": "Obnovit přiblížení",
+    "ZOOM_IN": "Přiblížit",
+    "ZOOM_OUT": "Oddálit"
+  }
+}

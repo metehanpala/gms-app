@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Annuler",
+      "HEADING": "Supprimer widget",
+      "MESSAGE": "Supprimer widget ?",
+      "REMOVE": "Supprimer"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Annuler",
+        "DISCARD": "Ignorer",
+        "HEADING": "Données du widget non sauvegardées",
+        "MESSAGE": "Ignorer les modifications ?",
+        "SAVE": "Enregistrer"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Annuler",
+        "DISCARD": "Ignorer",
+        "HEADING": "Données du widget non sauvegardées",
+        "MESSAGE": "Ignorer les modifications ?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Sauvegarder ou abandonner les données non enregistrées dans toutes les fenêtres ouvertes avant fermeture",
+    "CLOSE_APP_MODAL_TITLE": "Fermer l'application",
+    "LOG_OUT_MODAL_MSG": "Sauvegarder ou abandonner les données non enregistrées dans toutes les fenêtres ouvertes avant déconnexion",
+    "LOG_OUT_MODAL_TITLE": "Déconnexion",
+    "RESET_LAYOUT_MODAL_MSG": "Sauvegarder ou abandonner les données non enregistrées dans toutes les fenêtres ouvertes avant réinitialisation",
+    "RESET_LAYOUT_MODAL_TITLE": "Rétablir la disposition par défaut",
+    "SEND_TO_WINDOW_DLG_TITLE": "Placer dans une autre fenêtre"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Précédent",
+    "CHANGE": "Remplacer",
+    "CHANGE_FAILED": "Le changement de mot de passe a échoué",
+    "CHANGE_PASSWORD": "Modifier le mot de passe",
+    "CHANGE_PASSWORD_DESCRIPTION": "Le mot de passe par défaut doit être changé",
+    "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+    "CONNECTION": "Connexion…",
+    "COOKIE-NOTICE": "Informations sur les cookies",
+    "CORPORATE-INFO": "Informations sur l'entreprise",
+    "CURRENT_PASSWORD": "Mot de passe actuel",
+    "LOGIN-BUTTON-BACK": "Précédent",
+    "LOGIN-BUTTON-CANCEL": "Annuler",
+    "LOGIN-BUTTON-LOGIN": "Connexion",
+    "LOGIN-BUTTON-NEXT": "Suivant",
+    "NEW_PASSWORD": "Nouveau mot de passe",
+    "PASSWORD-LABEL": "Mot de passe",
+    "PASSWORD_DIFFERENT": "Le mot de passe et sa confirmation ne correspondent pas",
+    "PASSWORD_EGUAL": "Nouveau mot de passe déjà utilisé",
+    "PASSWORD_POLICY": "Directives pour mots de passe",
+    "PASSWORD_POLICY_ADD_REQ": "Le mot de passe doit être composé de :",
+    "PASSWORD_POLICY_DIGIT": "Au moins 1 chiffre",
+    "PASSWORD_POLICY_LOWER": "Au moins 1 minuscule",
+    "PASSWORD_POLICY_MINLENGTH": "Le mot de passe doit comporter au moins {{minLength}} caractères",
+    "PASSWORD_POLICY_SPECIAL": "au moins 1 caractère spécial",
+    "PASSWORD_POLICY_UPPER": "au moins 1 majuscule",
+    "PRIVACY-NOT": "Déclaration de confidentialité",
+    "TERMS-OF-USE": "Conditions d'utilisation",
+    "TERMS-OF-USE-STATEMENT": "En vous connectant, vous acceptez les {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Nom utilisateur"
+  },
+  "NAVBAR": {
+    "Account": "Compte",
+    "Group-View": "Groupes",
+    "Notification": "Notification",
+    "Printer-Settings": "Paramètres de l'imprimante",
+    "Recipient-View": "Destinataires",
+    "Settings": "Paramètres",
+    "Template-View": "Modèles",
+    "Tree-View": "Hiérarchies",
+    "Views": "Vues",
+    "about-frame-id": "À propos de",
+    "account-frame-id": "Compte",
+    "events": "Événements",
+    "node-map": "Appareils",
+    "notifconfig-frame-id": "Notifications",
+    "system": "Système",
+    "tasks": "Tâches"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Sélectionner pour exploiter",
+      "FILTER_NO_RESULTS": "Aucun élément n'a été trouvé",
+      "MODAL_DANGER_TEXT_PROCEED": "Soyez prudent",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Vous allez libérer des fonctions de protection",
+      "MODAL_DANGER_TITLE": "Sécurité des personnes"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Précédent",
+      "CANCEL": "Annuler",
+      "FILTER": "Filtre",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Non disponible",
+    "ADVANCED-SWITCH-LABEL": "Avancé",
+    "BASIC-SWITCH-LABEL": "Basique",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Échec de la commande",
+    "COMMAND-ERROR-TITLE": "Échec de la commande",
+    "DIFFERENT-PROPERTY-TYPES": "Discordance de type de propriété",
+    "ERROR-TEXT": "Erreur de communication",
+    "EVENT-POPOVER-EVENTS": "Événements",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Source événement",
+    "FILTER-PLACEHOLDER": "Rechercher…",
+    "NAVIGATE-TO-LOG-VIEWER": "Ouvrir dans la vue d'événements",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} dans le volet principal",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} dans le volet secondaire",
+    "NEW-ITEM-MENU": "Ajouter",
+    "NEW-ITEM-MOBILE": "Créer {{itemLabel}}",
+    "NO-PROPERTIES": "Aucune propriété",
+    "NO-RELATED-ITEMS": "Pas d'éléments associés",
+    "PROPERTIES": "Propriétés",
+    "SAVE-ERROR-TITLE": "La sauvegarde du mémo a échoué",
+    "SELECTION-OPEN-IN-NEW-TAB": "Ouvrir dans un nouvel onglet",
+    "SELECTION-SEND-TO-MOBILE": "Ouvrir",
+    "SELECTION-SEND-TO-PRIMARY": "Placer dans le volet principal",
+    "SELECTION-SEND-TO-SECONDARY": "Placer dans le volet secondaire"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Ajouter règle",
+    "CLOSE_WINDOW_BTN": "Fermer",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Définir les critères",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Annuler",
+    "DELETE_RULE_DLG_MSG": "Annuler la sélection de la règle ?",
+    "DELETE_RULE_DLG_TITLE": "Supprimer la règle d'affichage",
+    "EDIT_COMMUNICATION_RULES": "Éditer les règles d'affichage",
+    "EMPTY_TABLE_MSG": "Rien à afficher",
+    "OBJ_FILTER_DEFINED": "Résultat",
+    "SAVE_RULE_STEP_TITLE": "Enregistrer la règle d'affichage",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Enregistrer la règle",
+    "SELECT_ANY_WIN_OPTION": "Fenêtre quelconque",
+    "SELECT_FILTER_TYPE_ERROR": "Type de critère non disponible pour l'objet sélectionné",
+    "SELECT_OBJ_DLG_TITLE": "Sélectionner objet",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Type de critère",
+    "SELECT_OBJ_LBL": "Objet",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "L'objet sélectionné n'est pas disponible",
+    "SELECT_OBJ_PLACEHOLDER": "Sélectionnner objet",
+    "SELECT_SINGLE_WIN_OPTION": "Fenêtre spécifique",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Fenêtre source",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Fenêtre cible",
+    "SELECT_WIN_ERROR": "Il faut sélectionner une fenêtre",
+    "TABLE_COL_FILTER": "Critères",
+    "TABLE_COL_SOURCE_WIN": "Fenêtre source",
+    "TABLE_COL_TARGET_WIN": "Fenêtre cible",
+    "TABLE_FILTER_ERROR": "Critères non définis",
+    "TABLE_WIN_ANY_SELECTED": "Fenêtre quelconque",
+    "TABLE_WIN_ERROR": "Non disponible",
+    "WINDOW_TITLE": "Règles d'affichage",
+    "WIZARD_BACK_TEXT": "Précédent",
+    "WIZARD_NEXT_TEXT": "Suivant",
+    "WIZARD_SAVE_TEXT": "Enregistrer"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Annuler",
+      "DELETE": "Supprimer",
+      "DELETE_SCENE": "Supprimer scénario",
+      "DELETE_SCHEDULER": "Supprimer programme horaire",
+      "UNSAVED_SCHEDULE": "L'enregistrement du programme horaire a échoué"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "La suppression du programme horaire a échoué",
+      "DELETE_SCENE_CONFIRMATION": "Supprimer le scénario {{sceneName}} ?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Supprimer {{scheduleObjectName}} ?",
+      "SAVE_AS_SCENE_FAILURE": "L'enregistrement du programme horaire a échoué",
+      "SAVE_SCENE_FAILURE": "L'enregistrement du programme horaire a échoué"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Supprimer programme horaire",
+      "ENTER_USER_DEFINED_NAME": "Saisir un nom personnalisé",
+      "FAILED_TO_DELETE": "La suppression a échoué",
+      "FAILED_TO_SAVE": "La sauvegarde a échoué",
+      "SET_CORRECT_NAME": "Entrez un nom"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Enregistrement des programmes horaires…",
+      "ADD_CALENDAR_ENTRY": "Ajouter une entrée de calendrier",
+      "ADD_EXCEPTION": "<nouvelle exception>",
+      "ADD_NEW_CALENDAR_ENTRY": "Ajouter entrée de calendrier",
+      "ADD_NEW_EXCEPTION": "<nouvelle exception>",
+      "CALENDAR_REFERENCE": "Référence calendrier",
+      "NEW_CALENDAR_ENTRY": "<nouvelle entrée de calendrier>",
+      "NEW_EXCEPTION": "<nouvelle exception>",
+      "UNSAVED_CALENDAR": "Calendrier non sauvegardé"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptions",
+      "SCHEDULE": "Programme horaire"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Impossible de quitter la page. Attendre que le programme horaire soit enregistré",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Les doublons ont été ignorés",
+      "CALENDAR_INVALID_ENTRY": "Entrée de calendrier incorrecte",
+      "DELETE_CALENDAR_CONFIRMATION": "Supprimer {{CalendarObjectName}} ?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Supprimer l'entrée de calendrier ?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Supprimer l'exception ?",
+      "INVALID_CALENDAR": "Référence de calendrier incorrecte",
+      "INVALID_DATE": "Date incorrecte",
+      "INVALID_DATE_RANGE": "Date de début postérieure à la date de fin",
+      "INVALID_EXCEPTION_HIDDEN": "Exceptions héritées masquées",
+      "INVALID_REFERENCES_HIDDEN": "Références de calendrier incorrectes",
+      "NO_CALENDAR_ENTRIES": "Aucune entrée de calendrier",
+      "NO_EXCEPTION_ENTRIES": "Pas d'exceptions",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exception copiée",
+      "SCHEDULE_COPY_SUCCESS": "Programme horaire copié",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Exception plage de dates sauvegardée",
+      "UNSAVED_CALENDAR_MESSAGE": "Enregistrez le calendrier avant de quitter la page"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "L'exception fait référence à un calendrier incorrect et doit être supprimée. La suppression s'applique aussi à toutes les autres références de calendrier incorrectes",
+      "SCHEDULE_CALENDAR_REF_INFO": "La référence de calendrier est en lecture seule"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "L'enregistrement de l'entrée de calendrier a échoué",
+      "CALENDAR_DELETE_ERROR": "La suppression de l'entrée de calendrier a échoué",
+      "CALENDAR_SAVE_ERROR": "L'enregistrement de l'entrée de calendrier a échoué",
+      "INVALID_EXCEPTION_HIDDEN": "Supprimer les exceptions non reconnues",
+      "INVALID_REFERENCES_HIDDEN": "Supprimer les références de calendrier incorrectes",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Sélectionnez le jour dont vous souhaitez copier le programme horaire",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Sélectionnez les jours sur lesquels vous souhaitez coller le programme horaire de {{day}}",
+      "SCHEDULE_COPY_ERROR": "La copie du programme horaire a échoué",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "La copie de l'exception a échoué",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Sélectionnez les jours sur lesquels vous souhaitez coller le programme horaire d'exception",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "L'enregistrement de l'exception a échoué",
+      "SCHEDULE_CREATE_RANGE_ERROR": "L'enregistrement de la plage de dates a échoué",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Sélectionnez la date de fin",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "La suppression de l'exception a échoué",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Nombre d'entrées max. atteint",
+      "SCHEDULE_SAVE_ERROR": "L'enregistrement du programme horaire a échoué",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "L'enregistrement de l'exception a échoué",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "L'enregistrement des paramètres a échoué",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Impossible d'obtenir les données",
+      "UNSUPPORTED_ENTRY_TYPE": "Le type d'entrée Jour ouvrable n'est pas reconnu par le calendrier"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Ouvrir dans une nouvelle fenêtre",
+  "SELECTION-SEND": "Ouvrir",
+  "SELECTION-SEND-TO-PRIMARY": "Placer dans le volet principal",
+  "SELECTION-SEND-TO-SECONDARY": "Placer dans le volet secondaire",
+  "TITLE_BAR": {
+    "ADVANCED": "Avancé",
+    "DELETE_SECURITY_SETTINGS": "Effacer les paramètres de sécurité",
+    "EDIT_ENDPOINT_ADDRESS": "Modifier l'adresse du point d'arrivée",
+    "EMPTY_CACHE_REFRESH": "Vider le cache et actualiser",
+    "GO_BACK": "Retour",
+    "GO_FORWARD": "Suivant",
+    "NAVIGATE": "Navigation",
+    "REFRESH": "Actualiser",
+    "RESET_ZOOM": "Réinitialiser zoom",
+    "VIEW": "Vue",
+    "ZOOM_IN": "Zoom avant",
+    "ZOOM_OUT": "Zoom arrière"
+  }
+}

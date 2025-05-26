@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Natrag",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Change Password Failed",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "Natrag",
+    "LOGIN-BUTTON-CANCEL": "Odustani",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Sljedeći",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "Zaporka",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Pravila o privatnosti",
+    "TERMS-OF-USE": "Uvjeti korištenja",
+    "USERNAME-LABEL": "Korisničko ime"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Settings",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "Oko",
+    "account-frame-id": "Account",
+    "events": "Događaji",
+    "notifconfig-frame-id": "Notifications",
+    "system": "Sustav"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Natrag",
+      "CANCEL": "Odustani",
+      "FILTER": "Filter",
+      "OK": "U redu"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Nije prisutan",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "Različite vrste svojstava",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Događaji",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "Dodaj",
+    "NO-PROPERTIES": "Nema svojstava",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "Svojstva",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in New Tab",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Dodajte unos u kalendar",
+      "ADD_EXCEPTION": "Dodajte izuzetak",
+      "ADD_NEW_CALENDAR_ENTRY": "Dodajte unos u kalendar",
+      "ADD_NEW_EXCEPTION": "Dodajte izuzetak",
+      "CALENDAR_REFERENCE": "Referenca kalendara",
+      "NEW_CALENDAR_ENTRY": "Novi unos u kalendar",
+      "NEW_EXCEPTION": "Nova iznimka",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Izuzetci",
+      "SCHEDULE": "Planer"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Želite li izbrisati taj unos u kalendaru?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Izbrisati ovu iznimku?",
+      "INVALID_CALENDAR": "Referenca kalendara nije važeća",
+      "INVALID_DATE": "Datum nije važeći",
+      "INVALID_DATE_RANGE": "Datum početka je veći od završnog datuma",
+      "INVALID_EXCEPTION_HIDDEN": "Skrivene iznimke nasljeđa",
+      "INVALID_REFERENCES_HIDDEN": "Nevažeće reference kalendara",
+      "NO_CALENDAR_ENTRIES": "Nema unosa u kalendar",
+      "NO_EXCEPTION_ENTRIES": "Nisu zakazani izuzeci",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Iznimka je kopirana",
+      "SCHEDULE_COPY_SUCCESS": "Raspored je kopiran",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Izrađen je datumski raspon",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Pogreška tijekom stvaranja unosa u kalendar",
+      "CALENDAR_DELETE_ERROR": "Pogreška tijekom brisanja unosa u kalendar",
+      "CALENDAR_SAVE_ERROR": "Pogreška prilikom spremanja unosa u kalendar",
+      "INVALID_EXCEPTION_HIDDEN": "Uklonite sve iznimke koje nisu podržane",
+      "INVALID_REFERENCES_HIDDEN": "Uklonite sve nevažeće reference kalendara",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Odaberite dan koji želite kopirati",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Odaberite dane u kojima želite ponoviti {{dan}} raspored",
+      "SCHEDULE_COPY_ERROR": "Pogreška prilikom kopiranja rasporeda",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Pogreška prilikom kopiranja iznimke",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Odaberite dane u kojima želite ponoviti raspored izuzetaka",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Pogreška tijekom stvaranja iznimke",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Pogreška tijekom stvaranja datumskog raspona",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Odaberite krajnji datum",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Pogreška tijekom brisanja iznimke",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Dostignut je najveći broj unosa",
+      "SCHEDULE_SAVE_ERROR": "Pogreška prilikom spremanja rasporeda",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Pogreška prilikom spremanja iznimke",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Pogreška prilikom spremanja opcija",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Došlo je do nepoznate pogreške prilikom dohvaćanja podataka",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

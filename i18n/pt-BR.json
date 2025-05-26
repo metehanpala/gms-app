@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Para trás",
+    "CHANGE": "Alterar",
+    "CHANGE_FAILED": "Alteração da palavra passe falhou",
+    "CHANGE_PASSWORD": "Alterar palavra passe",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirme palavra passe",
+    "CONNECTION": "A conectar...\r\n",
+    "COOKIE-NOTICE": "Aviso de Cookie",
+    "CORPORATE-INFO": "Informação corporativa",
+    "CURRENT_PASSWORD": "Palavra passe atual",
+    "LOGIN-BUTTON-BACK": "Para trás",
+    "LOGIN-BUTTON-CANCEL": "Cancelar",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Próxima",
+    "NEW_PASSWORD": "Nova palavra passe",
+    "PASSWORD-LABEL": "Palavra-passe",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Política de Privacidade",
+    "TERMS-OF-USE": "Termos de uso",
+    "USERNAME-LABEL": "Nome do utilizador"
+  },
+  "NAVBAR": {
+    "Account": "Conta",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Configurações",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "Sobre ",
+    "account-frame-id": "Conta",
+    "events": "Eventos",
+    "notifconfig-frame-id": "Notificações",
+    "system": "Sistema"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Para trás",
+      "CANCEL": "Cancelar",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Não presente",
+    "ADVANCED-SWITCH-LABEL": "Avançado",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "Diferentes tipos de propriedade",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Eventos",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "Adicionar",
+    "NO-PROPERTIES": "Não existem propriedades",
+    "NO-RELATED-ITEMS": "Nenhum item relacionado",
+    "PROPERTIES": "Propriedades",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Abrir num Novo Separador",
+    "SELECTION-SEND-TO-PRIMARY": "Enviar para o Painel Principal",
+    "SELECTION-SEND-TO-SECONDARY": "Enviar para o Painel Secundário"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Adicionar entrada da agenda",
+      "ADD_EXCEPTION": "Adicione exceção",
+      "ADD_NEW_CALENDAR_ENTRY": "Adicionar nova entrada na agenda",
+      "ADD_NEW_EXCEPTION": "Adicionar nova exceção",
+      "CALENDAR_REFERENCE": "Referência do calendário",
+      "NEW_CALENDAR_ENTRY": "Nova entrada na agenda",
+      "NEW_EXCEPTION": "Nova exceção",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceções",
+      "SCHEDULE": "Horário"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Eliminar esta entrada do calendário?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Eliminar esta exceção?",
+      "INVALID_CALENDAR": "A referência de calendário é inválida",
+      "INVALID_DATE": "A data inválida",
+      "INVALID_DATE_RANGE": "A data de início é maior que a data de fim",
+      "INVALID_EXCEPTION_HIDDEN": "Exceções herdadas ocultas",
+      "INVALID_REFERENCES_HIDDEN": "Referências de calendário inválidas!",
+      "NO_CALENDAR_ENTRIES": "Nenhuma entrada no calendário",
+      "NO_EXCEPTION_ENTRIES": "Sem exceções agendadas",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exceção copiada",
+      "SCHEDULE_COPY_SUCCESS": "Horário copiado",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Período criado",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Erro enquanto cria uma entrada de calendário",
+      "CALENDAR_DELETE_ERROR": "Error enquanto elimina uma entrada de calendário",
+      "CALENDAR_SAVE_ERROR": "Error enquanto guarda uma entrada de calendário",
+      "INVALID_EXCEPTION_HIDDEN": "Remova todas as exceções não suportadas ",
+      "INVALID_REFERENCES_HIDDEN": "Remova todas as referências de calendário inválidas",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Selecione o dia que você deseja copiar",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Selecione os dias em que deseja repetir o horário do {{day}}",
+      "SCHEDULE_COPY_ERROR": "Erro enquanto copia horário ",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Erro enquanto copia uma exceção",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Selecione os dias em que deseja repetir o horário de exceção",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Erro enquanto cria uma exceção",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Erro enquanto cria um período",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Selecione a data final",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Erro enquanto elimina uma exceção",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "O número máximo de entradas foi atingido",
+      "SCHEDULE_SAVE_ERROR": "Erro enquanto guarda horário ",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Erro enquanto guarda uma exceção",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Erro enquanto guarda opções",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Ocorreu um erro desconhecido na busca de dados",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Enviar para o Painel Principal",
+  "SELECTION-SEND-TO-SECONDARY": "Enviar para o Painel Secundário",
+  "TITLE_BAR": {
+    "ADVANCED": "Avançado",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Atualizar",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

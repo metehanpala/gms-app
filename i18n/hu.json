@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Vissza",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Change Password Failed",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "Vissza",
+    "LOGIN-BUTTON-CANCEL": "Mégse",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Következő",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "Jelszó",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Adatvédelmi irányelvek",
+    "TERMS-OF-USE": "Használati feltételek",
+    "USERNAME-LABEL": "Felhasználó név"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Settings",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "Névjegy",
+    "account-frame-id": "Account",
+    "events": "Események",
+    "notifconfig-frame-id": "Értesítések",
+    "system": "Rendszer"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Vissza",
+      "CANCEL": "Mégse",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Nincs jelen",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "Különböző tulajdonság típusok",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Események",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "Hozzáadás",
+    "NO-PROPERTIES": "Nincsenek tulajdonságok",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "Tulajdonságok",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in New Tab",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Naptár bejegyzés hozzáadása",
+      "ADD_EXCEPTION": "Kivétel hozzáadása",
+      "ADD_NEW_CALENDAR_ENTRY": "Új naptár bejegyzés hozzáadása",
+      "ADD_NEW_EXCEPTION": "Új kivétel hozzáadása",
+      "CALENDAR_REFERENCE": "Naptár referencia",
+      "NEW_CALENDAR_ENTRY": "Új naptár bejegyzés",
+      "NEW_EXCEPTION": "Új kivétel",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Kivételek",
+      "SCHEDULE": "Ütemezés"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Kívánja törölni ezt a naptár bejegyzést?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Kívánja törölni ezt a kivételt?",
+      "INVALID_CALENDAR": "Naptár referencia érvénytelen",
+      "INVALID_DATE": "Érvénytelen dátum",
+      "INVALID_DATE_RANGE": "Kezdő dátum nagyobb, mint a záró dátum",
+      "INVALID_EXCEPTION_HIDDEN": "Legacy kivételek elrejtése",
+      "INVALID_REFERENCES_HIDDEN": "Érvénytelen naptár referenciák",
+      "NO_CALENDAR_ENTRIES": "Nincs naptár bejegyzés",
+      "NO_EXCEPTION_ENTRIES": "Nincsenek kivételek beütemezve",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Kivétel másolva",
+      "SCHEDULE_COPY_SUCCESS": "Ütemezés másolva",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Dátum tartomány létrehozva",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Hiba a naptár bejegyzés létrehozása során",
+      "CALENDAR_DELETE_ERROR": "Hiba a naptár bejegyzés törlése során",
+      "CALENDAR_SAVE_ERROR": "Hiba a naptár bejegyzés mentése során",
+      "INVALID_EXCEPTION_HIDDEN": "Kérjük, hogy távolítsa el az összes nem támogatott kivételt!",
+      "INVALID_REFERENCES_HIDDEN": "kérjük, hogy távolítsa el az összes érvénytelen nap referenciát!",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Válassza ki azt a napot, amelyiket másolni szeretné!",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Válasza ki azokat a napokat, amelyeknél szereténe megismételni a(z) {{day}} ütemezést!",
+      "SCHEDULE_COPY_ERROR": "Hiba az ütemezés másolása során",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Hiba a kivétel másolása során",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Válasza ki azokat a napokat, amelyeknél szereténe megismételni a kivétel ütemezést!",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Hiba a kivétel létrehozása során",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Hiba a dátum tartomány létrehozása során",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Válassza ki a záró dátumot!",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Hiba a kivétel törlése során",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Elérte a bejegyzések maximális számát!",
+      "SCHEDULE_SAVE_ERROR": "Hiba az ütemezés mentése során",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Hiba a kivétel mentése során",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Hiba az opciók mentése során",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Ismeretlen hiba történt az adatok beolvasása során.",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

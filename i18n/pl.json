@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Anuluj",
+      "HEADING": "Usuń widżet",
+      "MESSAGE": "Usunąć widżet?",
+      "REMOVE": "Usuń"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Anuluj",
+        "DISCARD": "Odrzuć",
+        "HEADING": "Niezapisane dane widgetów",
+        "MESSAGE": "Odrzucić zmiany?",
+        "SAVE": "Zapisz"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Anuluj",
+        "DISCARD": "Odrzuć",
+        "HEADING": "Niezapisane dane widgetów",
+        "MESSAGE": "Odrzucić zmiany?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Zapisz lub odrzuć niezapisane dane we wszystkich otwartych oknach przed zamknięciem",
+    "CLOSE_APP_MODAL_TITLE": "Zamknij aplikację",
+    "LOG_OUT_MODAL_MSG": "Zapisz lub odrzuć niezapisane dane we wszystkich otwartych oknach przed wylogowaniem",
+    "LOG_OUT_MODAL_TITLE": "Wyloguj",
+    "RESET_LAYOUT_MODAL_MSG": "Zapisz lub odrzuć niezapisane dane we wszystkich otwartych oknach przed zresetowaniem",
+    "RESET_LAYOUT_MODAL_TITLE": "Zresetuj do domyślnego widoku",
+    "SEND_TO_WINDOW_DLG_TITLE": "Wyślij do innego okna"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Wstecz",
+    "CHANGE": "Zmień",
+    "CHANGE_FAILED": "Zmiana hasła nie powiodła się",
+    "CHANGE_PASSWORD": "Zmień hasło",
+    "CHANGE_PASSWORD_DESCRIPTION": "Domyślne hasło musi zostać zmienione",
+    "CONFIRM_PASSWORD": "Potwierdź hasło",
+    "CONNECTION": "Łączenie…",
+    "COOKIE-NOTICE": "Uwaga dotycząca plików cookie",
+    "CORPORATE-INFO": "Informacje o firmie",
+    "CURRENT_PASSWORD": "Aktualne hasło",
+    "LOGIN-BUTTON-BACK": "Wstecz",
+    "LOGIN-BUTTON-CANCEL": "Anuluj",
+    "LOGIN-BUTTON-LOGIN": "Zaloguj",
+    "LOGIN-BUTTON-NEXT": "Następny",
+    "NEW_PASSWORD": "Nowe hasło",
+    "PASSWORD-LABEL": "Hasło",
+    "PASSWORD_DIFFERENT": "Nowe hasło różni się od potwierdzenia hasła",
+    "PASSWORD_EGUAL": "Nowe hasło jest takie samo jak stare",
+    "PASSWORD_POLICY": "Polityka haseł",
+    "PASSWORD_POLICY_ADD_REQ": "Hasło musi być zgodne z:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 cyfra",
+    "PASSWORD_POLICY_LOWER": "Co najmniej jedna mała litera",
+    "PASSWORD_POLICY_MINLENGTH": "Hasło musi składać się z min. {{minLength}} znaków",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 znak specjalny",
+    "PASSWORD_POLICY_UPPER": "Min. 1 duża litera",
+    "PRIVACY-NOT": "Polityka prywatności",
+    "TERMS-OF-USE": "Warunki korzystania",
+    "TERMS-OF-USE-STATEMENT": "Zalogowanie oznacza, że zgadzasz się z {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Nazwa użytkownika"
+  },
+  "NAVBAR": {
+    "Account": "Konto",
+    "Group-View": "Grupy",
+    "Notification": "Powiadomienie",
+    "Printer-Settings": "Ustawienia drukarki",
+    "Recipient-View": "Odbiorcy",
+    "Settings": "Ustawienia",
+    "Template-View": "Szablony",
+    "Tree-View": "Hierarchie",
+    "Views": "Widoki",
+    "about-frame-id": "Informacje",
+    "account-frame-id": "Konto",
+    "events": "Zdarzenia",
+    "node-map": "Urządzenia",
+    "notifconfig-frame-id": "Powiadomienia",
+    "system": "System",
+    "tasks": "Zadania"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Wybierz, aby działać",
+      "FILTER_NO_RESULTS": "Nic nie znaleziono",
+      "MODAL_DANGER_TEXT_PROCEED": "Postępuj ostrożnie",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Zamierzasz zwolnić funkcje zabezpieczające",
+      "MODAL_DANGER_TITLE": "Zagrożenie życia"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Wstecz",
+      "CANCEL": "Anuluj",
+      "FILTER": "Filtr",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Niedostępne",
+    "ADVANCED-SWITCH-LABEL": "Zaawansowane",
+    "BASIC-SWITCH-LABEL": "Podstawowy",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Błąd wykonania polecenia",
+    "COMMAND-ERROR-TITLE": "Błąd wykonania polecenia",
+    "DIFFERENT-PROPERTY-TYPES": "Niezgodność typu właściwości",
+    "ERROR-TEXT": "Błąd komunikacji",
+    "EVENT-POPOVER-EVENTS": "Zdarzenia",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Źródło zdarzenia",
+    "FILTER-PLACEHOLDER": "Szukaj…",
+    "NAVIGATE-TO-LOG-VIEWER": "Otwórz w widoku dziennika",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} w panelu głównym",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} w panelu dodatkowym",
+    "NEW-ITEM-MENU": "Dodaj",
+    "NEW-ITEM-MOBILE": "Utwórz {{itemLabel}}",
+    "NO-PROPERTIES": "Brak właściwości",
+    "NO-RELATED-ITEMS": "Brak powiązanych pozycji",
+    "PROPERTIES": "Właściwości",
+    "SAVE-ERROR-TITLE": "Nie udało się zapisać notatki",
+    "SELECTION-OPEN-IN-NEW-TAB": "Otwórz w nowej zakładce",
+    "SELECTION-SEND-TO-MOBILE": "Otwórz",
+    "SELECTION-SEND-TO-PRIMARY": "Wyślij na podstawowy panel",
+    "SELECTION-SEND-TO-SECONDARY": "Wyślij na dodatkowy panel"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Dodaj regułę",
+    "CLOSE_WINDOW_BTN": "Zamknij",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Zdefiniuj kryteria",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Anuluj",
+    "DELETE_RULE_DLG_MSG": "Usunąć wybraną regułę?",
+    "DELETE_RULE_DLG_TITLE": "Usuń regułę wyświetlania",
+    "EDIT_COMMUNICATION_RULES": "Edytuj reguły wyświetlania",
+    "EMPTY_TABLE_MSG": "Nic do wyświetlenia",
+    "OBJ_FILTER_DEFINED": "Wynik",
+    "SAVE_RULE_STEP_TITLE": "Zapisz regułę wyświetlania",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Zapisz regułę",
+    "SELECT_ANY_WIN_OPTION": "Dowolne okno",
+    "SELECT_FILTER_TYPE_ERROR": "Typ kryterium niedostępny dla wybranego obiektu",
+    "SELECT_OBJ_DLG_TITLE": "Wybierz obiekt",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Typ kryterium",
+    "SELECT_OBJ_LBL": "Obiekt",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Wybrany obiekt jest niedostępny",
+    "SELECT_OBJ_PLACEHOLDER": "Wybierz obiekt",
+    "SELECT_SINGLE_WIN_OPTION": "Określone okno",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Okno źródłowe",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Okno docelowe",
+    "SELECT_WIN_ERROR": "Wymagany wybór okna",
+    "TABLE_COL_FILTER": "Kryteria",
+    "TABLE_COL_SOURCE_WIN": "Okno źródłowe",
+    "TABLE_COL_TARGET_WIN": "Okno docelowe",
+    "TABLE_FILTER_ERROR": "Kryteria nie zdefiniowane",
+    "TABLE_WIN_ANY_SELECTED": "Dowolne okno",
+    "TABLE_WIN_ERROR": "Niedostępne",
+    "WINDOW_TITLE": "Reguły wyświetlania",
+    "WIZARD_BACK_TEXT": "Wstecz",
+    "WIZARD_NEXT_TEXT": "Dalej",
+    "WIZARD_SAVE_TEXT": "Zapisz"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Anuluj",
+      "DELETE": "Usuń",
+      "DELETE_SCENE": "Usuń scenę",
+      "DELETE_SCHEDULER": "Usuń harmonogram",
+      "UNSAVED_SCHEDULE": "Nie udało się zapisać harmonogramu"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Nie udało się usunąć harmonogramu",
+      "DELETE_SCENE_CONFIRMATION": "Usunąć scenę {{sceneName}}?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Usunąć {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Nie udało się zapisać harmonogramu",
+      "SAVE_SCENE_FAILURE": "Nie udało się zapisać harmonogramu"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Usuń harmonogram",
+      "ENTER_USER_DEFINED_NAME": "Wprowadź nazwę niestandardową",
+      "FAILED_TO_DELETE": "Nie udało się usunąć",
+      "FAILED_TO_SAVE": "Nie udało się zapisać",
+      "SET_CORRECT_NAME": "Wpisz nazwę"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Zapisywanie harmonogramów…",
+      "ADD_CALENDAR_ENTRY": "Dodaj wpis kalendarza",
+      "ADD_EXCEPTION": "<nowy wyjątek>",
+      "ADD_NEW_CALENDAR_ENTRY": "Dodaj wpis kalendarza",
+      "ADD_NEW_EXCEPTION": "<nowy wyjątek>",
+      "CALENDAR_REFERENCE": "Referencja kalendarza",
+      "NEW_CALENDAR_ENTRY": "<nowy wpis w kalendarzu>",
+      "NEW_EXCEPTION": "<nowy wyjątek>",
+      "UNSAVED_CALENDAR": "Niezapisany kalendarz"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Wyjątki",
+      "SCHEDULE": "Harmonogram"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Nie można opuścić strony. Poczekaj, aż harmonogram zostanie zapisany",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Zignorowano duplikaty",
+      "CALENDAR_INVALID_ENTRY": "Nieprawidłowy wpis w kalendarzu",
+      "DELETE_CALENDAR_CONFIRMATION": "Usunąć „{{CalendarObjectName}}”?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Usunąć wpis kalendarza?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Usunąć wyjątek?",
+      "INVALID_CALENDAR": "Nieprawidłowe odniesienie do kalendarza",
+      "INVALID_DATE": "Nieprawidłowa data",
+      "INVALID_DATE_RANGE": "Data rozpoczęcia po dacie zakończenia",
+      "INVALID_EXCEPTION_HIDDEN": "Ukryte wyjątki starszego typu",
+      "INVALID_REFERENCES_HIDDEN": "Nieprawidłowe odniesienie do kalendarza",
+      "NO_CALENDAR_ENTRIES": "Brak wpisów w kalendarzu",
+      "NO_EXCEPTION_ENTRIES": "Brak wyjątków",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Wyjątek skopiowany",
+      "SCHEDULE_COPY_SUCCESS": "Harmonogram skopiowany",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Zapisano wyjątek zakresu dat",
+      "UNSAVED_CALENDAR_MESSAGE": "Zapisz kalendarz przed opuszczeniem strony"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Wyjątek odwołuje się do nieprawidłowego kalendarza i musi zostać usunięty. Usunięcie dotyczy również wszystkich innych nieprawidłowych odniesień do kalendarzy",
+      "SCHEDULE_CALENDAR_REF_INFO": "Odniesienie do kalendarza jest tylko do odczytu"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Nie udało się zapisać wpisu w kalendarzu",
+      "CALENDAR_DELETE_ERROR": "Nie udało się usunąć wpisu w kalendarzu",
+      "CALENDAR_SAVE_ERROR": "Nie udało się zapisać wpisu w kalendarzu",
+      "INVALID_EXCEPTION_HIDDEN": "Usuń nieobsługiwane wyjątki",
+      "INVALID_REFERENCES_HIDDEN": "Usuń nieprawidłowe odwołania do kalendarza",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Wybierz dzień do skopiowania harmonogramu",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Wybierz dni, w które chcesz wkleić harmonogram {{day}}",
+      "SCHEDULE_COPY_ERROR": "Nie udało się skopiować harmonogramu",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Nie udało się skopiować wyjątku",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Wybierz dni, w które chcesz wkleić harmonogram wyjątków",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Nie udało się zapisać wyjątku",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Nie udało się zapisać zakresu dat",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Wybierz datę końcową",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Nie udało się usunąć wyjątku",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Osiągnięto maksymalną liczbę wpisów",
+      "SCHEDULE_SAVE_ERROR": "Nie udało się zapisać harmonogramu",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Nie udało się zapisać wyjątku",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Nie udało się zapisać ustawień",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Nie udało się pobrać danych",
+      "UNSUPPORTED_ENTRY_TYPE": "Typ wpisu dnia tygodnia nie jest obsługiwany w kalendarzu"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Otwórz w nowym oknie",
+  "SELECTION-SEND": "Otwórz",
+  "SELECTION-SEND-TO-PRIMARY": "Wyślij na podstawowy panel",
+  "SELECTION-SEND-TO-SECONDARY": "Wyślij na dodatkowy panel",
+  "TITLE_BAR": {
+    "ADVANCED": "Zaawansowane",
+    "DELETE_SECURITY_SETTINGS": "Wyczyść ustawienia zabezpieczeń",
+    "EDIT_ENDPOINT_ADDRESS": "Edytuj adres punktu końcowego",
+    "EMPTY_CACHE_REFRESH": "Opróżnij pamięć podręczną i odśwież",
+    "GO_BACK": "Wstecz",
+    "GO_FORWARD": "Do przodu",
+    "NAVIGATE": "Nawigacja",
+    "REFRESH": "Odśwież",
+    "RESET_ZOOM": "Resetuj powiększenie",
+    "VIEW": "Widok",
+    "ZOOM_IN": "Powiększ",
+    "ZOOM_OUT": "Pomniejsz"
+  }
+}

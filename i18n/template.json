@@ -1,0 +1,280 @@
+{
+  "LOGIN-SCREEN": {
+    "USERNAME-LABEL": "User name",
+    "PASSWORD-LABEL": "Password",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Next",
+    "LOGIN-BUTTON-CANCEL": "Cancel",
+    "LOGIN-BUTTON-BACK": "Back",
+    "CONNECTION": "Connecting...",
+    "TERMS-OF-USE-STATEMENT": "By logon to this application you agree with the {{termsOfUseLink}}",
+    "CORPORATE-INFO": "Corporate Information",
+    "PRIVACY-NOT": "Privacy policy",
+    "TERMS-OF-USE": "Terms of use",
+    "COOKIE-NOTICE":"Cookie Notice",
+    "CHANGE_PASSWORD" : "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION" :"Factory set password must be changed",
+    "CURRENT_PASSWORD" : "Current password",
+    "NEW_PASSWORD" : "New password",
+    "CONFIRM_PASSWORD" : "Confirm password",
+    "CANCEL" : "Back",
+    "CHANGE" : "Change",
+    "CHANGE_FAILED" : "Change Password Failed",
+    "PASSWORD_POLICY" : "Password policy",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 number",
+    "PASSWORD_POLICY_LOWER": "Min. 1 lower case letter",
+    "PASSWORD_POLICY_MINLENGTH" : "Enter a password with at least {{minLength}} characters!",
+    "PASSWORD_POLICY_ADD_REQ" : "Password must meet following requirements:",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 special characters",
+    "PASSWORD_POLICY_UPPER": "Min. 1 upper case letter",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one"
+  },
+  "NAVBAR" : {
+    "system": "System",
+    "events": "Events",
+    "about-frame-id": "About",
+    "account-frame-id": "Account",
+    "notifconfig-frame-id": "Notifications",
+    "tasks": "Tasks",
+
+    "Account": "Account",
+    "Settings": "Settings",
+    "Notification": "Notification",
+    "Recipient-View": "Recipients",
+    "Group-View": "Groups",
+    "Template-View": "Templates",
+    "Views": "Views",
+    "Tree-View": "Tree-View",
+    "Printer-Settings": "Printer-Settings",
+    "node-map": "Device-View"
+  },
+  "RIGHT-PANEL": {
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "FILTER-PLACEHOLDER" : "",
+    "ERROR-TEXT": "#COM",
+    "ABSENT-TEXT": "Not Present",
+    "COMMAND-ERROR-TITLE" : "Command Error",
+    "COMMAND-ERROR-MESSAGE-DEFAULT" : "Command execution failed",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "NO-PROPERTIES": "No properties",
+    "DIFFERENT-PROPERTY-TYPES": "Different property types",
+    "PROPERTIES": "properties",
+    "NO-RELATED-ITEMS": "No related items",
+    "NEW-ITEM-MENU": "Add",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} in primary pane",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} in secondary pane",
+    "NEW-ITEM-MOBILE": "New {{itemLabel}}",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in new tab",
+    "SELECTION-SEND-TO-MOBILE": "Send",
+    "EVENT-POPOVER-EVENTS": "Events",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NAVIGATE-TO-LOG-VIEWER" : "Go to Log Viewer"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "MODAL_DANGER_TITLE": "Life Safety",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "OK": "OK",
+      "CANCEL": "Cancel",
+      "BACK": "Back",
+      "FILTER": "Filter"
+    }
+  },
+  "TITLE_BAR": {
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out",
+    "RESET_ZOOM": "Reset zoom",
+    "REFRESH": "Refresh",
+    "EMPTY_CACHE_REFRESH": "Empty cache and refresh",
+    "ADVANCED": "Advanced",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "GO_BACK": "Go back",
+    "GO_FORWARD": "Go forward",
+    "VIEW": "View",
+    "NAVIGATE": "Navigate"
+  },
+  "DESKTOP": {
+    "LOG_OUT_MODAL_TITLE": "Log out",
+    "LOG_OUT_MODAL_MSG": "Log out is requested. Check all windows for unsaved data.",
+    "RESET_LAYOUT_MODAL_TITLE": "Reset to default",
+    "RESET_LAYOUT_MODAL_MSG": "Reset to default configuration is requested. Check all windows for unsaved data.",
+    "CLOSE_APP_MODAL_TITLE": "Close application",
+    "CLOSE_APP_MODAL_MSG": "Closing the application is requested. Check all windows for unsaved data.",
+    "SEND_TO_WINDOW_DLG_TITLE": "Send to other window"
+  },
+  "RULES": {
+    "EDIT_COMMUNICATION_RULES": "Edit communication rules",
+    "WINDOW_TITLE": "Communication rules",
+    "EMPTY_TABLE_MSG": "No data to display",
+    "TABLE_COL_FILTER": "Object filter criteria",
+    "TABLE_COL_SOURCE_WIN": "Source window",
+    "TABLE_COL_TARGET_WIN": "Target window",
+    "TABLE_WIN_ERROR": "Window is not existing",
+    "TABLE_FILTER_ERROR": "Object filter is not set",
+    "TABLE_WIN_ANY_SELECTED": "Any window",
+    "ADD_RULE_BTN": "Add rule",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Save rule",
+    "SAVE_RULE_STEP_TITLE": "Save communication rule",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Define object filter",
+    "SELECT_OBJ_LBL": "Select object",
+    "SELECT_OBJ_DLG_TITLE": "Select object",
+    "SELECT_OBJ_PLACEHOLDER": "Click to select object...",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Select object filter criteria",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Selected object does not exist",
+    "SELECT_FILTER_TYPE_ERROR": "No value for the selected filter type",
+    "OBJ_FILTER_DEFINED": "Defined object filter",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Select source window",
+    "SELECT_ANY_WIN_OPTION": "Any window",
+    "SELECT_SINGLE_WIN_OPTION": "Single window",
+    "SELECT_WIN_ERROR": "Select any window",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Select target window",
+    "DELETE_RULE_DLG_TITLE": "Delete communication rule",
+    "DELETE_RULE_DLG_MSG": "Delete the selected rule?\nRestoring is not possible.",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Cancel",
+    "DELETE_RULE_DLG_DELETE_BTN": "Delete",
+    "CLOSE_WINDOW_BTN": "Close",
+    "WIZARD_BACK_TEXT": "Back",
+    "WIZARD_NEXT_TEXT": "Next",
+    "WIZARD_SAVE_TEXT": "Save"
+  },
+  "OBJECT_FILTER_TYPES": {
+    "OBJECT_FUNCTION": "Object function",
+    "OBJECT_MODEL": "Object model",
+    "OBJECT_TYPE": "Object type",
+    "OBJECT_DISCIPLINE": "Object discipline",
+    "OBJECT_INSTANCE": "Object instance",
+    "OBJECT_MANAGED_TYPE": "Object managed type"
+  },
+  "OBJECT_FILTER_INSTANCE_TYPES": {
+    "ONLY_INSTANCE": "Only instance",
+    "ONLY_CHILDREN": "Only children",
+    "ONLY_RECURSIVE_CHILDREN": "Only recursive children",
+    "INSTANCE_AND_CHILDREN": "Instance and children",
+    "INSTANCE_AND_RECURSIVE_CHILDREN": "Instance and recursive children"
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND": "Send",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "SELECTION-OPEN-IN-NEW-TAB": "Open in new window",
+  "SCENE_EDITOR": {
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "FAILED_TO_SAVE": "Failed to save",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "SET_CORRECT_NAME": "Set correct name",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Cancel",
+      "DELETE": "Delete",
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "SAVE_SCENE_FAILURE":  "Failed to save modification to the schedule.",
+      "SAVE_AS_SCENE_FAILURE":  "Failed to save the modification to new schedule.",
+      "DELETE_FAILURE":  "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION":  "Delete {{sceneName}} scene?",
+      "DELETE_SCHEDULE_CONFIRMATION":  "Do you want to delete \"{{scheduleObjectName}}\"?"
+    }
+  },
+
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ADD_NEW_CALENDAR_ENTRY": "Add new calendar entry",
+      "ADD_NEW_EXCEPTION": "Add new exception",
+      "ADD_CALENDAR_ENTRY": "Add calendar entry",
+      "ADD_EXCEPTION": "Add exception",
+      "CALENDAR_REFERENCE": "Calendar reference",
+      "NEW_EXCEPTION": "New exception",
+      "NEW_CALENDAR_ENTRY": "New calendar entry",
+      "UNSAVED_CALENDAR" : "Unsaved Calendar",
+      "ACTIVITY_PROGRESS" : "Warning"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptions",
+      "SCHEDULE": "Schedule"
+    },
+    "MESSAGES": {
+      "SCHEDULE_COPY_SUCCESS": "Schedule copied",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exception copied",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Date range created",
+      "DELETE_EXCEPTION_CONFIRMATION": "Delete this exception?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Delete this calendar entry?",
+      "INVALID_DATE": "Date is invalid",
+      "INVALID_DATE_RANGE": "Start date is greater than end date",
+      "INVALID_CALENDAR": "Calendar reference is invalid",
+      "NO_EXCEPTION_ENTRIES": "No exceptions scheduled",
+      "NO_CALENDAR_ENTRIES": "No calendar entries",
+      "INVALID_EXCEPTION_HIDDEN": "Legacy Exceptions Hidden",
+      "INVALID_REFERENCES_HIDDEN": "Invalid Calendar References",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "UNSAVED_CALENDAR_MESSAGE" : "Add entries and save the calendar for further operations.",
+      "DELETE_CALENDAR_CONFIRMATION":  "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "ACTIVITY_IN_PROGRESS" : "Activity in progress, can not navigate."
+    },
+    "MESSAGES_LONG": {
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Select the day you want to copy",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Select the days on which you want to repeat the {{day}} schedule",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Select the days on which you want to repeat the exception schedule",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Select the end date",
+      "SCHEDULE_SAVE_ERROR": "Error while saving schedule",
+      "SCHEDULE_COPY_ERROR": "Error while copying schedule",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Error while copying exception",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Maximum number of entries has been reached",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Error while creating date range",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Error while creating exception",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Error while saving exception",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Error while deleting exception",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Error while saving options",
+      "UNKNOWN_ERROR_FETCHING_DATA": "An unknown error occurred while fetching data",
+      "CALENDAR_SAVE_ERROR": "Error while saving calendar entry",
+      "CALENDAR_DELETE_ERROR": "Error while deleting calendar entry",
+      "CALENDAR_CREATE_ERROR": "Error while creating calendar entry",
+      "INVALID_EXCEPTION_HIDDEN": "Please remove all unsupported exceptions",
+      "INVALID_REFERENCES_HIDDEN": "Please remove all invalid calendar references",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar.",
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries."
+    }
+  },
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "HEADING": "Remove widget",
+      "MESSAGE": "Are you sure you want to remove this widget?",
+      "CANCEL": "Cancel",
+      "REMOVE": "Remove"
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "HEADING": "Widget configuration changed",
+        "MESSAGE": "The widget configuration changed. Do you want to discard the changes?",
+        "DISCARD": "Discard",
+        "CANCEL": "Cancel"
+      }
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "HEADING": "Widget configuration changed",
+        "MESSAGE": "The widget configuration changed. Do you want to discard the changes?",
+        "SAVE": "Save",
+        "DISCARD": "Discard",
+        "CANCEL": "Cancel"
+      }
+    }
+  }
+}

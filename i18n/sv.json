@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Avbryt",
+      "HEADING": "Ta bort widget",
+      "MESSAGE": "Ta bort widget?",
+      "REMOVE": "Radera"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Avbryt",
+        "DISCARD": "Kasta",
+        "HEADING": "Ej sparad widget",
+        "MESSAGE": "Ignorera ändringar?",
+        "SAVE": "Spara"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Ångra",
+        "DISCARD": "Kasta",
+        "HEADING": "Ej sparad widget",
+        "MESSAGE": "Ignorera ändringar?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Spara eller kassera osparade data i alla öppna fönster innan du stänger",
+    "CLOSE_APP_MODAL_TITLE": "Stäng applikation",
+    "LOG_OUT_MODAL_MSG": "Spara eller kassera osparade data i alla öppna fönster innan du loggar ut",
+    "LOG_OUT_MODAL_TITLE": "Logga ut",
+    "RESET_LAYOUT_MODAL_MSG": "Spara eller kassera osparade data i alla öppna fönster före återställning",
+    "RESET_LAYOUT_MODAL_TITLE": "Återgå till standardlayout",
+    "SEND_TO_WINDOW_DLG_TITLE": "Skicka till andra fönstret"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Åter",
+    "CHANGE": "Ändra",
+    "CHANGE_FAILED": "Misslyckades att ändra lösenord",
+    "CHANGE_PASSWORD": "Ändra lösenord",
+    "CHANGE_PASSWORD_DESCRIPTION": "Standardlösenordet måste ändras",
+    "CONFIRM_PASSWORD": "Bekräfta lösenord",
+    "CONNECTION": "Ansluter.…",
+    "COOKIE-NOTICE": "Cookies meddelande",
+    "CORPORATE-INFO": "Företagsinformation",
+    "CURRENT_PASSWORD": "Aktuellt lösenord",
+    "LOGIN-BUTTON-BACK": "Åter",
+    "LOGIN-BUTTON-CANCEL": "Avbryt",
+    "LOGIN-BUTTON-LOGIN": "Logga in",
+    "LOGIN-BUTTON-NEXT": "Nästa",
+    "NEW_PASSWORD": "Nytt lösenord",
+    "PASSWORD-LABEL": "Lösenord",
+    "PASSWORD_DIFFERENT": "Det nya lösenordet skiljer sig från det bekräftade lösenordet",
+    "PASSWORD_EGUAL": "Lösenordet har redan använts",
+    "PASSWORD_POLICY": "Lösenordspolicy",
+    "PASSWORD_POLICY_ADD_REQ": "Lösenordet måste uppfylla:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 siffra",
+    "PASSWORD_POLICY_LOWER": "Minst en gemen",
+    "PASSWORD_POLICY_MINLENGTH": "Lösenordet måste bestå av min. {{minLength}} tecken",
+    "PASSWORD_POLICY_SPECIAL": "Minst ett specialtecken",
+    "PASSWORD_POLICY_UPPER": "Minst en versal",
+    "PRIVACY-NOT": "Sekretesspolicy",
+    "TERMS-OF-USE": "Användarvillkor",
+    "TERMS-OF-USE-STATEMENT": "Inloggning betyder att du godkänner {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Användarnamn"
+  },
+  "NAVBAR": {
+    "Account": "Konto",
+    "Group-View": "Grupper",
+    "Notification": "Meddelande",
+    "Printer-Settings": "Skrivarinställningar",
+    "Recipient-View": "Mottagare",
+    "Settings": "Inställningar",
+    "Template-View": "Mallar",
+    "Tree-View": "Hierarkier",
+    "Views": "Vyer",
+    "about-frame-id": "Om",
+    "account-frame-id": "Konto",
+    "events": "Händelse",
+    "node-map": "Enheter",
+    "notifconfig-frame-id": "Meddelanden",
+    "system": "System",
+    "tasks": "Uppgifter"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Välj för att ange",
+      "FILTER_NO_RESULTS": "Inget funnet",
+      "MODAL_DANGER_TEXT_PROCEED": "Fortsätt med försiktighet",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Du är på väg att frigöra säkerhetsfunktioner",
+      "MODAL_DANGER_TITLE": "Akut"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Åter",
+      "CANCEL": "Avbryt",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Inte tillgänglig",
+    "ADVANCED-SWITCH-LABEL": "Utökade driftparametrar",
+    "BASIC-SWITCH-LABEL": "Betjäning",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Manöverfel",
+    "COMMAND-ERROR-TITLE": "Manöverfel",
+    "DIFFERENT-PROPERTY-TYPES": "Olika egenskapstyper",
+    "ERROR-TEXT": "Kommunikatonsfel",
+    "EVENT-POPOVER-EVENTS": "Händelser",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Händelsekälla",
+    "FILTER-PLACEHOLDER": "Sök…",
+    "NAVIGATE-TO-LOG-VIEWER": "Öppna i loggvy",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} i primärvyn",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} i sekundarvyn",
+    "NEW-ITEM-MENU": "Lägg till",
+    "NEW-ITEM-MOBILE": "Skapa {{itemLabel}}",
+    "NO-PROPERTIES": "Inga egenskaper",
+    "NO-RELATED-ITEMS": "Inga relaterade objekt",
+    "PROPERTIES": "Egenskaper",
+    "SAVE-ERROR-TITLE": "Notering kunde inte sparas",
+    "SELECTION-OPEN-IN-NEW-TAB": "Öppna i ny flik",
+    "SELECTION-SEND-TO-MOBILE": "Öppna",
+    "SELECTION-SEND-TO-PRIMARY": "Skicka till primärvy",
+    "SELECTION-SEND-TO-SECONDARY": "Skicka till sekundärvyn"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Lägg till regel",
+    "CLOSE_WINDOW_BTN": "Stäng",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Definiera kriterier",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Ångra",
+    "DELETE_RULE_DLG_MSG": "Radera vald regel?",
+    "DELETE_RULE_DLG_TITLE": "Radera visningsregel",
+    "EDIT_COMMUNICATION_RULES": "Redigera visningsregler",
+    "EMPTY_TABLE_MSG": "Inget att visa",
+    "OBJ_FILTER_DEFINED": "Resultat",
+    "SAVE_RULE_STEP_TITLE": "Spara visningsregel",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Spara regel",
+    "SELECT_ANY_WIN_OPTION": "Valfritt fönster",
+    "SELECT_FILTER_TYPE_ERROR": "Typ av kriterium inte tillgängligt för valt objekt",
+    "SELECT_OBJ_DLG_TITLE": "Välj objekt",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Typ av kriterium",
+    "SELECT_OBJ_LBL": "Objekt",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Vald objekt inte tillgängligt",
+    "SELECT_OBJ_PLACEHOLDER": "Välj objekt",
+    "SELECT_SINGLE_WIN_OPTION": "Specifikt fönster",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Källfönster",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Målfönster",
+    "SELECT_WIN_ERROR": "Fönsterval krävs",
+    "TABLE_COL_FILTER": "Kriterier",
+    "TABLE_COL_SOURCE_WIN": "Källfönster",
+    "TABLE_COL_TARGET_WIN": "Målfönster",
+    "TABLE_FILTER_ERROR": "Kriterier inte definierade",
+    "TABLE_WIN_ANY_SELECTED": "Valfritt fönster",
+    "TABLE_WIN_ERROR": "Inte tillgänglig",
+    "WINDOW_TITLE": "Visningsregler",
+    "WIZARD_BACK_TEXT": "Åter",
+    "WIZARD_NEXT_TEXT": "Nästa",
+    "WIZARD_SAVE_TEXT": "Spara"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Avbryt",
+      "DELETE": "Ta bort",
+      "DELETE_SCENE": "Ta bort scen",
+      "DELETE_SCHEDULER": "Ta bort schema",
+      "UNSAVED_SCHEDULE": "Det gick inte att spara schema"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Det gick inte att ta bort schema",
+      "DELETE_SCENE_CONFIRMATION": "Ta bort {{sceneName}} scen?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Vill du ta bort {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Det gick inte att spara tidkanalen",
+      "SAVE_SCENE_FAILURE": "Det gick inte att spara tidkanalen"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Ta bort schemaobjekt",
+      "ENTER_USER_DEFINED_NAME": "Ange användardefinerat namn",
+      "FAILED_TO_DELETE": "Det går inte att ta bort",
+      "FAILED_TO_SAVE": "Det går inte att spara",
+      "SET_CORRECT_NAME": "Ange namn"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Sparar tidtabeller…",
+      "ADD_CALENDAR_ENTRY": "Lägg till kalenderinmatning",
+      "ADD_EXCEPTION": "<nytt undantag>",
+      "ADD_NEW_CALENDAR_ENTRY": "Lägg till kalenderinmatning",
+      "ADD_NEW_EXCEPTION": "<nytt undantag>",
+      "CALENDAR_REFERENCE": "Kalenderreferens",
+      "NEW_CALENDAR_ENTRY": "<ny kalenderinmatning>",
+      "NEW_EXCEPTION": "<nytt undantag>",
+      "UNSAVED_CALENDAR": "Ej sparad kalender"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Undantag",
+      "SCHEDULE": "Schema"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Kan inte lämna sidan. Vänta tills tidkanalen är sparad",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Dubletter ignoreras",
+      "CALENDAR_INVALID_ENTRY": "Ogiltig kalenderinmatning",
+      "DELETE_CALENDAR_CONFIRMATION": "Ta bort {{CalendarObjectName}}?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Ta bort kalenderinmatning?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Ta bort undantag?",
+      "INVALID_CALENDAR": "Otillåten kalenderreferens",
+      "INVALID_DATE": "Felaktigt datum",
+      "INVALID_DATE_RANGE": "Startdatum är senare än slutdatum",
+      "INVALID_EXCEPTION_HIDDEN": "Äldre undantag är dolda",
+      "INVALID_REFERENCES_HIDDEN": "Ogiltiga kalenderreferenser",
+      "NO_CALENDAR_ENTRIES": "Inga kalenderinmatningar",
+      "NO_EXCEPTION_ENTRIES": "Inga undantag",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Undantag kopierat",
+      "SCHEDULE_COPY_SUCCESS": "Schema kopierad",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Undantagsområde sparat",
+      "UNSAVED_CALENDAR_MESSAGE": "Spara kalender innan du lämnar"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Undantaget hänvisar till en ogiltig kalender och måste tas bort. Radering gäller även alla andra ogiltiga kalenderreferenser",
+      "SCHEDULE_CALENDAR_REF_INFO": "Kalenderreferensen är skrivskyddad"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Fel vid sparande av kalenderinmatning",
+      "CALENDAR_DELETE_ERROR": "Fel vid borttagning av kalender inmatning",
+      "CALENDAR_SAVE_ERROR": "Fel vid sparande av kalenderinmatning",
+      "INVALID_EXCEPTION_HIDDEN": "Ta bort alla undantag som inte stöds",
+      "INVALID_REFERENCES_HIDDEN": "Ta bort ogiltiga kalenderreferenser",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Välj dag som skall kopieras",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Välj de dagar där du vill upprepa {{day}}ens schema",
+      "SCHEDULE_COPY_ERROR": "Det gick inte att spara schema",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Fel vid kopiering av undantag",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Välj de dagar där du vill upprepa undantagsschemat",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Fel vid skapande av undantag",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Fel vid skapande av datumområde",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Välj slutdatum",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Det gick inte att ta bort undantag",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Max. antal inmatningar uppnått",
+      "SCHEDULE_SAVE_ERROR": "Det går inte att spara schema",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Det gick inte att spara undantag",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Det gick inte att spara inställningar",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Misslyckades med att hämta data",
+      "UNSUPPORTED_ENTRY_TYPE": "Veckodag för kalender stöds inte"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Öppna i nytt fönster",
+  "SELECTION-SEND": "Öppna",
+  "SELECTION-SEND-TO-PRIMARY": "Skicka till primärvyn",
+  "SELECTION-SEND-TO-SECONDARY": "Skicka till sekundärvyn",
+  "TITLE_BAR": {
+    "ADVANCED": "Utökade driftparametrar",
+    "DELETE_SECURITY_SETTINGS": "Rensa säkerhetsinställningar",
+    "EDIT_ENDPOINT_ADDRESS": "Editera endpoint adress",
+    "EMPTY_CACHE_REFRESH": "Töm cache och uppdatera",
+    "GO_BACK": "Åter",
+    "GO_FORWARD": "Framåt",
+    "NAVIGATE": "Navigation",
+    "REFRESH": "Uppdatera",
+    "RESET_ZOOM": "Återställ zoom",
+    "VIEW": "Visa",
+    "ZOOM_IN": "Zooma in",
+    "ZOOM_OUT": "Zooma ut"
+  }
+}

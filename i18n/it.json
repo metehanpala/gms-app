@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Annulla",
+      "HEADING": "Elimina widget",
+      "MESSAGE": "Elimina widget?",
+      "REMOVE": "Elimina"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Annulla",
+        "DISCARD": "Scarta",
+        "HEADING": "Dati widget non salvati",
+        "MESSAGE": "Scarta le modifiche ?",
+        "SAVE": "Salva"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Annulla",
+        "DISCARD": "Scarta",
+        "HEADING": "Dati widget non salvati",
+        "MESSAGE": "Scarta le modifiche ?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Salva o annulla salvataggio dei dati in tutte le finestre aperte prima della chiusura",
+    "CLOSE_APP_MODAL_TITLE": "Chiudi applicazione",
+    "LOG_OUT_MODAL_MSG": "Salva o annulla salvataggio dei dati in tutte le finestre aperte prima del log out",
+    "LOG_OUT_MODAL_TITLE": "Log out",
+    "RESET_LAYOUT_MODAL_MSG": "Salva o annulla il salvataggio dei dati in tutte le finestre aperte prima del reset",
+    "RESET_LAYOUT_MODAL_TITLE": "Reset a default layout",
+    "SEND_TO_WINDOW_DLG_TITLE": "Invia ad altra finestra"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Indietro",
+    "CHANGE": "Modifica",
+    "CHANGE_FAILED": "Modifica password fallita",
+    "CHANGE_PASSWORD": "Modifica password",
+    "CHANGE_PASSWORD_DESCRIPTION": "La password di default deve essere cambiata",
+    "CONFIRM_PASSWORD": "Conferma password",
+    "CONNECTION": "Connessione…",
+    "COOKIE-NOTICE": "Avviso Cookie",
+    "CORPORATE-INFO": "Informazioni Azienda",
+    "CURRENT_PASSWORD": "Password corrente",
+    "LOGIN-BUTTON-BACK": "Indietro",
+    "LOGIN-BUTTON-CANCEL": "Annulla",
+    "LOGIN-BUTTON-LOGIN": "Log in",
+    "LOGIN-BUTTON-NEXT": "Avanti",
+    "NEW_PASSWORD": "Nuova password",
+    "PASSWORD-LABEL": "Password",
+    "PASSWORD_DIFFERENT": "La conferma della password non corrisponde",
+    "PASSWORD_EGUAL": "La nuova password è già in uso",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_ADD_REQ": "La password deve essere conforme a:",
+    "PASSWORD_POLICY_DIGIT": "Almeno 1 cifra",
+    "PASSWORD_POLICY_LOWER": "Almeno un carattere minuscolo",
+    "PASSWORD_POLICY_MINLENGTH": "La password deve essere lunga almeno {{minLength}} caratteri",
+    "PASSWORD_POLICY_SPECIAL": "Almeno 1 carattere speciale",
+    "PASSWORD_POLICY_UPPER": "Almeno 1 lettera maiuscola",
+    "PRIVACY-NOT": "Avviso Privacy",
+    "TERMS-OF-USE": "Termini di Utilizzo",
+    "TERMS-OF-USE-STATEMENT": "Loggandovi accettate i {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Nome utente"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Group-View": "Gruppi",
+    "Notification": "Notifica",
+    "Printer-Settings": "Impostazioni stampante",
+    "Recipient-View": "Destinatari",
+    "Settings": "Impostazioni",
+    "Template-View": "Templates",
+    "Tree-View": "Gerarchie",
+    "Views": "Viste",
+    "about-frame-id": "About",
+    "account-frame-id": "Account",
+    "events": "Eventi",
+    "node-map": "Devices",
+    "notifconfig-frame-id": "Notifiche",
+    "system": "Sistema",
+    "tasks": "Tasks"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Seleziona per operare",
+      "FILTER_NO_RESULTS": "Non è stato trovato niente",
+      "MODAL_DANGER_TEXT_PROCEED": "Procedete con cautela",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "State per rilasciare funzioni di protezione",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Indietro",
+      "CANCEL": "Annulla",
+      "FILTER": "Filtro",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Non disponibile",
+    "ADVANCED-SWITCH-LABEL": "Avanzato",
+    "BASIC-SWITCH-LABEL": "Base",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Esecuzione comando fallita",
+    "COMMAND-ERROR-TITLE": "Errore comando",
+    "DIFFERENT-PROPERTY-TYPES": "Tipo proprietà non corrispondente",
+    "ERROR-TEXT": "Errore comunicazione",
+    "EVENT-POPOVER-EVENTS": "Eventi",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Sorgente evento",
+    "FILTER-PLACEHOLDER": "Cerca…",
+    "NAVIGATE-TO-LOG-VIEWER": "Apri nella vista log",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}}nel pannello primario",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} nel pannello secondario",
+    "NEW-ITEM-MENU": "Aggiungi",
+    "NEW-ITEM-MOBILE": "Crea {{itemLabel}}",
+    "NO-PROPERTIES": "Nessuna proprietà",
+    "NO-RELATED-ITEMS": "Nessun elemento correlato",
+    "PROPERTIES": "Proprietà",
+    "SAVE-ERROR-TITLE": "Salvataggio memo non riuscito",
+    "SELECTION-OPEN-IN-NEW-TAB": "Apri in una nuova finestra",
+    "SELECTION-SEND-TO-MOBILE": "Aperto",
+    "SELECTION-SEND-TO-PRIMARY": "Invia al pannello primario",
+    "SELECTION-SEND-TO-SECONDARY": "Invia al pannello secondario"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Aggiungi regola",
+    "CLOSE_WINDOW_BTN": "Chiudere",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Definisci criteri",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Annulla",
+    "DELETE_RULE_DLG_MSG": "Elimina regola selezionata?",
+    "DELETE_RULE_DLG_TITLE": "Elimina regola visualizzazione",
+    "EDIT_COMMUNICATION_RULES": "Edita regole visualizzazione",
+    "EMPTY_TABLE_MSG": "Nulla da visualizzare",
+    "OBJ_FILTER_DEFINED": "Risultato",
+    "SAVE_RULE_STEP_TITLE": "Salva regola di visualizzazione",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Salva regola",
+    "SELECT_ANY_WIN_OPTION": "Qualunque finestra",
+    "SELECT_FILTER_TYPE_ERROR": "Tipo di criterio non disponibile per l'oggetto selezionato",
+    "SELECT_OBJ_DLG_TITLE": "Seleziona oggetto",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Tipo di criterio",
+    "SELECT_OBJ_LBL": "Oggetto",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Oggetto selezionato non disponibile",
+    "SELECT_OBJ_PLACEHOLDER": "Seleziona oggetto",
+    "SELECT_SINGLE_WIN_OPTION": "Specifica finestra",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Finestra sorgente",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Finestra target",
+    "SELECT_WIN_ERROR": "Richiesta selezione finestra",
+    "TABLE_COL_FILTER": "Criterio",
+    "TABLE_COL_SOURCE_WIN": "Finestra sorgente",
+    "TABLE_COL_TARGET_WIN": "Finestra target",
+    "TABLE_FILTER_ERROR": "Criteri non definiti",
+    "TABLE_WIN_ANY_SELECTED": "Qualunque finestra",
+    "TABLE_WIN_ERROR": "Non disponibile",
+    "WINDOW_TITLE": "Regole di visualizzazione",
+    "WIZARD_BACK_TEXT": "Indietro",
+    "WIZARD_NEXT_TEXT": "Avanti",
+    "WIZARD_SAVE_TEXT": "Salva"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Annulla",
+      "DELETE": "Elimina",
+      "DELETE_SCENE": "Elimina scena",
+      "DELETE_SCHEDULER": "Elimina programma orario",
+      "UNSAVED_SCHEDULE": "Salvataggio programma orario fallito"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Eliminazione programma orario fallita",
+      "DELETE_SCENE_CONFIRMATION": "Eliminare la scena {{sceneName}}?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Eliminare {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Salvataggio programma orario fallito",
+      "SAVE_SCENE_FAILURE": "Salvataggio modifiche programma orario fallito"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Elimina programma orario",
+      "ENTER_USER_DEFINED_NAME": "Inserire nome utente",
+      "FAILED_TO_DELETE": "Fallita eliminazione",
+      "FAILED_TO_SAVE": "Fallito salvataggio",
+      "SET_CORRECT_NAME": "Inserire nome"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Salvataggio programmi…",
+      "ADD_CALENDAR_ENTRY": "Aggiungi elemento calendario",
+      "ADD_EXCEPTION": "<nuova eccezione>",
+      "ADD_NEW_CALENDAR_ENTRY": "Aggiungi elemento calendario",
+      "ADD_NEW_EXCEPTION": "<nuova eccezione>",
+      "CALENDAR_REFERENCE": "Riferimento calendario",
+      "NEW_CALENDAR_ENTRY": "<nuovo elemento calendario>",
+      "NEW_EXCEPTION": "<nuova eccezione>",
+      "UNSAVED_CALENDAR": "Calendario non salvato"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Eccezioni",
+      "SCHEDULE": "Programma orario"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Impossibile lasciare la pagina. Attendere il salvataggio del programma",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Inserimenti duplicati ignorati",
+      "CALENDAR_INVALID_ENTRY": "Elemento calendario non valido",
+      "DELETE_CALENDAR_CONFIRMATION": "Eliminare {{CalendarObjectName}}?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Eliminare elemento calendario ?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Eliminare eccezione?",
+      "INVALID_CALENDAR": "Riferimento calendario non valido",
+      "INVALID_DATE": "Data non valida",
+      "INVALID_DATE_RANGE": "Data inizio successiva a data fine",
+      "INVALID_EXCEPTION_HIDDEN": "Eccezioni legacy nascoste",
+      "INVALID_REFERENCES_HIDDEN": "Riferimenti calendario non validi",
+      "NO_CALENDAR_ENTRIES": "Nessun inserimento calendario",
+      "NO_EXCEPTION_ENTRIES": "Nessuna eccezione",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Eccezione copiata",
+      "SCHEDULE_COPY_SUCCESS": "Programma copiato",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Eccezione range data salvata",
+      "UNSAVED_CALENDAR_MESSAGE": "Salva il calendario prima di uscire dalla pagina"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Questa eccezione contiene un riferimento ad un calendario non valido e deve essere eliminata. L'eliminazione di questa eccezione porterà all'eliminazione di tutti i riferimenti non validi del calendario",
+      "SCHEDULE_CALENDAR_REF_INFO": "Questa eccezione è read-only"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Salvataggio elemento calendario fallito",
+      "CALENDAR_DELETE_ERROR": "Eliminazione elemento calendario fallita",
+      "CALENDAR_SAVE_ERROR": "Salvataggio elemento calendario fallito",
+      "INVALID_EXCEPTION_HIDDEN": "Rimuovere tutte le opzioni non supportate",
+      "INVALID_REFERENCES_HIDDEN": "Rimuovere tutti i riferimenti non validi del calendario",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Seleziona il giorno da copiare",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Seleziona i giorni dove incollare il programma di {{day}}",
+      "SCHEDULE_COPY_ERROR": "Copia programma fallita",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Copia eccezione fallita",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Seleziona i giorni su cui copiare l'eccezione",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Salvataggio eccezione fallito",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Errore salvando range data",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Seleziona data fine",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Eliminazione eccezione fallita",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Massimo numero elementi raggiunto",
+      "SCHEDULE_SAVE_ERROR": "Errore salvataggio programma",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Salvataggio eccezione fallito",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Salvataggio impostazioni fallito",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Recupero dati fallito",
+      "UNSUPPORTED_ENTRY_TYPE": "Il tipo inserito giorno della settimana non è supportato per il calendario"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Apri in una nuova finestra",
+  "SELECTION-SEND": "Aperto",
+  "SELECTION-SEND-TO-PRIMARY": "Invia al pannello primario",
+  "SELECTION-SEND-TO-SECONDARY": "Invia al pannello secondario",
+  "TITLE_BAR": {
+    "ADVANCED": "Avanzato",
+    "DELETE_SECURITY_SETTINGS": "Elimina impostazioni di sicurezza",
+    "EDIT_ENDPOINT_ADDRESS": "Edita indirizzo endpoint",
+    "EMPTY_CACHE_REFRESH": "Svuota la cache e aggiorna",
+    "GO_BACK": "Indietro",
+    "GO_FORWARD": "Avanti",
+    "NAVIGATE": "Navigazione",
+    "REFRESH": "Aggiorna",
+    "RESET_ZOOM": "Reset zoom",
+    "VIEW": "Vista",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

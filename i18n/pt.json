@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Cancelar",
+      "HEADING": "Excluir widget",
+      "MESSAGE": "Excluir widget?",
+      "REMOVE": "Excluir"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Cancelar",
+        "DISCARD": "Descartar",
+        "HEADING": "Dados de \"widget\" não salvos",
+        "MESSAGE": "Descartar alterações?",
+        "SAVE": "Salvar"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Cancelar",
+        "DISCARD": "Descartar",
+        "HEADING": "Dados de \"widget\" não salvos",
+        "MESSAGE": "Descartar alterações?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Salve ou descarte dados não salvos em todas as janelas abertas antes de fechar",
+    "CLOSE_APP_MODAL_TITLE": "Fechar aplicação",
+    "LOG_OUT_MODAL_MSG": "Salve ou descarte os dados não salvos em todas as janelas abertas antes de sair",
+    "LOG_OUT_MODAL_TITLE": "Sair",
+    "RESET_LAYOUT_MODAL_MSG": "Salve ou descarte dados não salvos em todas as janelas abertas antes de redefinir",
+    "RESET_LAYOUT_MODAL_TITLE": "Redefinir para o layout padrão",
+    "SEND_TO_WINDOW_DLG_TITLE": "Enviar para outra janela"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Voltar",
+    "CHANGE": "Alterar",
+    "CHANGE_FAILED": "Alteração da palavra passe falhou",
+    "CHANGE_PASSWORD": "Alterar senha",
+    "CHANGE_PASSWORD_DESCRIPTION": "A senha definida de fábrica deve ser alterada",
+    "CONFIRM_PASSWORD": "Confirmar senha",
+    "CONNECTION": "A ligar…",
+    "COOKIE-NOTICE": "Aviso de Cookie",
+    "CORPORATE-INFO": "Informação corporativa",
+    "CURRENT_PASSWORD": "Senha atual",
+    "LOGIN-BUTTON-BACK": "Para trás",
+    "LOGIN-BUTTON-CANCEL": "Cancelar",
+    "LOGIN-BUTTON-LOGIN": "Entrar",
+    "LOGIN-BUTTON-NEXT": "Próxima",
+    "NEW_PASSWORD": "Nova senha",
+    "PASSWORD-LABEL": "Palavra-passe",
+    "PASSWORD_DIFFERENT": "A confirmação da senha não corresponde",
+    "PASSWORD_EGUAL": "Nova senha já usada",
+    "PASSWORD_POLICY": "Política de senha",
+    "PASSWORD_POLICY_ADD_REQ": "A senha deve obedecer a:",
+    "PASSWORD_POLICY_DIGIT": "Mín. 1 dígito",
+    "PASSWORD_POLICY_LOWER": "Mín. 1 letra minúscula",
+    "PASSWORD_POLICY_MINLENGTH": "A senha deve consistir no mín. {{minLength}} caracteres",
+    "PASSWORD_POLICY_SPECIAL": "Mín. 1 caractere especial",
+    "PASSWORD_POLICY_UPPER": "Mín. 1 letra maiúscula",
+    "PRIVACY-NOT": "Aviso de Privacidade",
+    "TERMS-OF-USE": "Termos de uso",
+    "TERMS-OF-USE-STATEMENT": "Entrar significa que você concorda com os {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Nome do utilizador"
+  },
+  "NAVBAR": {
+    "Account": "Conta",
+    "Group-View": "Grupos",
+    "Notification": "Notificação",
+    "Printer-Settings": "Configurações da Impressora",
+    "Recipient-View": "Destinatários",
+    "Settings": "Configurações",
+    "Template-View": "Modelos",
+    "Tree-View": "Hierarquias",
+    "Views": "Visualizações",
+    "about-frame-id": "Sobre",
+    "account-frame-id": "Conta",
+    "events": "Eventos",
+    "node-map": "Dispositivos",
+    "notifconfig-frame-id": "Notificações",
+    "system": "Sistema",
+    "tasks": "Tarefas"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Selecione para operar",
+      "FILTER_NO_RESULTS": "Nada encontrado",
+      "MODAL_DANGER_TEXT_PROCEED": "Prossiga com cuidado",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Você está prestes a liberar as funções de proteção",
+      "MODAL_DANGER_TITLE": "Proteção Física"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Voltar",
+      "CANCEL": "Cancelar",
+      "FILTER": "Filtro",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Não disponível",
+    "ADVANCED-SWITCH-LABEL": "Avançado",
+    "BASIC-SWITCH-LABEL": "Básico",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Falha ao comandar",
+    "COMMAND-ERROR-TITLE": "Falha ao comandar",
+    "DIFFERENT-PROPERTY-TYPES": "Incompatibilidade de tipo de propriedade",
+    "ERROR-TEXT": "Erro de comunicação",
+    "EVENT-POPOVER-EVENTS": "Eventos",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Origem do evento",
+    "FILTER-PLACEHOLDER": "Procurar…",
+    "NAVIGATE-TO-LOG-VIEWER": "Abrir na vista de registos",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} no painel principal",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} no painel secundário",
+    "NEW-ITEM-MENU": "Adicionar",
+    "NEW-ITEM-MOBILE": "Crie {{itemLabel}}",
+    "NO-PROPERTIES": "Sem propriedades",
+    "NO-RELATED-ITEMS": "Sem itens relacionados",
+    "PROPERTIES": "Propriedades",
+    "SAVE-ERROR-TITLE": "Falha ao salvar o memorando",
+    "SELECTION-OPEN-IN-NEW-TAB": "Abrir num novo separador",
+    "SELECTION-SEND-TO-MOBILE": "Abrir",
+    "SELECTION-SEND-TO-PRIMARY": "Enviar para o painel principal",
+    "SELECTION-SEND-TO-SECONDARY": "Enviar para o Painel Secundário"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Adicionar regra",
+    "CLOSE_WINDOW_BTN": "Fechar",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Definir critérios",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Cancelar",
+    "DELETE_RULE_DLG_MSG": "Excluir regra selecionada?",
+    "DELETE_RULE_DLG_TITLE": "Excluir regra de exibição",
+    "EDIT_COMMUNICATION_RULES": "Editar regras de exibição",
+    "EMPTY_TABLE_MSG": "Nada para exibir",
+    "OBJ_FILTER_DEFINED": "Resultado",
+    "SAVE_RULE_STEP_TITLE": "Salvar regra de exibição",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Salvar regra",
+    "SELECT_ANY_WIN_OPTION": "Qualquer janela",
+    "SELECT_FILTER_TYPE_ERROR": "Tipo de critério não disponível para objeto selecionado",
+    "SELECT_OBJ_DLG_TITLE": "Selecione o objeto",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Tipo de critério",
+    "SELECT_OBJ_LBL": "Objeto",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Objeto selecionado não disponível",
+    "SELECT_OBJ_PLACEHOLDER": "Selecione o objeto",
+    "SELECT_SINGLE_WIN_OPTION": "Janela específica",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Janela de origem",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Janela de destino",
+    "SELECT_WIN_ERROR": "Seleção de janela necessária",
+    "TABLE_COL_FILTER": "Critério",
+    "TABLE_COL_SOURCE_WIN": "Janela de origem",
+    "TABLE_COL_TARGET_WIN": "Janela de destino",
+    "TABLE_FILTER_ERROR": "Critérios não definidos",
+    "TABLE_WIN_ANY_SELECTED": "Qualquer janela",
+    "TABLE_WIN_ERROR": "Não disponível",
+    "WINDOW_TITLE": "Regras de exibição",
+    "WIZARD_BACK_TEXT": "Voltar",
+    "WIZARD_NEXT_TEXT": "Próximo",
+    "WIZARD_SAVE_TEXT": "Salvar"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Cancelar",
+      "DELETE": "Apagar",
+      "DELETE_SCENE": "Apagar cena",
+      "DELETE_SCHEDULER": "Apagar organizador",
+      "UNSAVED_SCHEDULE": "Falha ao salvar organizador"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Falha ao apagar agenda",
+      "DELETE_SCENE_CONFIRMATION": "Apagar {{sceneName}} cena?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Apagar {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Falha ao salvar agenda",
+      "SAVE_SCENE_FAILURE": "Falha ao salvar agenda"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Excluir organizador",
+      "ENTER_USER_DEFINED_NAME": "Insira o nome personalizado",
+      "FAILED_TO_DELETE": "Falha ao apagar",
+      "FAILED_TO_SAVE": "Falha ao salvar",
+      "SET_CORRECT_NAME": "Insira o nome"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Salvando horários…",
+      "ADD_CALENDAR_ENTRY": "Adicionar entrada da agenda",
+      "ADD_EXCEPTION": "<nova exceção>",
+      "ADD_NEW_CALENDAR_ENTRY": "Adicionar entrada de calendário",
+      "ADD_NEW_EXCEPTION": "<nova exceção>",
+      "CALENDAR_REFERENCE": "Referência do calendário",
+      "NEW_CALENDAR_ENTRY": "<nova entrada de calendário>",
+      "NEW_EXCEPTION": "<nova exceção>",
+      "UNSAVED_CALENDAR": "Calendário não salvo"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceções",
+      "SCHEDULE": "Horário"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Não é possível sair da página. Aguarde até que o organizador seja salvo",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicatas ignoradas",
+      "CALENDAR_INVALID_ENTRY": "Entrada de calendário inválida",
+      "DELETE_CALENDAR_CONFIRMATION": "Apagar {{CalendarObjectName}}?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Apagar entrada do calendário?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Apagar exceção?",
+      "INVALID_CALENDAR": "Referência de calendário inválida",
+      "INVALID_DATE": "Data inválida",
+      "INVALID_DATE_RANGE": "Data de início após a data de término",
+      "INVALID_EXCEPTION_HIDDEN": "Exceções herdadas ocultas",
+      "INVALID_REFERENCES_HIDDEN": "Referências de calendário inválidas",
+      "NO_CALENDAR_ENTRIES": "Sem entradas no calendário",
+      "NO_EXCEPTION_ENTRIES": "Sem exceções",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exceção copiada",
+      "SCHEDULE_COPY_SUCCESS": "Horário copiado",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Exceção de intervalo de datas salva",
+      "UNSAVED_CALENDAR_MESSAGE": "Salve o calendário antes de sair da página"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "A exceção faz referência a um calendário inválido e deve ser apagada. A exclusão também se aplica a todas as outras referências de calendário inválidas",
+      "SCHEDULE_CALENDAR_REF_INFO": "A referência do calendário é somente leitura"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Falha ao salvar a entrada do calendário",
+      "CALENDAR_DELETE_ERROR": "Falha ao apagar a entrada do calendário",
+      "CALENDAR_SAVE_ERROR": "Falha ao salvar a entrada do calendário",
+      "INVALID_EXCEPTION_HIDDEN": "Remover exceções não suportadas",
+      "INVALID_REFERENCES_HIDDEN": "Remova referências de calendário inválidas",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Selecione o dia para copiar sua programação",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Selecione os dias para colar a programação de {{day}}",
+      "SCHEDULE_COPY_ERROR": "Falha ao copiar agenda",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Falha ao copiar a exceção",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Selecione os dias para colar a programação de exceção",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Falha ao salvar a exceção",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Falha ao salvar intervalo de datas",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Selecione a data final",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Falha ao apagar a exceção",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Máx. número de entradas alcançadas",
+      "SCHEDULE_SAVE_ERROR": "Falha ao salvar agenda",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Falha ao salvar a exceção",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Falha ao salvar as configurações",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Falha ao recuperar dados",
+      "UNSUPPORTED_ENTRY_TYPE": "O tipo de entrada de dia da semana não é compatível com o calendário"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Abrir numa nova janela",
+  "SELECTION-SEND": "Abrir",
+  "SELECTION-SEND-TO-PRIMARY": "Enviar para o Painel Principal",
+  "SELECTION-SEND-TO-SECONDARY": "Enviar para o Painel Secundário",
+  "TITLE_BAR": {
+    "ADVANCED": "Avançado",
+    "DELETE_SECURITY_SETTINGS": "Limpar configurações de segurança",
+    "EDIT_ENDPOINT_ADDRESS": "Editar endereço do \"endpoint\"",
+    "EMPTY_CACHE_REFRESH": "Esvazie o cache e atualize",
+    "GO_BACK": "Voltar",
+    "GO_FORWARD": "Avançar",
+    "NAVIGATE": "Navegação",
+    "REFRESH": "Atualizar",
+    "RESET_ZOOM": "Redefinir zoom",
+    "VIEW": "Vista",
+    "ZOOM_IN": "Aumentar Zoom",
+    "ZOOM_OUT": "Reduzir Zoom"
+  }
+}

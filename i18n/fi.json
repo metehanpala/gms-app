@@ -1,0 +1,262 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Peruuta",
+      "HEADING": "Poista pienoisohjelma",
+      "MESSAGE": "Poista pienoisohjelma?",
+      "REMOVE": "Poista"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Peruuta",
+        "DISCARD": "Hylkää",
+        "HEADING": "Pienoisohjelmatietoja tallentamatta",
+        "MESSAGE": "Hylkää muutokset?",
+        "SAVE": "Tallenna"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Peruuta",
+        "DISCARD": "Hylkää",
+        "HEADING": "Pienoisohjelmatietoja tallentamatta",
+        "MESSAGE": "Hylkää muutokset?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Tallenna tai hylkää tallentamattomat tiedot kaikissa avoimissa ikkunoissa ennen sulkemista",
+    "CLOSE_APP_MODAL_TITLE": "Sulje sovellus",
+    "LOG_OUT_MODAL_MSG": "Tallenna tai hylkää tallentamattomat tiedot kaikissa avoimissa ikkunoissa ennen uloskirjautumista",
+    "LOG_OUT_MODAL_TITLE": "Uloskirjaudu",
+    "RESET_LAYOUT_MODAL_MSG": "Tallenna tai hylkää tallentamattomat tiedot kaikissa avoimissa ikkunoissa ennen palautusta",
+    "RESET_LAYOUT_MODAL_TITLE": "Palauta oletusasettelu",
+    "SEND_TO_WINDOW_DLG_TITLE": "Lähetä toiseen ikkunaan"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Takaisin",
+    "CHANGE": "Muuta",
+    "CHANGE_FAILED": "Salasanan muutos epäonnistui",
+    "CHANGE_PASSWORD": "Muuta salasana",
+    "CHANGE_PASSWORD_DESCRIPTION": "Oletussalasana pitää vaihtaa",
+    "CONFIRM_PASSWORD": "Vahvista salasana",
+    "CONNECTION": "Yhdistetään…",
+    "COOKIE-NOTICE": "Evästeilmoitus",
+    "CORPORATE-INFO": "Yritystiedot",
+    "CURRENT_PASSWORD": "Nykyinen salasana",
+    "LOGIN-BUTTON-BACK": "Takaisin",
+    "LOGIN-BUTTON-CANCEL": "Peruuta",
+    "LOGIN-BUTTON-LOGIN": "Kirjaudu",
+    "LOGIN-BUTTON-NEXT": "Seuraava",
+    "NEW_PASSWORD": "Uusi salasana",
+    "PASSWORD-LABEL": "Salasana",
+    "PASSWORD_DIFFERENT": "Salasanan vahvistus ei täsmää",
+    "PASSWORD_EGUAL": "Uusi salasana on jo käytetty",
+    "PASSWORD_POLICY": "Salasanakäytäntö",
+    "PASSWORD_POLICY_ADD_REQ": "Salasanan pitää olla yhteensopiva:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 numero",
+    "PASSWORD_POLICY_LOWER": "Min. 1 pieni kirjain",
+    "PASSWORD_POLICY_MINLENGTH": "Salasanan pitää sisältää min. {{minLength}} merkkiä",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 erikoismerkki",
+    "PASSWORD_POLICY_UPPER": "Min. 1 iso kirjain",
+    "PRIVACY-NOT": "Tietosuojailmoitus",
+    "TERMS-OF-USE": "Käyttöehdot",
+    "TERMS-OF-USE-STATEMENT": "Sisäänkirjautuessasi hyväksyt {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Käyttäjänimi"
+  },
+  "NAVBAR": {
+    "Account": "Tili",
+    "Group-View": "Ryhmät",
+    "Notification": "Ilmoitus",
+    "Printer-Settings": "Tulostusasetukset",
+    "Recipient-View": "Vastaanottajat",
+    "Settings": "Asetukset",
+    "Template-View": "Mallipohjat",
+    "Tree-View": "Hierarkiat",
+    "Views": "Näkymät",
+    "about-frame-id": "Tietoja",
+    "account-frame-id": "Tili",
+    "events": "Tapahtumat",
+    "node-map": "Laitteet",
+    "notifconfig-frame-id": "Ilmoitukset",
+    "system": "Järjestelmä",
+    "tasks": "Tehtävät"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Valitse käyttääksesi",
+      "FILTER_NO_RESULTS": "Mitään ei löytynyt",
+      "MODAL_DANGER_TEXT_PROCEED": "Jatka varoen",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Olet vapauttamassa suojaustoimintoja",
+      "MODAL_DANGER_TITLE": "Henkilöturvallisuus"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Takaisin",
+      "CANCEL": "Peruuta",
+      "FILTER": "Suodatin",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Ei saatavilla",
+    "ADVANCED-SWITCH-LABEL": "Lisäasetukset",
+    "BASIC-SWITCH-LABEL": "Perus",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Komentovirhe",
+    "COMMAND-ERROR-TITLE": "Komentovirhe",
+    "DIFFERENT-PROPERTY-TYPES": "Erilaiset ominaisuustyypit",
+    "ERROR-TEXT": "Kommunikointivirhe",
+    "EVENT-POPOVER-EVENTS": "Tapahtumat",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Tapahtuman lähde",
+    "FILTER-PLACEHOLDER": "Etsi…",
+    "NAVIGATE-TO-LOG-VIEWER": "Avaa lokinäkymässä",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} pääpaneelissa",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} toissijaisessa paneelissa",
+    "NEW-ITEM-MENU": "Lisää",
+    "NEW-ITEM-MOBILE": "Luo {{itemLabel}}",
+    "NO-PROPERTIES": "Ei ominaisuuksia",
+    "NO-RELATED-ITEMS": "Ei liittyviä osioita",
+    "PROPERTIES": "Ominaisuudet",
+    "SAVE-ERROR-TITLE": "Muistion tallennus epäonnistui",
+    "SELECTION-OPEN-IN-NEW-TAB": "Avaa uudessa välilehdessä",
+    "SELECTION-SEND-TO-MOBILE": "Avaa",
+    "SELECTION-SEND-TO-PRIMARY": "Lähetä pääpaneeliin",
+    "SELECTION-SEND-TO-SECONDARY": "Lähetä toissijaiseen paneeliin"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Lisää sääntö",
+    "CLOSE_WINDOW_BTN": "Sulje",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Määrittele kriteerit",
+    "DELETE_RULE_DLG_CANCEL_BTN": "Peruuta",
+    "DELETE_RULE_DLG_MSG": "Poista valittu sääntö?",
+    "DELETE_RULE_DLG_TITLE": "Poista näyttösääntö",
+    "EDIT_COMMUNICATION_RULES": "Muokkaa näyttösääntöjä",
+    "EMPTY_TABLE_MSG": "Ei mitään näytettävää",
+    "OBJ_FILTER_DEFINED": "Tulos",
+    "SAVE_RULE_STEP_TITLE": "Tallenna näyttösääntö",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Tallenna sääntö",
+    "SELECT_ANY_WIN_OPTION": "Mikä tahansa ikkuna",
+    "SELECT_FILTER_TYPE_ERROR": "Kriteerityyppiä ei saatavilla valitulle objektille",
+    "SELECT_OBJ_DLG_TITLE": "Valitse objekti",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Kriteerityyppi",
+    "SELECT_OBJ_LBL": "Objekti",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Valittu objekti ei saatavilla",
+    "SELECT_OBJ_PLACEHOLDER": "Valitse objekti",
+    "SELECT_SINGLE_WIN_OPTION": "Tietty ikkuna",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Lähdeikkuna",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Kohdeikkuna",
+    "SELECT_WIN_ERROR": "Ikkunan valinta vaaditaan",
+    "TABLE_COL_FILTER": "Kriteerit",
+    "TABLE_COL_SOURCE_WIN": "Lähdeikkuna",
+    "TABLE_COL_TARGET_WIN": "Kohdeikkuna",
+    "TABLE_FILTER_ERROR": "Kriteeriä ei määritelty",
+    "TABLE_WIN_ANY_SELECTED": "Mikä tahansa ikkuna",
+    "TABLE_WIN_ERROR": "Ei saatavilla",
+    "WINDOW_TITLE": "Näyttösäännöt",
+    "WIZARD_BACK_TEXT": "Edellinen",
+    "WIZARD_NEXT_TEXT": "Seuraava",
+    "WIZARD_SAVE_TEXT": "Tallenna"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Peruuta",
+      "DELETE": "Poista",
+      "DELETE_SCENE": "Poista tilanne",
+      "DELETE_SCHEDULER": "Poista aikaohjelma",
+      "UNSAVED_SCHEDULE": "Aikaohjelman tallennus epäonnistui"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Aikaohjelman poisto epäonnistui",
+      "DELETE_SCENE_CONFIRMATION": "Poista tilanne {{sceneName}} ?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Poista \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Aikaohjelman tallennus epäonnistui",
+      "SAVE_SCENE_FAILURE": "Aikaohjelman tallennus epäonnistui"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Poista aikaohjelma",
+      "ENTER_USER_DEFINED_NAME": "Syötä mukautettu nimi",
+      "FAILED_TO_DELETE": "Poisto epäonnistui",
+      "FAILED_TO_SAVE": "Tallennus epäonnistui",
+      "SET_CORRECT_NAME": "Syötä nimi"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Tallennetaan aikaohjelmia…",
+      "ADD_CALENDAR_ENTRY": "Lisää kalenterisyöte",
+      "ADD_EXCEPTION": "<uusi poikkeus>",
+      "ADD_NEW_CALENDAR_ENTRY": "Lisää kalenterisyöte",
+      "ADD_NEW_EXCEPTION": "<uusi poikkeus>",
+      "CALENDAR_REFERENCE": "Kalenteriviite",
+      "NEW_CALENDAR_ENTRY": "<uusi kalenterisyöte>",
+      "NEW_EXCEPTION": "<uusi poikkeus>",
+      "UNSAVED_CALENDAR": "Tallentamaton kalenteri"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Poikkeukset",
+      "SCHEDULE": "Aikaohjelma"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Sivulta ei voi poistua. Odota kunnes aikaohjelma on tallennettu",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Päällekkäisiä syötteitä ei huomioida",
+      "CALENDAR_INVALID_ENTRY": "Viallinen kalenterisyöte",
+      "DELETE_CALENDAR_CONFIRMATION": "Poista \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Poista kalenterisyöte?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Poista poikkeus?",
+      "INVALID_CALENDAR": "Viallinen kalenteriviite",
+      "INVALID_DATE": "Päiväys viallinen",
+      "INVALID_DATE_RANGE": "Aloituspäivä on lopetuspäivän jälkeen",
+      "INVALID_EXCEPTION_HIDDEN": "Vanhat poikkeukset piilotettu",
+      "INVALID_REFERENCES_HIDDEN": "Viallisia kalenteriviittauksia",
+      "NO_CALENDAR_ENTRIES": "Ei kalenterisyötteitä",
+      "NO_EXCEPTION_ENTRIES": "Ei poikkeuksia",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Poikkeus kopioitu",
+      "SCHEDULE_COPY_SUCCESS": "Aikaohjelma kopioitu",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Päiväysjaksopoikkeus tallennettu",
+      "UNSAVED_CALENDAR_MESSAGE": "Tallenna kalenteri ennen poistumista sivulta"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Poikkeus viittaa vialliseen kalenteriin ja se pitää poistaa. Poistaminen koskee kaikkia muitakin viallisia kalenterisyötteitä",
+      "SCHEDULE_CALENDAR_REF_INFO": "Kalenterin viite on vain-luku -tyyppinen"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Kalenterisyötteen tallennus epäonnistui",
+      "CALENDAR_DELETE_ERROR": "Kalenterisyötteen poisto epäonnistui",
+      "CALENDAR_SAVE_ERROR": "Kalenterisyötteen tallennus epäonnistui",
+      "INVALID_EXCEPTION_HIDDEN": "Poista poikkeukset, jotka eivät tuettuja",
+      "INVALID_REFERENCES_HIDDEN": "Poista vialliset kalenteriviittaukset",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Valitse päivä kopioidaksesi sen aikaohjelman",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Valitse päivät joihin kohteen {{day}} aikaohjelma liitetään",
+      "SCHEDULE_COPY_ERROR": "Aikaohjelman kopiointi epäonnistui",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Poikkeuksen kopiointi epäonnistui",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Valitse päivät joihin poikkeusaikaohjelma liitetään",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Poikkeuksen tallennus epäonnistui",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Päiväysalueen tallennus epäonnistui",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Valitse lopetuspäivä",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Poikkeuksen poisto epäonnistui",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Maksimimäärä syötteitä saavutettu",
+      "SCHEDULE_SAVE_ERROR": "Aikaohjelman tallennus epäonnistui",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Poikkeuksen tallennus epäonnistui",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Asetusten tallennus epäonnistui",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Tietojen haku epäonnistui",
+      "UNSUPPORTED_ENTRY_TYPE": "Kalenteri ei tue viikonpäivä-tyyppistä syötettä"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "Avaa uudessa ikkunassa",
+  "SELECTION-SEND": "Avaa",
+  "SELECTION-SEND-TO-PRIMARY": "Lähetä pääpaneeliin",
+  "SELECTION-SEND-TO-SECONDARY": "Lähetä toissijaiseen paneeliin",
+  "TITLE_BAR": {
+    "ADVANCED": "Lisäasetukset",
+    "DELETE_SECURITY_SETTINGS": "Tyhjennä suojausasetukset",
+    "EDIT_ENDPOINT_ADDRESS": "Muokkaa päätepisteen osoitetta",
+    "EMPTY_CACHE_REFRESH": "Tyhjennä välimuisti ja päivitä",
+    "GO_BACK": "Takaisin",
+    "GO_FORWARD": "Eteenpäin",
+    "NAVIGATE": "Navigointi",
+    "REFRESH": "Päivitys",
+    "RESET_ZOOM": "Palauta zoom",
+    "VIEW": "Näkymä",
+    "ZOOM_IN": "Lähennä",
+    "ZOOM_OUT": "Loitonna"
+  }
+}

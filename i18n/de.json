@@ -1,0 +1,258 @@
+{
+  "DASHBOARD": {
+    "REMOVE_WIDGET_CONFIRMATION_DIALOG": {
+      "CANCEL": "Abbrechen",
+      "HEADING": "Widget löschen",
+      "MESSAGE": "Widget löschen?",
+      "REMOVE": "Löschen"
+    },
+    "WIDGET_EDITOR_DIALOG": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Abbrechen",
+        "DISCARD": "Verwerfen",
+        "HEADING": "Ungespeicherte Widget-Daten",
+        "MESSAGE": "Änderungen verwerfen?",
+        "SAVE": "Speichern"
+      }
+    },
+    "WIDGET_LIBRARY": {
+      "DISCARD_CONFIG_CHANGE_DIALOG": {
+        "CANCEL": "Abbrechen",
+        "DISCARD": "Verwerfen",
+        "HEADING": "Ungespeicherte Widget-Daten",
+        "MESSAGE": "Änderungen verwerfen?"
+      }
+    }
+  },
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Vor dem Schliessen ungespeicherte Daten in allen offenen Fenstern speichern oder verwerfen",
+    "CLOSE_APP_MODAL_TITLE": "Applikation schliessen",
+    "LOG_OUT_MODAL_MSG": "Vor dem Abmelden ungespeicherte Daten in allen offenen Fenstern speichern oder verwerfen",
+    "LOG_OUT_MODAL_TITLE": "Abmelden",
+    "RESET_LAYOUT_MODAL_MSG": "Vor dem Zurücksetzen ungespeicherte Daten in allen offenen Fenstern speichern oder verwerfen",
+    "RESET_LAYOUT_MODAL_TITLE": "Auf Standardlayout zurücksetzen",
+    "SEND_TO_WINDOW_DLG_TITLE": "In anderem Fenster öffnen"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Zurück",
+    "CHANGE": "Ändern",
+    "CHANGE_FAILED": "Fehler beim Ändern des Passworts",
+    "CHANGE_PASSWORD": "Passwort ändern",
+    "CHANGE_PASSWORD_DESCRIPTION": "Standardpasswort muss geändert werden",
+    "CONFIRM_PASSWORD": "Passwort bestätigen",
+    "CONNECTION": "Wird verbunden…",
+    "COOKIE-NOTICE": "Cookie-Richtlinien",
+    "CORPORATE-INFO": "Impressum",
+    "CURRENT_PASSWORD": "Aktuelles Passwort",
+    "LOGIN-BUTTON-BACK": "Zurück",
+    "LOGIN-BUTTON-CANCEL": "Abbrechen",
+    "LOGIN-BUTTON-LOGIN": "Anmelden",
+    "LOGIN-BUTTON-NEXT": "Weiter",
+    "NEW_PASSWORD": "Neues Passwort",
+    "PASSWORD-LABEL": "Passwort",
+    "PASSWORD_DIFFERENT": "Passwortbestätigung stimmt nicht überein",
+    "PASSWORD_EGUAL": "Neues Passwort wird bereits verwendet",
+    "PASSWORD_POLICY": "Passwortrichtlinie",
+    "PASSWORD_POLICY_ADD_REQ": "Passwort muss folgendes einhalten:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 Ziffer",
+    "PASSWORD_POLICY_LOWER": "Min. 1 Kleinbuchstabe",
+    "PASSWORD_POLICY_MINLENGTH": "Passwort muss min. {{minLength}} Zeichen enthalten",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 Sonderzeichen",
+    "PASSWORD_POLICY_UPPER": "Min. 1 Grossbuchstabe",
+    "PRIVACY-NOT": "Datenschutzerklärung",
+    "TERMS-OF-USE": "Nutzungsbedingungen",
+    "TERMS-OF-USE-STATEMENT": "Mit Ihrer Anmeldung stimmen Sie den {{termsOfUseLink}} zu",
+    "USERNAME-LABEL": "Benutzername"
+  },
+  "NAVBAR": {
+    "Account": "Konto",
+    "Group-View": "Gruppen",
+    "Notification": "Benachrichtigung",
+    "Printer-Settings": "Druckereinstellungen",
+    "Recipient-View": "Empfänger",
+    "Settings": "Einstellungen",
+    "Template-View": "Vorlagen",
+    "Tree-View": "Hierarchien",
+    "Views": "Ansichten",
+    "about-frame-id": "Info",
+    "account-frame-id": "Konto",
+    "events": "Ereignisse",
+    "node-map": "Geräte",
+    "notifconfig-frame-id": "Benachrichtigungen",
+    "system": "System",
+    "tasks": "Aufträge"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Zur Bedienung auswählen",
+      "FILTER_NO_RESULTS": "Nichts gefunden",
+      "MODAL_DANGER_TEXT_PROCEED": "Vorsichtig fortfahren",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Sicherheitsfunktionen werden freigegeben",
+      "MODAL_DANGER_TITLE": "Personensicherheit"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Zurück",
+      "CANCEL": "Abbrechen",
+      "FILTER": "Filtern",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Nicht verfügbar",
+    "ADVANCED-SWITCH-LABEL": "Erweitert",
+    "BASIC-SWITCH-LABEL": "Standard",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Fehler beim Kommandieren",
+    "COMMAND-ERROR-TITLE": "Fehler beim Kommandieren",
+    "DIFFERENT-PROPERTY-TYPES": "Unterschiedliche Eigenschaftstypen",
+    "ERROR-TEXT": "Kommunikationsfehler",
+    "EVENT-POPOVER-EVENTS": "Ereignisse",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Ereignisquelle",
+    "FILTER-PLACEHOLDER": "Suchen…",
+    "NAVIGATE-TO-LOG-VIEWER": "In Logansicht öffnen",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} im primären Arbeitsbereich",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} im sekundären Arbeitsbereich",
+    "NEW-ITEM-MENU": "Hinzufügen",
+    "NEW-ITEM-MOBILE": "{{itemLabel}} erstellen",
+    "NO-PROPERTIES": "Keine Eigenschaften",
+    "NO-RELATED-ITEMS": "Keine Verknüpfungen",
+    "PROPERTIES": "Eigenschaften",
+    "SAVE-ERROR-TITLE": "Fehler beim Speichern des Memos",
+    "SELECTION-OPEN-IN-NEW-TAB": "In neuem Register öffnen",
+    "SELECTION-SEND-TO-MOBILE": "Öffnen",
+    "SELECTION-SEND-TO-PRIMARY": "In primärem Arbeitsbereich öffnen",
+    "SELECTION-SEND-TO-SECONDARY": "In sekundärem Arbeitsbereich öffnen"
+  },
+  "RULES": {
+    "ADD_RULE_BTN": "Regel hinzufügen",
+    "CLOSE_WINDOW_BTN": "Schliessen",
+    "DEFINE_OBJ_FILTER_STEP_TITLE": "Kriterien definieren",
+    "DELETE_RULE_DLG_MSG": "Anzeigeregel löschen?",
+    "DELETE_RULE_DLG_TITLE": "Anzeigeregel löschen",
+    "EDIT_COMMUNICATION_RULES": "Anzeigeregeln bearbeiten",
+    "EMPTY_TABLE_MSG": "Nichts anzuzeigen",
+    "OBJ_FILTER_DEFINED": "Resultat",
+    "SAVE_RULE_STEP_TITLE": "Anzeigeregel speichern",
+    "SAVE_RULE_STEP_TITLE_SHORT": "Regel speichern",
+    "SELECT_ANY_WIN_OPTION": "Beliebiges Fenster",
+    "SELECT_FILTER_TYPE_ERROR": "Kriteriumtyp nicht verfügbar für ausgewähltes Objekt",
+    "SELECT_OBJ_DLG_TITLE": "Objekt auswählen",
+    "SELECT_OBJ_FILTER_CRITERIA_LBL": "Kriteriumtyp",
+    "SELECT_OBJ_LBL": "Objekt",
+    "SELECT_OBJ_NOT_EXIST_ERROR": "Ausgewähltes Objekt nicht verfügbar",
+    "SELECT_OBJ_PLACEHOLDER": "Objekt auswählen",
+    "SELECT_SINGLE_WIN_OPTION": "Spezifisches Fenster",
+    "SELECT_SOURCE_WIN_STEP_TITLE": "Quellfenster",
+    "SELECT_TARGET_WIN_STEP_TITLE": "Zielfenster",
+    "SELECT_WIN_ERROR": "Fensterauswahl erforderlich",
+    "TABLE_COL_FILTER": "Kriterien",
+    "TABLE_COL_SOURCE_WIN": "Quellfenster",
+    "TABLE_COL_TARGET_WIN": "Zielfenster",
+    "TABLE_FILTER_ERROR": "Kriterien nicht definiert",
+    "TABLE_WIN_ANY_SELECTED": "Beliebiges Fenster",
+    "TABLE_WIN_ERROR": "Nicht verfügbar",
+    "WINDOW_TITLE": "Anzeigeregeln"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Abbrechen",
+      "DELETE": "Löschen",
+      "DELETE_SCENE": "Szene löschen",
+      "DELETE_SCHEDULER": "Zeitprogramm löschen",
+      "UNSAVED_SCHEDULE": "Fehler beim Speichern des Zeitprogramms"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Fehler beim Löschen des Zeitplans",
+      "DELETE_SCENE_CONFIRMATION": "Szene {{sceneName}} löschen?",
+      "DELETE_SCHEDULE_CONFIRMATION": "{{scheduleObjectName}} löschen?",
+      "SAVE_AS_SCENE_FAILURE": "Fehler beim Speichern des Zeitplans",
+      "SAVE_SCENE_FAILURE": "Fehler beim Speichern des Zeitplans"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Zeitprogramm löschen",
+      "ENTER_USER_DEFINED_NAME": "Benutzerdefinierten Namen eingeben",
+      "FAILED_TO_DELETE": "Fehler beim Löschen",
+      "FAILED_TO_SAVE": "Fehler beim Speichern",
+      "SET_CORRECT_NAME": "Namen eingeben"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Zeitpläne speichern…",
+      "ADD_CALENDAR_ENTRY": "Kalendereintrag hinzufügen",
+      "ADD_EXCEPTION": "<neue Ausnahme>",
+      "ADD_NEW_CALENDAR_ENTRY": "Kalendereintrag hinzufügen",
+      "ADD_NEW_EXCEPTION": "<neue Ausnahme>",
+      "CALENDAR_REFERENCE": "Kalenderreferenz",
+      "NEW_CALENDAR_ENTRY": "<neuer Kalendereintrag>",
+      "NEW_EXCEPTION": "<neue Ausnahme>",
+      "UNSAVED_CALENDAR": "Ungespeicherter Kalender"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Ausnahmen",
+      "SCHEDULE": "Zeitplan"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Seite kann erst nach dem Speichern des Zeitprogramms verlassen werden",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplikate ignoriert",
+      "CALENDAR_INVALID_ENTRY": "Ungültiger Kalendereintrag",
+      "DELETE_CALENDAR_CONFIRMATION": "{{CalendarObjectName}} löschen?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Kalendereintrag löschen?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Ausnahme löschen?",
+      "INVALID_CALENDAR": "Ungültige Kalenderreferenz",
+      "INVALID_DATE": "Ungültiges Datum",
+      "INVALID_DATE_RANGE": "Startdatum nach Enddatum",
+      "INVALID_EXCEPTION_HIDDEN": "Verborgene Legacy-Ausnahmen",
+      "INVALID_REFERENCES_HIDDEN": "Ungültige Kalenderreferenzen",
+      "NO_CALENDAR_ENTRIES": "Keine Kalendereinträge",
+      "NO_EXCEPTION_ENTRIES": "Keine Ausnahmen",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Ausnahme kopiert",
+      "SCHEDULE_COPY_SUCCESS": "Zeitplan kopiert",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Ausnahme für Datumsbereich gespeichert",
+      "UNSAVED_CALENDAR_MESSAGE": "Kalender vor dem Verlassen der Seite speichern"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Ausnahme referenziert ungültigen Kalender und muss gelöscht werden. Das Löschen betrifft auch alle anderen, ungültigen Kalenderreferenzen",
+      "SCHEDULE_CALENDAR_REF_INFO": "Kalenderreferenz ist schreibgeschützt"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Fehler beim Speichern des Kalendereintrags",
+      "CALENDAR_DELETE_ERROR": "Fehler beim Löschen des Kalendereintrags",
+      "CALENDAR_SAVE_ERROR": "Fehler beim Speichern des Kalendereintrags",
+      "INVALID_EXCEPTION_HIDDEN": "Nicht unterstützte Ausnahmen entfernen",
+      "INVALID_REFERENCES_HIDDEN": "Ungültige Kalenderreferenzen entfernen",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Tag zum Kopieren des Zeitprogramms auswählen",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Tage zum Einfügen des {{day}}-Zeitplans auswählen",
+      "SCHEDULE_COPY_ERROR": "Fehler beim Kopieren des Zeitplans",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Fehler beim Kopieren der Ausnahme",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Tage auswählen, um Ausnahmezeitplan einzufügen",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Fehler beim Erstellen der Ausnahme",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Fehler beim Speichern des Datumsbereichs",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Enddatum auswählen",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Fehler beim Löschen der Ausnahme",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Max. Anzahl Einträge erreicht",
+      "SCHEDULE_SAVE_ERROR": "Fehler beim Speichern des Zeitplans",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Fehler beim Speichern der Ausnahme",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Fehler beim Speichern der Einstellungen",
+      "UNKNOWN_ERROR_FETCHING_DATA": "Fehler beim Abrufen der Daten",
+      "UNSUPPORTED_ENTRY_TYPE": "Eintragstyp Wochentag nicht unterstützt für Kalender"
+    }
+  },
+  "SELECTION-OPEN-IN-NEW-TAB": "In neuem Fenster öffnen",
+  "SELECTION-SEND": "Öffnen",
+  "SELECTION-SEND-TO-PRIMARY": "In primärem Arbeitsbereich öffnen",
+  "SELECTION-SEND-TO-SECONDARY": "In sekundärem Arbeitsbereich öffnen",
+  "TITLE_BAR": {
+    "ADVANCED": "Erweitert",
+    "DELETE_SECURITY_SETTINGS": "Sicherheitseinstellungen löschen",
+    "EDIT_ENDPOINT_ADDRESS": "Endpunktadresse bearbeiten",
+    "EMPTY_CACHE_REFRESH": "Cache leeren und aktualisieren",
+    "GO_BACK": "Zurück",
+    "GO_FORWARD": "Vorwärts",
+    "NAVIGATE": "Navigation",
+    "REFRESH": "Aktualisieren",
+    "RESET_ZOOM": "Zoom zurücksetzen",
+    "VIEW": "Ansicht",
+    "ZOOM_IN": "Vergrössern",
+    "ZOOM_OUT": "Verkleinern"
+  }
+}

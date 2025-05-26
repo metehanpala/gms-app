@@ -1,0 +1,198 @@
+{
+  "DESKTOP": {
+    "CLOSE_APP_MODAL_MSG": "Salvați sau eliminați datele nesalvate în toate ferestrele deschise înainte de închidere",
+    "CLOSE_APP_MODAL_TITLE": "Închideți aplicația",
+    "LOG_OUT_MODAL_MSG": "Salvați sau renunțați la datele nesalvate în toate ferestrele deschise înainte de a vă deconecta",
+    "LOG_OUT_MODAL_TITLE": "Deconectare",
+    "RESET_LAYOUT_MODAL_MSG": "Salvați sau eliminați datele nesalvate în toate ferestrele deschise înainte de resetare",
+    "RESET_LAYOUT_MODAL_TITLE": "Resetați la aspectul implicit",
+    "SEND_TO_WINDOW_DLG_TITLE": "Trimite la altă fereastră"
+  },
+  "LOGIN-SCREEN": {
+    "CANCEL": "Inapoi",
+    "CHANGE": "Schimba",
+    "CHANGE_FAILED": "Schimbarea parolei a eșuat",
+    "CHANGE_PASSWORD": "Schimbaţi parola",
+    "CHANGE_PASSWORD_DESCRIPTION": "Parola setată din fabrică trebuie schimbată",
+    "CONFIRM_PASSWORD": "Confirmă parola",
+    "CONNECTION": "Se conecteaza...…",
+    "COOKIE-NOTICE": "Notificare privind cookie-urile",
+    "CORPORATE-INFO": "Informație corporativă",
+    "CURRENT_PASSWORD": "Parola actuală",
+    "LOGIN-BUTTON-BACK": "Inapoi",
+    "LOGIN-BUTTON-CANCEL": "Anulare",
+    "LOGIN-BUTTON-LOGIN": "Logare",
+    "LOGIN-BUTTON-NEXT": "Urmator",
+    "NEW_PASSWORD": "Parolă nouă",
+    "PASSWORD-LABEL": "Parolă",
+    "PASSWORD_DIFFERENT": "Confirmarea parolei nu se potrivește",
+    "PASSWORD_EGUAL": "Parolă nouă deja folosită",
+    "PASSWORD_POLICY": "Politica parolelor",
+    "PASSWORD_POLICY_ADD_REQ": "Parola trebuie să respecte:",
+    "PASSWORD_POLICY_DIGIT": "Min. 1 digit",
+    "PASSWORD_POLICY_LOWER": "Min. 1 literă mică",
+    "PASSWORD_POLICY_MINLENGTH": "Parola trebuie să conțină min. {{minLength}} caractere",
+    "PASSWORD_POLICY_SPECIAL": "Min. 1 caracter special",
+    "PASSWORD_POLICY_UPPER": "Min. 1 majuscula",
+    "PRIVACY-NOT": "Notificare de confidențialitate",
+    "TERMS-OF-USE": "Termeni de utilizare",
+    "TERMS-OF-USE-STATEMENT": "Prin autentificare sunteți de acord cu {{termsOfUseLink}}",
+    "USERNAME-LABEL": "Nume utilizator"
+  },
+  "NAVBAR": {
+    "Account": "Cont",
+    "Group-View": "Grupuri",
+    "Notification": "Notificare",
+    "Printer-Settings": "Setări imprimanta",
+    "Recipient-View": "Destinatari",
+    "Settings": "Setări",
+    "Template-View": "Șabloane",
+    "Tree-View": "Ierarhii",
+    "Views": "Vizualizări",
+    "about-frame-id": "Despre",
+    "account-frame-id": "Cont",
+    "events": "Evenimente",
+    "node-map": "Dispozitive",
+    "notifconfig-frame-id": "Notificari",
+    "system": "Sistem"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Selectați pentru a opera",
+      "FILTER_NO_RESULTS": "Nimic gasit",
+      "MODAL_DANGER_TEXT_PROCEED": "Procedați cu prudență",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "Sunteți pe cale să activati funcțiile de protecție",
+      "MODAL_DANGER_TITLE": "Siguranța fizica"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Inapoi",
+      "CANCEL": "Anulare",
+      "FILTER": "Filtru",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Nu este disponibil",
+    "ADVANCED-SWITCH-LABEL": "Avansat",
+    "BASIC-SWITCH-LABEL": "De bază",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Execuția comenzii a eșuat",
+    "COMMAND-ERROR-TITLE": "Eroare de comandă",
+    "DIFFERENT-PROPERTY-TYPES": "Nepotrivire tip de proprietate",
+    "ERROR-TEXT": "Eroare de comunicare",
+    "EVENT-POPOVER-EVENTS": "Evenimente",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Sursa evenimentului",
+    "FILTER-PLACEHOLDER": "Căutare…",
+    "NAVIGATE-TO-LOG-VIEWER": "Deschideți în vizualizarea jurnalului",
+    "NEW-ITEM-IN-PRIMARY": "{{itemLabel}} în panoul principal",
+    "NEW-ITEM-IN-SECONDARY": "{{itemLabel}} în panoul secundar",
+    "NEW-ITEM-MENU": "Adăugare",
+    "NO-PROPERTIES": "Fără proprietăți",
+    "NO-RELATED-ITEMS": "Nu există articole înrudite",
+    "PROPERTIES": "Proprietăţi",
+    "SAVE-ERROR-TITLE": "Memo nu a putut fi salvat",
+    "SELECTION-OPEN-IN-NEW-TAB": "Deschide într-o filă nouă",
+    "SELECTION-SEND-TO-PRIMARY": "Trimite în panoul principal",
+    "SELECTION-SEND-TO-SECONDARY": "Trimiteți în panoul secundar"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "CANCEL": "Anulare",
+      "DELETE": "Sterge",
+      "DELETE_SCENE": "Ștergeți scena",
+      "DELETE_SCHEDULER": "Ștergeți orarul",
+      "UNSAVED_SCHEDULE": "Nu s-a reusit salvarea programului"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Nu s-a reusit stergerea programului",
+      "DELETE_SCENE_CONFIRMATION": "Ștergeți scena {{sceneName}}?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Ștergeți {{scheduleObjectName}}?",
+      "SAVE_AS_SCENE_FAILURE": "Nu s-a reusit salvarea programului",
+      "SAVE_SCENE_FAILURE": "Nu s-a reusit salvarea programului"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Ștergeți orarul",
+      "ENTER_USER_DEFINED_NAME": "Introduceți numele personalizat",
+      "FAILED_TO_DELETE": "Ștergerea eșuată",
+      "FAILED_TO_SAVE": "Salvare eșuată",
+      "SET_CORRECT_NAME": "Introdu numele"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Avertizare",
+      "ADD_CALENDAR_ENTRY": "Adaugati intrarea in calendar",
+      "ADD_EXCEPTION": "Exceptie noua",
+      "ADD_NEW_CALENDAR_ENTRY": "Adaugati o  intrare in calendar",
+      "ADD_NEW_EXCEPTION": "Exceptie noua",
+      "CALENDAR_REFERENCE": "Referinta calendar",
+      "NEW_CALENDAR_ENTRY": "Intrare noua in calendar",
+      "NEW_EXCEPTION": "Exceptie noua",
+      "UNSAVED_CALENDAR": "Calendar nesalvat"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptii",
+      "SCHEDULE": "Planificare"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Nu se poate părăsi pagina. Așteptați până când orarul este salvat",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate ignorate",
+      "CALENDAR_INVALID_ENTRY": "Intrare calendar invalidă",
+      "DELETE_CALENDAR_CONFIRMATION": "Ștergeți „{{Calendar Object Name}}”?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Stergeti intrarea din calendar?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Stergeti exceptia?",
+      "INVALID_CALENDAR": "Referința calendar invalida",
+      "INVALID_DATE": "Data este invalida",
+      "INVALID_DATE_RANGE": "Data de inceput este dupa cea de incheiere",
+      "INVALID_EXCEPTION_HIDDEN": "Excepții moștenite ascunse",
+      "INVALID_REFERENCES_HIDDEN": "Referințe calendaristice invalide",
+      "NO_CALENDAR_ENTRIES": "Nu exista inregistrari in calendar",
+      "NO_EXCEPTION_ENTRIES": "Nu exista excepții",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exceptie copiata",
+      "SCHEDULE_COPY_SUCCESS": "Planificare copiata",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Excepția intervalului de date a fost salvată",
+      "UNSAVED_CALENDAR_MESSAGE": "Salvați calendarul înainte de a părăsi pagina"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "Excepția se referă la un calendar invalid și trebuie ștearsă. Ștergerea se aplică și tuturor celorlalte referințe de calendar invalide",
+      "SCHEDULE_CALENDAR_REF_INFO": "Referința calendarului este doar pentru citire"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Eroare la crearea intrării in calendar",
+      "CALENDAR_DELETE_ERROR": "Eroare la stergerea intrarii din calendar",
+      "CALENDAR_SAVE_ERROR": "Eroare la salvarea intrării in calendar",
+      "INVALID_EXCEPTION_HIDDEN": "Va rugam sa eliminați toate excepțiile neacceptate",
+      "INVALID_REFERENCES_HIDDEN": "Va rugam sa eliminați toate referințele nevalide din calendar",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Selectati ziua pe care doriti sa o copiati",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Selectați zilele în care să inserați programul lui {{day}}",
+      "SCHEDULE_COPY_ERROR": "Nu s-a copiat programul",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Eroare la copierea excepției",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Selectați zilele în care să inserați orarul de exceptii",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Eroare la crearea excepției",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Eroare la salvarea intervalului de date",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Selectati data de incheiere",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Eroare la ștergerea excepției",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Numarul maxim de inregistrari a fost atins",
+      "SCHEDULE_SAVE_ERROR": "Nu s-a salvat programul",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Eroare la salvarea excepției",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Eroare la salvarea setarilor",
+      "UNKNOWN_ERROR_FETCHING_DATA": "A apărut o eroare necunoscuta in preluarea datelor",
+      "UNSUPPORTED_ENTRY_TYPE": "Tipul de intrare în ziua săptămânii nu este acceptat pentru calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Trimiteți în panoul principal",
+  "SELECTION-SEND-TO-SECONDARY": "Trimiteți în panoul secundar",
+  "TITLE_BAR": {
+    "ADVANCED": "Avansat",
+    "DELETE_SECURITY_SETTINGS": "Ștergeți setările de securitate",
+    "EDIT_ENDPOINT_ADDRESS": "Editați adresa punctului final",
+    "EMPTY_CACHE_REFRESH": "Goliți memoria cache și reîmprospătați",
+    "GO_BACK": "Înapoi",
+    "GO_FORWARD": "Inainte",
+    "NAVIGATE": "Navigare",
+    "REFRESH": "Reîmprospătare",
+    "RESET_ZOOM": "Resetați marirea",
+    "VIEW": "Vezi",
+    "ZOOM_IN": "Mareste",
+    "ZOOM_OUT": "Micsoreaza"
+  }
+}

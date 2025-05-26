@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "戻る",
+    "CHANGE": "変更",
+    "CHANGE_FAILED": "ﾊﾟｽﾜｰﾄﾞ変更異常",
+    "CHANGE_PASSWORD": "ﾊﾟｽﾜｰﾄﾞ変更",
+    "CHANGE_PASSWORD_DESCRIPTION": "工場出荷時のﾊﾟｽﾜｰﾄﾞを変更する必要があります",
+    "CONFIRM_PASSWORD": "ﾊﾟｽﾜｰﾄﾞの確認",
+    "CONNECTION": "接続中...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "ｺｰﾎﾟﾚｰﾄｲﾝﾌｫﾒｰｼｮﾝ",
+    "CURRENT_PASSWORD": "現在のﾊﾟｽﾜｰﾄﾞ",
+    "LOGIN-BUTTON-BACK": "戻る",
+    "LOGIN-BUTTON-CANCEL": "ｷｬﾝｾﾙ",
+    "LOGIN-BUTTON-LOGIN": "ﾛｸﾞｵﾝ",
+    "LOGIN-BUTTON-NEXT": "次",
+    "NEW_PASSWORD": "新ﾊﾟｽﾜｰﾄﾞ",
+    "PASSWORD-LABEL": "ﾊﾟｽﾜｰﾄﾞ",
+    "PASSWORD_DIFFERENT": "新しいﾊﾟｽﾜｰﾄﾞと確認ﾊﾟｽﾜｰﾄﾞが異なります",
+    "PASSWORD_EGUAL": "新しいﾊﾟｽﾜｰﾄﾞが古いﾊﾟｽﾜｰﾄﾞと同じです",
+    "PASSWORD_POLICY": "ﾊﾟｽﾜｰﾄﾞﾎﾟﾘｼｰ",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "少なくとも1つの小文字 [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "特殊文字",
+    "PASSWORD_POLICY_UPPER": "大文字と小文字",
+    "PRIVACY-NOT": "ﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ",
+    "TERMS-OF-USE": "利用規約",
+    "USERNAME-LABEL": "ﾕｰｻﾞ名"
+  },
+  "NAVBAR": {
+    "Account": "ｱｶｳﾝﾄ",
+    "Notification": "通知",
+    "Printer-Settings": "ﾌﾟﾘﾝﾀ-設定",
+    "Settings": "設定",
+    "Tree-View": "ﾂﾘｰ-表示",
+    "Views": "表示",
+    "about-frame-id": "About",
+    "account-frame-id": "ｱｶｳﾝﾄ",
+    "events": "ｲﾍﾞﾝﾄ",
+    "notifconfig-frame-id": "通知",
+    "system": "ｼｽﾃﾑ"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "操作選択",
+      "FILTER_NO_RESULTS": "一致するｵﾌﾞｼﾞｪｸﾄが見つかりません",
+      "MODAL_DANGER_TEXT_PROCEED": "これを実行することが確実な場合にのみ続行してください",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "あなたはﾗｲﾌｾｰﾌﾃｨｵﾍﾟﾚｰｼｮﾝを解放しようとしています！",
+      "MODAL_DANGER_TITLE": "ﾗｲﾌｾｰﾌﾃｨ"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "戻る",
+      "CANCEL": "ｷｬﾝｾﾙ",
+      "FILTER": "ﾌｨﾙﾀｰ",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "存在しない",
+    "ADVANCED-SWITCH-LABEL": "高機能",
+    "BASIC-SWITCH-LABEL": "基本",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "ｺﾏﾝﾄﾞ実行に失敗",
+    "COMMAND-ERROR-TITLE": "ｺﾏﾝﾄﾞｴﾗｰ",
+    "DIFFERENT-PROPERTY-TYPES": "異なるﾌﾟﾛﾊﾟﾃｨﾀｲﾌﾟ",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "ｲﾍﾞﾝﾄ",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "ｲﾍﾞﾝﾄｿｰｽ",
+    "NEW-ITEM-IN-PRIMARY": "in ﾌﾟﾗｲﾏﾘｰ区画",
+    "NEW-ITEM-IN-SECONDARY": "in ｾｶﾝﾀﾞﾘｰ区画",
+    "NEW-ITEM-MENU": "追加",
+    "NO-PROPERTIES": "ﾌﾟﾛﾊﾟﾃｨなし",
+    "NO-RELATED-ITEMS": "関連ｱｲﾃﾑなし",
+    "PROPERTIES": "ﾌﾟﾛﾊﾟﾃｨｰ",
+    "SAVE-ERROR-TITLE": "ﾒﾓの保存に失敗",
+    "SELECTION-OPEN-IN-NEW-TAB": "新しいﾀﾌﾞを開く",
+    "SELECTION-SEND-TO-PRIMARY": "ﾌﾟﾗｲﾏﾘｰ区画に送信",
+    "SELECTION-SEND-TO-SECONDARY": "ｾｶﾝﾀﾞﾘｰ区画に送信"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "ｽｹｼﾞｭｰﾙ削除",
+      "UNSAVED_SCHEDULE": "未保存のｽｹｼﾞｭｰﾙ"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "ｽｹｼﾞｭｰﾙ削除に失敗",
+      "DELETE_SCENE_CONFIRMATION": "選択したｼｰﾝを削除してもよろしいですか？",
+      "DELETE_SCHEDULE_CONFIRMATION": "削除しますか \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "変更を新しいｽｹｼﾞｭｰﾙに保存できませんでした",
+      "SAVE_SCENE_FAILURE": "ｽｹｼﾞｭｰﾙの変更を保存できませんでした"
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "ｽｹｼﾞｭｰﾙｵﾌﾞｼﾞｪｸﾄ削除",
+      "ENTER_USER_DEFINED_NAME": "ﾕｰｻﾞｰ定義名を入力してください",
+      "FAILED_TO_DELETE": "削除に失敗",
+      "FAILED_TO_SAVE": "保存に失敗",
+      "SET_CORRECT_NAME": "正しい名称を設定してください"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "警告",
+      "ADD_CALENDAR_ENTRY": "追加 ｶﾚﾝﾀﾞｰ",
+      "ADD_EXCEPTION": "追加 例外",
+      "ADD_NEW_CALENDAR_ENTRY": "新規追加 ｶﾚﾝﾀﾞｰ",
+      "ADD_NEW_EXCEPTION": "新規追加 例外",
+      "CALENDAR_REFERENCE": "ｶﾚﾝﾀﾞｰ参照",
+      "NEW_CALENDAR_ENTRY": "新しいｶﾚﾝﾀﾞｰ",
+      "NEW_EXCEPTION": "新しい例外",
+      "UNSAVED_CALENDAR": "未保存のｶﾚﾝﾀﾞｰ"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "例外",
+      "SCHEDULE": "ｽｹｼﾞｭｰﾙ"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "進行中のｱｸﾃｨﾋﾞﾃｨ、ﾅﾋﾞｹﾞｰﾄできません",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "重複するｴﾝﾄﾘは追加されません",
+      "CALENDAR_INVALID_ENTRY": "無効なｶﾚﾝﾀﾞｰ登録！",
+      "DELETE_CALENDAR_CONFIRMATION": "削除しますか \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "このｶﾚﾝﾀﾞｰ登録を削除しますか？",
+      "DELETE_EXCEPTION_CONFIRMATION": "この例外を削除しますか？",
+      "INVALID_CALENDAR": "ｶﾚﾝﾀﾞｰ参照が無効",
+      "INVALID_DATE": "無効な日付",
+      "INVALID_DATE_RANGE": "開始日が終了日より後",
+      "INVALID_EXCEPTION_HIDDEN": "過去の例外非表示",
+      "INVALID_REFERENCES_HIDDEN": "無効なｶﾚﾝﾀﾞｰ参照",
+      "NO_CALENDAR_ENTRIES": "ｶﾚﾝﾀﾞｰ登録なし",
+      "NO_EXCEPTION_ENTRIES": "例外はｽｹｼﾞｭｰﾙされていません",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "例外をｺﾋﾟｰ",
+      "SCHEDULE_COPY_SUCCESS": "ｽｹｼﾞｭｰﾙをｺﾋﾟｰ",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "日付ﾚﾝｼﾞ作成",
+      "UNSAVED_CALENDAR_MESSAGE": "ｴﾝﾄﾘｰを追加し、ｶﾚﾝﾀﾞｰを保存してさらに操作します"
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "この例外ｴﾝﾄﾘは無効なｶﾚﾝﾀﾞｰを参照しているため、他の例外を変更する前に削除する必要があります警告この例外ｴﾝﾄﾘを削除すると、他のすべての無効なｶﾚﾝﾀﾞｰ参照ｴﾝﾄﾘが削除されます",
+      "SCHEDULE_CALENDAR_REF_INFO": "この例外はｶﾚﾝﾀﾞｰを参照しています別のｶﾚﾝﾀﾞｰを参照するために削除または変更することはできません"
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "ｶﾚﾝﾀﾞｰ登録作成中のｴﾗｰ",
+      "CALENDAR_DELETE_ERROR": "ｶﾚﾝﾀﾞｰ登録削除中のｴﾗｰ",
+      "CALENDAR_SAVE_ERROR": "ｶﾚﾝﾀﾞｰ登録保存中のｴﾗｰ",
+      "INVALID_EXCEPTION_HIDDEN": "ｻﾎﾟｰﾄされていない例外をすべて削除してください",
+      "INVALID_REFERENCES_HIDDEN": "無効なｶﾚﾝﾀﾞｰ参照をすべて削除してください",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "ｺﾋﾟｰしたい日を選択",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "{{日}}ｽｹｼﾞｭｰﾙを繰り返す日を選択",
+      "SCHEDULE_COPY_ERROR": "ｽｹｼﾞｭｰﾙｺﾋﾟｰ中のｴﾗｰ",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "例外のｺﾋﾟｰ中のｴﾗｰ",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "例外ｽｹｼﾞｭｰﾙを繰り返す日を選択",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "例外作成中のｴﾗｰ",
+      "SCHEDULE_CREATE_RANGE_ERROR": "日付ﾚﾝｼﾞの作成中のｴﾗｰ",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "終了日選択",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "例外削除中のｴﾗｰ",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "最大登録数に達しました",
+      "SCHEDULE_SAVE_ERROR": "ｽｹｼﾞｭｰﾙ保存中のｴﾗｰ",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "例外保存中のｴﾗｰ",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "ｵﾌﾟｼｮﾝ保存中のｴﾗｰ",
+      "UNKNOWN_ERROR_FETCHING_DATA": "ﾃﾞｰﾀ取得中に不明なｴﾗｰが発生しました",
+      "UNSUPPORTED_ENTRY_TYPE": "ｴﾝﾄﾘﾀｲﾌﾟの平日はｶﾚﾝﾀﾞｰではｻﾎﾟｰﾄされていません"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "ﾌﾟﾗｲﾏﾘｰ区画に送信",
+  "SELECTION-SEND-TO-SECONDARY": "ｾｶﾝﾀﾞﾘｰ区画に送信",
+  "TITLE_BAR": {
+    "ADVANCED": "高機能",
+    "DELETE_SECURITY_SETTINGS": "ｾｷｭﾘﾃｨ設定を削除",
+    "EDIT_ENDPOINT_ADDRESS": "ｴﾝﾄﾞﾎﾟｲﾝﾄｱﾄﾞﾚｽを編集",
+    "REFRESH": "ﾘﾌﾚｯｼｭ",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}

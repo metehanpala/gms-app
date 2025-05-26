@@ -1,0 +1,173 @@
+{
+  "LOGIN-SCREEN": {
+    "CANCEL": "Back",
+    "CHANGE": "Change",
+    "CHANGE_FAILED": "Change Password Failed",
+    "CHANGE_PASSWORD": "Change password",
+    "CHANGE_PASSWORD_DESCRIPTION": "Factory set password must be changed",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONNECTION": "Connecting...",
+    "COOKIE-NOTICE": "Cookie Notice",
+    "CORPORATE-INFO": "Corporate Information",
+    "CURRENT_PASSWORD": "Current password",
+    "LOGIN-BUTTON-BACK": "Back",
+    "LOGIN-BUTTON-CANCEL": "Cancel",
+    "LOGIN-BUTTON-LOGIN": "Logon",
+    "LOGIN-BUTTON-NEXT": "Next",
+    "NEW_PASSWORD": "New password",
+    "PASSWORD-LABEL": "Password",
+    "PASSWORD_DIFFERENT": "New password is different of confirm password",
+    "PASSWORD_EGUAL": "New password is the same with the old one",
+    "PASSWORD_POLICY": "Password policy",
+    "PASSWORD_POLICY_DIGIT": "digit(s)",
+    "PASSWORD_POLICY_LOWER": "At least one lower case letters [a-z]",
+    "PASSWORD_POLICY_SPECIAL": "special character(s)",
+    "PASSWORD_POLICY_UPPER": "upper and lower case letters",
+    "PRIVACY-NOT": "Privacy policy",
+    "TERMS-OF-USE": "Terms of use",
+    "USERNAME-LABEL": "User name"
+  },
+  "NAVBAR": {
+    "Account": "Account",
+    "Notification": "Notification",
+    "Printer-Settings": "Printer-Settings",
+    "Settings": "Settings",
+    "Tree-View": "Tree-View",
+    "Views": "Views",
+    "about-frame-id": "About",
+    "account-frame-id": "Account",
+    "events": "Events",
+    "notifconfig-frame-id": "Notifications",
+    "system": "System"
+  },
+  "OBJECT_BROWSER": {
+    "DIALOG_TEXT_LONG": {
+      "CLICK_TO_OPERATE": "Select to operate",
+      "FILTER_NO_RESULTS": "No matching objects found",
+      "MODAL_DANGER_TEXT_PROCEED": "Proceed only if you are sure you want to do this.",
+      "MODAL_DANGER_TEXT_SAFETY_FUNCTIONS": "You are about to release life safety operations!",
+      "MODAL_DANGER_TITLE": "Life Safety"
+    },
+    "DIALOG_TEXT_SHORT": {
+      "BACK": "Back",
+      "CANCEL": "Cancel",
+      "FILTER": "Filter",
+      "OK": "OK"
+    }
+  },
+  "RIGHT-PANEL": {
+    "ABSENT-TEXT": "Not Present",
+    "ADVANCED-SWITCH-LABEL": "Advanced",
+    "BASIC-SWITCH-LABEL": "Basic",
+    "COMMAND-ERROR-MESSAGE-DEFAULT": "Command execution failed",
+    "COMMAND-ERROR-TITLE": "Command Error",
+    "DIFFERENT-PROPERTY-TYPES": "Different property types",
+    "ERROR-TEXT": "#COM",
+    "EVENT-POPOVER-EVENTS": "Events",
+    "EVENT-POPOVER-EVENTS-TOOLTIP": "Event source",
+    "NEW-ITEM-IN-PRIMARY": "in Primary Pane",
+    "NEW-ITEM-IN-SECONDARY": "in Secondary Pane",
+    "NEW-ITEM-MENU": "Add",
+    "NO-PROPERTIES": "No properties",
+    "NO-RELATED-ITEMS": "No related items",
+    "PROPERTIES": "Properties",
+    "SAVE-ERROR-TITLE": "Failed to save memo",
+    "SELECTION-OPEN-IN-NEW-TAB": "Open in New Tab",
+    "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+    "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane"
+  },
+  "SCENE_EDITOR": {
+    "DIALOG_TEXT_SHORT": {
+      "DELETE_SCENE": "Delete Scene",
+      "DELETE_SCHEDULER": "Delete Scheduler",
+      "UNSAVED_SCHEDULE": "Unsaved Schedule"
+    },
+    "MESSAGES": {
+      "DELETE_FAILURE": "Failed to delete schedule.",
+      "DELETE_SCENE_CONFIRMATION": "Are you sure, you want to delete the selected scene?",
+      "DELETE_SCHEDULE_CONFIRMATION": "Do you want to delete \"{{scheduleObjectName}}\"?",
+      "SAVE_AS_SCENE_FAILURE": "Failed to save the modification to new schedule.",
+      "SAVE_SCENE_FAILURE": "Failed to save modification to the schedule."
+    },
+    "TEXT_SHORT": {
+      "DELETE_SCHEDULE_OBJECT": "Delete schedule object",
+      "ENTER_USER_DEFINED_NAME": "Enter User Defined Name",
+      "FAILED_TO_DELETE": "Failed to delete",
+      "FAILED_TO_SAVE": "Failed to save",
+      "SET_CORRECT_NAME": "Set correct name"
+    }
+  },
+  "SCHEDULER": {
+    "DIALOG_TEXT_LONG": {
+      "ACTIVITY_PROGRESS": "Warning",
+      "ADD_CALENDAR_ENTRY": "Add calendar entry",
+      "ADD_EXCEPTION": "Add exception",
+      "ADD_NEW_CALENDAR_ENTRY": "Add new calendar entry",
+      "ADD_NEW_EXCEPTION": "Add new exception",
+      "CALENDAR_REFERENCE": "Calendar reference",
+      "NEW_CALENDAR_ENTRY": "New calendar entry",
+      "NEW_EXCEPTION": "New exception",
+      "UNSAVED_CALENDAR": "Unsaved Calendar"
+    },
+    "DIALOG_TEXT_SHORT_2": {
+      "EXCEPTIONS": "Exceptions",
+      "SCHEDULE": "Schedule"
+    },
+    "MESSAGES": {
+      "ACTIVITY_IN_PROGRESS": "Activity in progress, can not navigate.",
+      "CALENDAR_DUPLICATE_ENTRIES_WARNING": "Duplicate entries will not be added",
+      "CALENDAR_INVALID_ENTRY": "Invalid calendar entry!",
+      "DELETE_CALENDAR_CONFIRMATION": "Do you want to delete \"{{CalendarObjectName}}\"?",
+      "DELETE_CALENDAR_ENTRY_CONFIRMATION": "Delete this calendar entry?",
+      "DELETE_EXCEPTION_CONFIRMATION": "Delete this exception?",
+      "INVALID_CALENDAR": "Calendar reference is invalid",
+      "INVALID_DATE": "Date is invalid",
+      "INVALID_DATE_RANGE": "Start date is greater than end date",
+      "INVALID_EXCEPTION_HIDDEN": "Legacy Exceptions Hidden",
+      "INVALID_REFERENCES_HIDDEN": "Invalid Calendar References",
+      "NO_CALENDAR_ENTRIES": "No calendar entries",
+      "NO_EXCEPTION_ENTRIES": "No exceptions scheduled",
+      "SCHEDULE_COPY_EXCEPTION_SUCCESS": "Exception copied",
+      "SCHEDULE_COPY_SUCCESS": "Schedule copied",
+      "SCHEDULE_CREATE_RANGE_SUCCESS": "Date range created",
+      "UNSAVED_CALENDAR_MESSAGE": "Add entries and save the calendar for further operations."
+    },
+    "MESSAGES_EXTRA_LONG": {
+      "SCHEDULE_CALENDAR_INVALID_REF_INFO": "This exception entry is being referenced to an invalid calendar and must be deleted before modifying other exceptions. Warning: Deletion of this exception entry will lead to deletion of all other invalid calendar reference entries.",
+      "SCHEDULE_CALENDAR_REF_INFO": "This exception is referencing a calendar. It can't be deleted or changed to reference another calendar."
+    },
+    "MESSAGES_LONG": {
+      "CALENDAR_CREATE_ERROR": "Error while creating calendar entry",
+      "CALENDAR_DELETE_ERROR": "Error while deleting calendar entry",
+      "CALENDAR_SAVE_ERROR": "Error while saving calendar entry",
+      "INVALID_EXCEPTION_HIDDEN": "Please remove all unsupported exceptions",
+      "INVALID_REFERENCES_HIDDEN": "Please remove all invalid calendar references",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_1": "Select the day you want to copy",
+      "SCHEDULE_COPY_DAY_INSTRUCTION_2": "Select the days on which you want to repeat the {{day}} schedule",
+      "SCHEDULE_COPY_ERROR": "Error while copying schedule",
+      "SCHEDULE_COPY_EXCEPTION_ERROR": "Error while copying exception",
+      "SCHEDULE_COPY_EXCEPTION_INSTRUCTION": "Select the days on which you want to repeat the exception schedule",
+      "SCHEDULE_CREATE_EXCEPTION_ERROR": "Error while creating exception",
+      "SCHEDULE_CREATE_RANGE_ERROR": "Error while creating date range",
+      "SCHEDULE_CREATE_RANGE_INSTRUCTION": "Select the end date",
+      "SCHEDULE_DELETE_EXCEPTION_ERROR": "Error while deleting exception",
+      "SCHEDULE_MAX_ENTRIES_REACHED": "Maximum number of entries has been reached",
+      "SCHEDULE_SAVE_ERROR": "Error while saving schedule",
+      "SCHEDULE_SAVE_EXCEPTION_ERROR": "Error while saving exception",
+      "SCHEDULE_SAVE_OPTIONS_ERROR": "Error while saving options",
+      "UNKNOWN_ERROR_FETCHING_DATA": "An unknown error occurred while fetching data",
+      "UNSUPPORTED_ENTRY_TYPE": "Entry type weekday is not supported for calendar"
+    }
+  },
+  "SELECTION-SEND-TO-PRIMARY": "Send to Primary Pane",
+  "SELECTION-SEND-TO-SECONDARY": "Send to Secondary Pane",
+  "TITLE_BAR": {
+    "ADVANCED": "Advanced",
+    "DELETE_SECURITY_SETTINGS": "Delete security settings",
+    "EDIT_ENDPOINT_ADDRESS": "Edit endpoint address",
+    "REFRESH": "Refresh",
+    "RESET_ZOOM": "Reset zoom",
+    "ZOOM_IN": "Zoom in",
+    "ZOOM_OUT": "Zoom out"
+  }
+}
