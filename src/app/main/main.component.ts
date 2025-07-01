@@ -351,7 +351,7 @@ export class MainComponent implements AfterViewInit, OnInit, OnDestroy {
 
   private checkNotificationLicenseRights(notificationRecipientViewer: any, notificationRecipientGroupViewer: any,
     notificationTemplateViewer: any, verticalEntries: any[]): boolean {
-    if (verticalEntries.length > 0 && verticalEntries[0].items !== undefined) {
+    if (verticalEntries.length > 0) {
       if (notificationRecipientViewer !== -1 && notificationRecipientGroupViewer !== -1 && notificationTemplateViewer !== -1) {
         const appRightsNotification = this.appRightsService.getAppRights(1000);
         const showAppRightsReno = 32000;
@@ -415,10 +415,10 @@ export class MainComponent implements AfterViewInit, OnInit, OnDestroy {
     }
 
     // check notification for application rights and license
-    if (verticalEntries.length > 0 && verticalEntries[0].items !== undefined) {
+    if (verticalEntries.length > 0) {
       // fetch notification entry from vertical entries
       const notificationViewer = verticalEntries.findIndex((i: any) => i.title === 'NAVBAR.Notification');
-      if (notificationViewer !== -1) {
+      if (notificationViewer !== -1 && !isNullOrUndefined(verticalEntries[notificationViewer].items)) {
         const notificationRecipientViewer = verticalEntries[notificationViewer].items.findIndex((i: any) => i.title === 'NAVBAR.Recipient-View');
         const notificationRecipientGroupViewer = verticalEntries[notificationViewer].items.findIndex((i: any) => i.title === 'NAVBAR.Group-View');
         const notificationTemplateViewer = verticalEntries[notificationViewer].items.findIndex((i: any) => i.title === 'NAVBAR.Template-View');

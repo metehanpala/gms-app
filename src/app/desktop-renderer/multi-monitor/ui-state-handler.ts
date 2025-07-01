@@ -83,13 +83,39 @@ export class UiStateHandler {
         this.cnsHelper.setActiveView(newState.activeView);
         break;
       case 'mode':
-        this.traceService.debug(`Detected mode: ${newState[property].currentMode.id}}`);
-        this.snapinMessageBroker.changeMode(newState.mode.currentMode, this.preferredFrameConfig(), newState.mode.firstSelectionObj)
-          .subscribe(modeChanged => {
-            if (modeChanged) {
-              this.traceService.debug(`Mode changed to : ${newState[property].currentMode.id}}`);
-            }
-          });
+        // Check if the current instance is running as a single System Manager (i.e., not in a multi-manager environment).
+        this.multiMonitorService.isSingleSystemManager().then(hasWindows => {
+          // Log the detected mode for debugging purposes.
+          this.traceService.debug(`Detected mode: ${newState[property].currentMode.id}}`);
+          // If this instance is NOT the main System Manager,
+          // AND we are in a multi-manager environment (hasWindows is true),
+          // AND this instance is not a manager that handles specific events:
+          if (!this.multiMonitorService.isMainManager() && hasWindows && !this.multiMonitorService.isManagerWithEvent()) {
+            // In this scenario, only change the mode (do not update frame or selection object).
+            // Typically, only the main manager should perform frame switches.
+            this.snapinMessageBroker.changeMode(newState.mode.currentMode)
+              .subscribe(modeChanged => {
+                if (modeChanged) {
+                  // Log mode change event.
+                  this.traceService.debug(`Mode changed to : ${newState[property].currentMode.id}}`);
+                }
+              });
+          } else {
+            // If this instance is the main System Manager, or we are in a single-manager setup,
+            // or this manager is responsible for event handling:
+            // Switch the mode and update the frame and selection object as needed.
+            this.snapinMessageBroker.changeMode(
+              newState.mode.currentMode,
+              this.preferredFrameConfig(),
+              newState.mode.firstSelectionObj
+            ).subscribe(modeChanged => {
+              if (modeChanged) {
+                // Log mode change event with frame/selection context.
+                this.traceService.debug(`Mode changed to : ${newState[property].currentMode.id}}`);
+              }
+            });
+          }
+        });
         break;
       default:
         return;

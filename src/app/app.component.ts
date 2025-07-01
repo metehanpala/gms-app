@@ -1,11 +1,13 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, HostBinding, OnDestroy, OnInit } from '@angular/core';
+import { Component, HostBinding, HostListener, OnDestroy, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { NavigationStart, Router, RoutesRecognized } from '@angular/router';
 import { SnapinMessageBroker, StateService } from '@gms-flex/core';
 import { AppRightsService, MultiMonitorConfiguration, StationData, StationDataPerUser, WsiEndpointService } from '@gms-flex/services';
-import { AppContextService, AuthenticationServiceBase, isNullOrUndefined,
-  Language, LanguageServiceBase, LocalizationService, ProductInfo, ProductService, TraceService } from '@gms-flex/services-common';
+import {
+  AppContextService, AuthenticationServiceBase, isNullOrUndefined,
+  Language, LanguageServiceBase, LocalizationService, ProductInfo, ProductService, TraceService
+} from '@gms-flex/services-common';
 import { TranslateService } from '@ngx-translate/core';
 import { SiThemeService, SiToastNotificationService, Theme, ThemeType } from '@simpl/element-ng';
 import { BootstrapInfo, ShowBackDropReason, UserInfo } from 'desktop-main/src/messaging/window-message.data';
@@ -19,6 +21,8 @@ import { MultiMonitorConfigurationService } from './desktop-renderer/multi-monit
 import { ObjectMessageService } from './desktop-renderer/multi-monitor/object-message.service';
 import { UiStateHandler } from './desktop-renderer/multi-monitor/ui-state-handler';
 import { NotifyDialogComponent } from './notification-dialog/notify-dialog.component';
+import { PushNotificationUtilityService } from './push-notification';
+import { PushNotificationService } from './push-notification/push-notification.service';
 import { TitleBarService } from './title-bar/title-bar.service';
 
 export const trcModuleNameApp = 'gmsApplication_Application';
@@ -112,7 +116,7 @@ export class ApplicationComponent implements OnInit, OnDestroy {
     if (!this.desktopMessageService.runsInElectron) {
       this.applyThemeType('auto');
     }
-
+    this.initializePPWAApp();
   }
 
   public ngOnDestroy(): void {
@@ -142,7 +146,9 @@ export class ApplicationComponent implements OnInit, OnDestroy {
     private readonly siThemeService: SiThemeService,
     private readonly httpClient: HttpClient,
     private readonly appRightsService: AppRightsService,
-    private readonly titleBarService: TitleBarService
+    private readonly titleBarService: TitleBarService,
+    private readonly pushNotificationUtilityService: PushNotificationUtilityService,
+    private readonly pushNotificationService: PushNotificationService
   ) {
 
     this.productService.getProductSettings().subscribe((productSettings: ProductInfo) => {
@@ -452,5 +458,30 @@ export class ApplicationComponent implements OnInit, OnDestroy {
     const info = this.desktopMessageService.getCurrentManagerConfiguration();
     this.traceService.info(trcModuleNameApp, `This manager runs as type: ${info?.managerDefinition.managerType}`);
     this.electronAppBootstrapped = true;
+  }
+
+  @HostListener('window:beforeinstallprompt', ['$event'])
+  private onBeforeInstallPrompt(event: any): void {
+    event.preventDefault();
+  }
+
+  @HostListener('window:appinstalled', ['$event'])
+  private onAppInstalled(event: any): void {
+    this.initializePPWAApp();
+  }
+  
+  private initializePPWAApp(): void {
+    const isPWAInstalled = (window.matchMedia('(display-mode: standalone)').matches || (window.navigator as any).standalone);
+    if (isPWAInstalled) {
+      this.authenticationServiceBase.loginObservable.subscribe(isLogedIn => {
+        if (isLogedIn) {
+          this.pushNotificationUtilityService.addAppListeners();
+        }
+      });
+
+      this.authenticationServiceBase.beforeLogoutObservable.subscribe(() => {
+        this.pushNotificationService.unsubscribeEventNotifications(this.authenticationServiceBase.userToken).subscribe();
+      });
+    }
   }
 }

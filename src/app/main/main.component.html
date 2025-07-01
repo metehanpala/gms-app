@@ -1,53 +1,29 @@
-<gms-navbar-primary
-  #navbar
-  [class.gms-has-navbar-titlebar-fixed-top-navbar]="runsInElectron"
-  [hfwFrames]="frames"
-  [primaryItems]="primaryItems"
-  [isMainManager]="isMainManager"
-  (utilityPanelChanged)="onUtilityPanelChanged($event)"
-  />
+<gms-navbar-primary #navbar [class.gms-has-navbar-titlebar-fixed-top-navbar]="runsInElectron" [hfwFrames]="frames"
+  [primaryItems]="primaryItems" [isMainManager]="isMainManager" (utilityPanelChanged)="onUtilityPanelChanged($event)" />
 
-<si-navbar-vertical
-  [class.gms-has-navbar-titlebar-fixed-top-lp]="runsInElectron"
-  [items]="currentVerticalItems"
-  [visible]="isVerticalVisible"
->
-  <si-side-panel
-    mode="scroll"
-    [class.gms-has-navbar-titlebar-fixed-top-rp]="runsInElectron"
-    [collapsible]="isRPCollapsible"
-    [enableMobile]="true"
-    (contentResize)="contentResize()"
-  >
+<si-navbar-vertical [class.gms-has-navbar-titlebar-fixed-top-lp]="runsInElectron" [items]="currentVerticalItems"
+  [visible]="isVerticalVisible" [collapsed]="true">
+  <si-side-panel mode="scroll" [class.gms-has-navbar-titlebar-fixed-top-rp]="runsInElectron"
+    [collapsible]="isRPCollapsible" [enableMobile]="true" (contentResize)="contentResize()">
     <router-outlet />
 
-    <si-side-panel-content
-            *ngIf="currentFrameId === 'system-manager'"
-            id="system-right-panel-content"
-            [heading]="systemRP?.selectedNodeHeading !== undefined ? systemRP.selectedNodeHeading : ''"
-            [primaryActions]="systemRP?.primaryActions !== undefined ? systemRP.primaryActions : []"
-            [secondaryActions]="systemRP?.secondaryActions !== undefined ? systemRP.secondaryActions : []"
-            [statusActions]="systemRP?.statusActions !== undefined ? systemRP.statusActions : []"
-            [searchable]="true"
-            [searchPlaceholder]="systemRP?.placeholderFilter !== undefined ? systemRP.placeholderFilter : ''"
-            (searchEvent)="systemRP.onFilterChange($event)"
-    >
+    <si-side-panel-content *ngIf="currentFrameId === 'system-manager'" id="system-right-panel-content"
+      [heading]="systemRP?.selectedNodeHeading !== undefined ? systemRP.selectedNodeHeading : ''"
+      [primaryActions]="systemRP?.primaryActions !== undefined ? systemRP.primaryActions : []"
+      [secondaryActions]="systemRP?.secondaryActions !== undefined ? systemRP.secondaryActions : []"
+      [statusActions]="systemRP?.statusActions !== undefined ? systemRP.statusActions : []" [searchable]="true"
+      [searchPlaceholder]="systemRP?.placeholderFilter !== undefined ? systemRP.placeholderFilter : ''"
+      (searchEvent)="systemRP.onFilterChange($event)">
       <gms-sytem-rp #systemRP class="display-fit" frameId="system-manager" parentId="system-right-panel-content"
-                    [isRightPanelExpanded]="rightPanelExpandFlag" />
+        [isRightPanelExpanded]="rightPanelExpandFlag" />
     </si-side-panel-content>
 
-    <si-side-panel-content
-      *ngIf="currentFrameId === 'event-list'"
-      id="event-right-panel-content"
-      [heading]="systemRP?.selectedNodeHeading"
-      [primaryActions]="systemRP?.primaryActions"
-      [secondaryActions]="systemRP?.secondaryActions"
-      [statusActions]="systemRP?.statusActions"
-      [searchable]="true"
-      [searchPlaceholder]="systemRP?.placeholderFilter"
-      (searchEvent)="systemRP.onFilterChange($event)"
-    >
-      <gms-sytem-rp #systemRP class="display-fit" frameId="event-list" parentId="event-right-panel-content" [displayRelatedItems]="false" />
+    <si-side-panel-content *ngIf="currentFrameId === 'event-list'" id="event-right-panel-content"
+      [heading]="systemRP?.selectedNodeHeading" [primaryActions]="systemRP?.primaryActions"
+      [secondaryActions]="systemRP?.secondaryActions" [statusActions]="systemRP?.statusActions" [searchable]="true"
+      [searchPlaceholder]="systemRP?.placeholderFilter" (searchEvent)="systemRP.onFilterChange($event)">
+      <gms-sytem-rp #systemRP class="display-fit" frameId="event-list" parentId="event-right-panel-content"
+        [displayRelatedItems]="false" />
     </si-side-panel-content>
 
     <hfw-mobile-view hfwMobileOnly />
@@ -62,6 +38,8 @@
   If this compilation issue becomes resolved due to changes in Angular's partial compilation mode,
   then this template will be removed.
 -->
-<ng-template #graphicsCommon let-browserObject="browserObject" let-resolveObs="resolveObs" let-resolveExecutionResult="resolveExecutionResult" let-assistedTreatmentStep="assistedTreatmentStep">
-  <gms-graphics-common style="height: 500px;" [browserObject]="browserObject" [resolveObs]="resolveObs" (resolveExecutionResult)="onResolveGraphicStep(resolveExecutionResult, assistedTreatmentStep)"/>
+<ng-template #graphicsCommon let-browserObject="browserObject" let-resolveObs="resolveObs"
+  let-resolveExecutionResult="resolveExecutionResult" let-assistedTreatmentStep="assistedTreatmentStep">
+  <gms-graphics-common style="height: 500px;" [browserObject]="browserObject" [resolveObs]="resolveObs"
+    (resolveExecutionResult)="onResolveGraphicStep(resolveExecutionResult, assistedTreatmentStep)" />
 </ng-template>
