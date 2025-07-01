@@ -6,7 +6,7 @@
   "brandProductName": "Desigo CC",
   "productVersion": "9.0",
   "clientVersion": "9.0.0000.0",
-  "version": "9.0.0-alpha.35",
+  "version": "9.0.0-alpha.40",
   "fallbackCulture": "en",
   "installedLanguages": ["ar","bg", "cs", "da", "de", "en-GB", "en", "es","fi", "fr", "he", "hr", "hu", "it", "ja", "ko", "nb", "nl", "pl", "pt-BR", "pt", "ro", "ru", "sk", "sl", "sv", "tr", "zh-CN", "zh-TW"],
   "installedLanguageNames": ["العربية", "Български", "Čeština", "Dansk", "Deutsch", "English (United Kingdom)","English", "Español", "Suomi", "Français", "עברית","Hrvatski", "Magyar", "Italiano", "日本語", "한국어", "Norsk bokmål","Nederlands", "Polski", "Português brasileiro", "Português", "Română", "Русский", "Română", "Slovenčina", "Svenska", "Türkçe", "正體中文", "简体中文"],
